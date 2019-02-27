@@ -1,2 +1,0 @@
-# Docs-XF
-Docs-XinFin

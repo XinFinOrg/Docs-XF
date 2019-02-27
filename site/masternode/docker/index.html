@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Docker - XinFin Network</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Docker";
+    var mkdocs_page_input_path = "masternode\\docker.md";
+    var mkdocs_page_url = "/masternode/docker/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> XinFin Network</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">General</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../..">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/use-cases/">Use cases</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/networks/">Networks</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/faq/">FAQ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/about/">About</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Get started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <span class="caption-text">Overview</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../get-started/productoverview/">Products overview</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../get-started/how_to_read/">How to read</a>
+                </li>
+    </ul>
+                </li>
+                <li class="">
+                    
+    <span class="caption-text">Beginners Tutorials</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../get-started/wallet/">Connect your wallet</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../get-started/voting/">Voting</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../get-started/run-node/">Run a full node in testnet</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../get-started/apply-node/">Apply your node</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Master</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinmaster/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Explorer</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinexp/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinWallet/features/">Features</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../XinFinWallet/voting/">How to vote</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Masternode</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../requirements/">Requirements</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../masternode-setup-guide/">Detailed guide</a>
+                </li>
+                <li class=" current">
+                    
+    <span class="caption-text">Running a node with</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../tmn/">Tmn</a>
+                </li>
+                <li class="toctree-l3 current">
+                    
+    <a class="current" href="./">Docker</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l4"><a href="#tags">Tags</a></li>
+    
+
+    <li class="toctree-l4"><a href="#environment-variables">Environment variables</a></li>
+    
+
+    <li class="toctree-l4"><a href="#ports">Ports</a></li>
+    
+
+    <li class="toctree-l4"><a href="#filesystem">Filesystem</a></li>
+    
+
+    <li class="toctree-l4"><a href="#examples">Examples</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../tomonative/">Binary</a>
+                </li>
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../applying/">Applying for Masternode Candidacy</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Whitepapers and research</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../wp-and-research/sharding-paper/">Sharding design paper</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../wp-and-research/economics-paper/">Economics paper</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">XinFin Network</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Running a node with &raquo;</li>
+        
+      
+        
+          <li>Masternode &raquo;</li>
+        
+      
+    
+    <li>Docker</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/masternode/docker.md"> Edit on XinFinOrg/Docs-XF</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Alternatively to using our simple tool <code>tmn</code>, people or companies with existing infrastructure might want to directly run our docker images for more flexibility.</p>
+<p>To achieve that, you just need to run our <code>XinFin Network/node</code> docker image.</p>
+<p>This image runs the <a href="https://github.com/XinFin Network/XinFin Network">XinFin Network go client</a> with some automation added on top.</p>
+<h2 id="tags">Tags<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Environment</th>
+<th>Tag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Testnet</td>
+<td><code>:testnet</code></td>
+</tr>
+<tr>
+<td>Mainnet</td>
+<td><code>:stable</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="environment-variables">Environment variables<a class="headerlink" href="#environment-variables" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Required</th>
+<th>Default</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>IDENTITY</code></td>
+<td>False</td>
+<td>Random name</td>
+<td><code>my-super-node</code></td>
+<td>The name of your masternode</td>
+</tr>
+<tr>
+<td><code>PASSWORD</code></td>
+<td>False</td>
+<td>Random password</td>
+<td><code>S5G@fS3A8+*g-)ftYc</code></td>
+<td>The password used by the the client to localy encrypt its account</td>
+</tr>
+<tr>
+<td><code>PRIVATE_KEY</code></td>
+<td>False</td>
+<td>Random account</td>
+<td><code>0xa3f5195...</code></td>
+<td>The private key of the account who will identify the node and receive txs fees</td>
+</tr>
+<tr>
+<td><code>BOOTNODES</code></td>
+<td>True</td>
+<td>None</td>
+<td><code>enode://4d3...@1.2.3.4:30301,enode://...</code></td>
+<td>The comma separated list of bootnodes. Find them <a href="https://docs.xinfin.org/general/networks/">here</a></td>
+</tr>
+<tr>
+<td><code>VERBOSITY</code></td>
+<td>False</td>
+<td>3</td>
+<td><code>4</code></td>
+<td>The level of logging (default one should be enough)</td>
+</tr>
+<tr>
+<td><code>NETWORK_ID</code></td>
+<td>False</td>
+<td>89</td>
+<td><code>88</code></td>
+<td>The network id of the join your node is joining. Find them <a href="https://docs.xinfin.org/general/networks/">here</a></td>
+</tr>
+<tr>
+<td><code>WS_SECRET</code></td>
+<td>False</td>
+<td>None</td>
+<td><code>d$M4J4\5gLAz%Zjn&gt;%</code></td>
+<td>The password to send data to the stats website</td>
+</tr>
+<tr>
+<td><code>NETSTATS_HOST</code></td>
+<td>False</td>
+<td>netstats-server</td>
+<td><code>https://stats.xinfin.org</code></td>
+<td>The stats website to report to, regarding to your environment</td>
+</tr>
+<tr>
+<td><code>NETSTATS_PORT</code></td>
+<td>False</td>
+<td>3000</td>
+<td><code>443</code></td>
+<td>The port used by the stats website (usually 443)</td>
+</tr>
+<tr>
+<td><code>ANNOUNCE_TXS</code></td>
+<td>False</td>
+<td>None</td>
+<td><code>True</code></td>
+<td>Enable reporting transactions via RPC/WS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ports">Ports<a class="headerlink" href="#ports" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Exposed</th>
+<th>Protocol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>30303</code></td>
+<td>tcp</td>
+<td>XinFin Network client p2p port</td>
+</tr>
+<tr>
+<td><code>30303</code></td>
+<td>udp</td>
+<td>XinFin Network client p2p port</td>
+</tr>
+<tr>
+<td><code>8545</code></td>
+<td>tcp</td>
+<td>Blockchain RPC</td>
+</tr>
+<tr>
+<td><code>8546</code></td>
+<td>tcp</td>
+<td>Blockchain WS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="filesystem">Filesystem<a class="headerlink" href="#filesystem" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/XinFin Network/data</code></td>
+<td>Chaindata</td>
+</tr>
+<tr>
+<td><code>/XinFin Network/keystore</code></td>
+<td>Accounts</td>
+</tr>
+</tbody>
+</table>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
+<p><code>docker run</code></p>
+<div class="codehilite"><pre><span></span>docker run -d --name masternode <span class="se">\</span>
+  -e <span class="nv">IDENTITY</span><span class="o">=</span><span class="nv">$MASTERNODE_NAME</span> <span class="se">\</span>
+  -e <span class="nv">PRIVATE_KEY</span><span class="o">=</span><span class="nv">$MASTERNODE_PK</span> <span class="se">\</span>
+  -e <span class="nv">BOOTNODES</span><span class="o">=</span><span class="nv">$BOOTNODES</span> <span class="se">\</span>
+  -e <span class="nv">NETSTATS_HOST</span><span class="o">=</span>stats.xinfin.org <span class="se">\</span>
+  -e <span class="nv">NETSTATS_PORT</span><span class="o">=</span><span class="m">443</span> <span class="se">\</span>
+  -e <span class="nv">WS_SECRET</span><span class="o">=</span><span class="nv">$STATS_WS_SECRET</span> <span class="se">\</span>
+  -p <span class="m">30303</span>:30303 <span class="se">\</span>
+  -p <span class="m">30303</span>:30303/udp <span class="se">\</span>
+  -v chaindata:/XinFin Network/data <span class="se">\</span>
+  XinFin Network/node:stable
+</pre></div>
+
+
+<p><code>docker-compose.yml</code></p>
+<div class="codehilite"><pre><span></span>version: &quot;3.4&quot;
+services:
+  masternode:
+    image: XinFin Network/node:stable
+    environment:
+      IDENTITY: $MASTERNODE_NAME
+      PRIVATE_KEY: $MASTERNODE_PK
+      BOOTNODES: $BOOTNODES
+      NETSTATS_HOST: stats.xinfin.org
+      NETSTATS_PORT: 443
+      WS_SECRET: $STATS_WS_SECRET
+    ports:
+      - 30303:30303
+      - 30303:30303/udp
+    volumes:
+      - chaindata:/XinFin Network/data
+</pre></div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../tomonative/" class="btn btn-neutral float-right" title="Binary">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../tmn/" class="btn btn-neutral" title="Tmn"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>If you wish to improve this site, please <a href="https://github.com/XinFin Network/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFin Network/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>TomoDocs v0.1.0. XinFin Network Project 2018.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../tmn/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../tomonative/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
