@@ -53,33 +53,32 @@ nav:
       - Networks: general/networks.md
       - FAQ: general/faq.md
       - About: general/about.md
+
     - Get started:
-      - Overview:
-        - Products overview: get-started/productoverview.md
-        - How to read: get-started/how_to_read.md
-      - Beginners Tutorials:
-        - Connect your wallet: get-started/wallet.md
-        - Voting: get-started/voting.md
-        - Run a full node in testnet: get-started/run-node.md
-        - Apply your node: get-started/apply-node.md
-    - XinFin Master:
-      - Features: xinfinmaster/features.md
-    - XinFin Explorer:
-      - Features: xinfinexp/features.md
-    - XinFin Wallet:
-      - Features: XinFinWallet/features.md
-      - How to vote: XinFinWallet/voting.md
+      - Products overview: get-started/productoverview.md
+      - How to read: get-started/how_to_read.md
+
+    - Beginners Tutorials:
+      - Connect your wallet: get-started/wallet.md
+      - Run a full node in testnet: get-started/run-node.md
+      - Apply your node: get-started/apply-node.md
+
     - Masternode:
       - Requirements: masternode/requirements.md
       - Detailed guide: masternode/masternode-setup-guide.md
-      - Running a node with:
-        - Tmn: masternode/tmn.md
-        - Docker: masternode/docker.md
-        - Binary: masternode/tomonative.md
       - Applying for Masternode Candidacy: masternode/applying.md
+      - Running a node with:
+        - Docker: masternode/docker.md
+      
+    - XinFin Explorer:
+      - Features: xinfinexp/features.md
+
+    - XinFin Wallet:
+      - Features: XinFinWallet/features.md
+
     - Whitepapers and research:
       - Technical whitepaper: wp-and-research/technical-whitepaper.md
       - Sharding design paper: wp-and-research/sharding-paper.md
       - Economics paper: wp-and-research/economics-paper.md
 
-copyright: If you wish to improve this site, please <a href="https://github.com/XinFin Network/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFin Network/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>TomoDocs v0.1.0. XinFin Network Project 2018.
+copyright: If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-XF/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-XF/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>XinFin Network.
