@@ -18,16 +18,27 @@ Under it, some general stats gives you the total amount of accounts, tokens, tim
 ![Xinfin Explorer transactions](/assets/Xinfin Explorer2.jpg)
 
 All the transactions pages list the following informations:
+
 - The transaction's ID (Transaction Hash).
+
 - The block containing this transaction.
+
 - The transaction's age.
+
 - The sender's address.
+
 - The recipient's address.
+
 - The transaction's ammount in XDC.
+
 - The gas used.
+
 - The gas limit
+
 - The gas fees.
+
 - The fee.
+
 - The data.
 
 
@@ -40,15 +51,24 @@ Sign transactions emited by the masternodes.
 
 ## [Blocks](http://xinfin.network/#explorer)
 When consulting a blocks, the page list the following informations:
+
 - The transaction's ID (Transaction Hash).
+
 - The transaction parent hash.
+
 - The transaction gas used.
+
 - The transaction gas price.
+
 - The transaction total gas cost.
+
 - The transaction timestamps.
+
 - The transaction size.
+
 
 ![Xinfin Explorer Blocks](/assets/Xinfin Explorer3.jpg)
 
 Please keep in mind that Xinfin Explorer is subject to go through some changes.
+
 This is why your feedback is so much appreciated!
