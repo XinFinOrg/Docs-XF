@@ -43,6 +43,3 @@ By clicking on "Adress" you can either receive XDC by sharing your adress or you
 By clicking on "Send" you can either send XDC by scanning a QR-code or entering a recipient adress manually.
 
 ![Xinfin Original Wallet](/assets/wallet7.jpg)
-
-
-### [Download XOW Android App](https://play.google.com/store/apps/details?id=com.xdcwallet)

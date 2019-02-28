@@ -73,8 +73,11 @@ nav:
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 
-    - XinFin Wallet:
+    - XinFin Original Wallet:
       - Features: XinFinWallet/features.md
+
+    - XinFin Android Wallet:
+      - Features: XinFinAndWallet/features.md
 
     - Whitepapers and research:
       - Technical whitepaper: wp-and-research/technical-whitepaper.md
