@@ -57,6 +57,18 @@ nav:
     - Get started:
       - Products overview: get-started/productoverview.md
 
+    - Beginners Tutorials:
+      - Connect your wallet: get-started/wallet.md
+      - Run a full node in testnet: get-started/run-node.md
+      - Apply your node: get-started/apply-node.md
+
+    - Masternode:
+      - Requirements: masternode/requirements.md
+      - Detailed guide: masternode/masternode-setup-guide.md
+      - Applying for Masternode Candidacy: masternode/applying.md
+      - Running a node with:
+        - Docker: masternode/docker.md
+      
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 
