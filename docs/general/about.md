@@ -1,6 +1,5 @@
-**Headquarters**
+**XinFin Network**
 
 ```
-XinFin Fintech Pte. Ltd.
-Singapore
+XinFin.Network
 ```
