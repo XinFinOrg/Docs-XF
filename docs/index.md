@@ -4,7 +4,7 @@ The blockchain industry and the infrastructure of the Internet of Value are bein
 
 ![XinFin Network](/assets/home.png)
 
-> XinFin Network aims to be a public EVM-compatible blockchain with the following advantages: low transaction fee, fast confirmation time, double validation and randomization for security guarantees. XinFin Network envisions an ecosystem of different DApps running on the XinFin Network blockchain infrastructure.
+XinFin Network aims to be a public EVM-compatible blockchain with the following advantages: low transaction fee, fast confirmation time, double validation and randomization for security guarantees. XinFin Network envisions an ecosystem of different DApps running on the XinFin Network blockchain infrastructure.
 
 In particular, we propose a solution for solving the transaction processing performance bottleneck in Ethereum which hinders its adoption into industries, especially finance. More specifically, we are constructing an efficient and secured consensus protocol, which tackles the following main bottlenecks of classic blockchains:
 
