@@ -1,6 +1,3 @@
-**Use Cases**
-
-Partners willing to run applications on top of XDCChain:
 
 **XDC/XDCE UTILITY**
 
