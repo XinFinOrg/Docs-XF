@@ -49,7 +49,7 @@ repo_name: XinFinOrg/Docs-XF
 nav:
     - General:
       - Introduction: index.md
-      - Use cases: general/use-cases.md
+      - Use cases: general/utilities.md
       - Networks: general/networks.md
       - FAQ: general/faq.md
       - About: general/about.md
