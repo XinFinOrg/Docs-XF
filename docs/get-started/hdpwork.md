@@ -15,7 +15,7 @@ Users can also delegate their voting power to some other user, who can then vote
 Validator (Block Producer) can be voted in or out anytime so the threat of loss of income becomes a major incentive against bad behaviour.
 Token holder votes are tallied after a specific time or after each epoch.
 
-# **WHY DPOS?**
+# **Why DPOS?**
 
 Scalability Blocks can be propagated through the network much more efficiently. And blocks can be produced more consistently and reliably in a much shorter time frame. Moreover, finality can be reached as soon as ⅔ of the block producer has confirmed a transaction.
 

@@ -1,10 +1,10 @@
-﻿**INTRODUCTION**
+﻿**Introduction**
 
 A blockchain is a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. By design, a blockchain is resistant to modification of the data.
 One of the best things about the blockchain is since it is a decentralized system that exists between all permitted parties, there is no need to pay intermediaries (Middlemen) and it saves you time and conflicts. Blockchains have their problems, but they are rated, undeniably, faster, cheaper, and more secure than traditional systems, which is why banks and governments are turning to them.
 Imagine if there were some self-executing contracts, in which contracts would be converted to computer code, stored and replicated on the system and supervised by the network of computers that run the blockchain. All of this is what makes up smart contracts.
 
-# **WHAT ARE SMART CONTRACTS?:**
+# **What are Smart Contracts?:**
 
 A smart contract is a computer code running on top of a blockchain containing a set of rules under which the parties to that smart contract agree to interact with each other. If and when the predefined rules are met, the agreement is automatically enforced. The smart contract code facilitates, verifies, and enforces the negotiation or performance of an agreement or transaction. It is the simplest form of decentralized automation.
 
@@ -17,7 +17,7 @@ Here is an example of a simple smart contract where we use simple set and get fu
 
 ![overview](/assets/smc1.png)
 
-# **FEATURES Of SMART CONTRACT**
+# **Features of Smart Contract**
 
 Various features provided by smart contracts are:
 
@@ -43,7 +43,7 @@ Autonomous: You’re the one making the agreement; there’s no need to rely on 
 7.Safety: Cryptographically encryption keeps your data safe. Since they match the highest safety standards, the level of protection involved in them allows to be secure to use for critical processes
 
 
-# **PROBLEM SOLUTION**
+# **Problem Solution**
 
 1.We can solve some of the problems with smart contracts like upgrade problems by using modular smart contracts. So, we can have modular.sol files while building on Ethereum that can be easily upgraded without losing information.
 
@@ -56,7 +56,7 @@ Autonomous: You’re the one making the agreement; there’s no need to rely on 
 5.And, the oracle problem can be solved maybe by a consensus protocol in the community itself which will help to see how things are in the physical world.
 
 
-# **APPLICATION OF SMART CONTRACTS**
+# **Application of Smart Contracts**
 
 1.Digital Identity: Smart contracts allow users to own and control their digital identity i.ie data, reputation and assets. It provides enterprises with the opportunity to seamlessly know their customers while individuals may not disclose sensitive data which reduces the frictionless know-your-customer requirements.
 
@@ -67,7 +67,7 @@ Autonomous: You’re the one making the agreement; there’s no need to rely on 
 4.Real Estate: You can get more money through smart contracts. Ordinarily, if you wanted to rent your apartment to someone, you’d need to pay a middleman such as Craigslist or a newspaper to advertise and then again you’d need to pay someone to confirm that the person paid rent and followed through. The ledger cuts your costs. All you do is pay via bitcoin and encode your contract on the ledger.
 
 
-# **CONCLUSION**
+# **Conclusion**
 
 Smart contracts do offer a lot and have shown signs of how promising they can be, but they are still in their initial stages so with time maybe we will see their actual potential which could provide for all sorts of social changes which is really exciting.
 A big problem lies with the organizations as well, as they are adopting blockchains due to the buzzword but not considering how to use it to its fullest. If organizations manage that beforehand then maybe writing smart contracts can get easier.
