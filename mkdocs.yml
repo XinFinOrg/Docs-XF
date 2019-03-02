@@ -62,6 +62,9 @@ nav:
       - XinFin DPOS Consensus: get-started/XDC.md
       - POW Replaced with DPOS: get-started/POW-DPOS.md
       - Connecting Legacy Systems: get-started/ConnLeg.md
+      - Build with XinFin Hybrid Network: get-started/hybnet.md
+      - Create DAPP Environment: get-started/cde.md
+
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 

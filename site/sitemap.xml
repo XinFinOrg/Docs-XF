@@ -61,6 +61,16 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.xinfin.org/get-started/hybnet/</loc>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.xinfin.org/get-started/cde/</loc>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.xinfin.org/xinfinexp/features/</loc>
      <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
