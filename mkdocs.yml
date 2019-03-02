@@ -56,6 +56,10 @@ nav:
 
     - Get started:
       - Products overview: get-started/productoverview.md
+      - Hybrid Blockchain: get-started/hybblock.md
+      - Smart Contract: get-started/smartcont.md
+      - How DPOS Works?: get-started/hdpwork.md
+      - XinFin DPOS Consensus: get-started/XDC.md
 
     - XinFin Explorer:
       - Features: xinfinexp/features.md
