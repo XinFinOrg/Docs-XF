@@ -1,6 +1,6 @@
 Once your full node is up and running, you need to apply 
 it to make it eligible as a masternode.
-[This page](/get-started/run-node/) shows a tutorial for beginners to run a full node.
+[This page](https://xinfin.org/setup-masternode.php) shows a tutorial for beginners to setup a full node.
 
 ## Getting sufficient XDC
 As 1,00,00'000 XDC are required to apply: 
