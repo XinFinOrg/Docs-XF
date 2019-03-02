@@ -8,7 +8,7 @@ As usual, Hybrid blockchain is entirely customizable.
 
 The members of the hybrid blockchain can decide who can take participation in the blockchain or which transactions are made public. This brings the best of both worlds and ensures that a company can work with their stakeholders in the best possible way.
 
-**BENEFITS:**
+# **BENEFITS:**
 
 1. **Works in a closed ecosystem:** The number one advantage of hybrid blockchain
 is its ability to work in a closed ecosystem. That means that companies or

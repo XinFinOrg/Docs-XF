@@ -4,7 +4,7 @@ Delegated Proof of Stake(DPoS) is another form of Proof of Stake(PoS) consensus 
 DPOS concentrates block production in the hands of few semi-trusted entities in order to achieve more scalability than Proof of Work(PoW) or other Proof of Stake blockchains.
 
 
-**Common Terms**
+# **Common Terms**
 
 Nominator: A coin holder who stakes or delegates their coin to one or more validator. Validator: A semi-trusted entity responsible for validating and producing blocks. Epoch: A cycle of few blocks in which validator nodes create blocks in turn.
 Elections:
@@ -15,7 +15,7 @@ Users can also delegate their voting power to some other user, who can then vote
 Validator (Block Producer) can be voted in or out anytime so the threat of loss of income becomes a major incentive against bad behaviour.
 Token holder votes are tallied after a specific time or after each epoch.
 
-**WHY DPOS?**
+# **WHY DPOS?**
 
 Scalability Blocks can be propagated through the network much more efficiently. And blocks can be produced more consistently and reliably in a much shorter time frame. Moreover, finality can be reached as soon as ⅔ of the block producer has confirmed a transaction.
 
@@ -25,7 +25,7 @@ Scalability Blocks can be propagated through the network much more efficiently. 
 
 3.Self-Funding Through Inflation In DPoS, unlike PoS or PoW where miners getrewards for validating a block, inflation is used to pay block producers as well as to fund the development of platform itself.
 
-**Attack Vectors**
+# **Attack Vectors**
 
 1.Exploit Low Voter Turnout  This problem exists in almost all PoS protocols, as the participants who show up and actually vote are really less. Voting is done by whales, exchanges and wallet providers. Although one good thing in DPoS is that, tokens can delegate voting power and still retain all of their utility.
 
@@ -34,7 +34,7 @@ Scalability Blocks can be propagated through the network much more efficiently. 
 3.Block Producers Collude The main problem this can cause is a delay in the transaction and double spends. Although these situations are highly unlikely.
 
 
-**Conclusion**
+# **Conclusion**
 
 Delegated Proof of Stake(DPoS) is an elegant, robust and practically proven solution to the scalability issues of Blockchain. Although, DPoS does compromise decentralization in some sense, and it is up to token holders to monitor the health of the system, watch for bad behaviour and decide upon what makes for sufficient decentralization. It still solves the scalability and safety issues in Blockchain. And, all in all if not everywhere DPoS can still be used as a Layer 2 or Layer 3 security while keeping a PoW system as a security base layer. It will help us achieve decentralization, safety as well as scalability which is the most important issue of current blockchain networks.
 
