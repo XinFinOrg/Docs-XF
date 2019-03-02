@@ -60,7 +60,8 @@ nav:
       - Smart Contract: get-started/smartcont.md
       - How DPOS Works?: get-started/hdpwork.md
       - XinFin DPOS Consensus: get-started/XDC.md
-
+      - POW Replaced with DPOS: get-started/POW-DPOS.md
+      - Connecting Legacy Systems: get-started/ConnLeg.md
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 
