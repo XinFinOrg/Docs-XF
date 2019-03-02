@@ -1,4 +1,4 @@
-# Tomochain Masternode Setup Guide
+# XinFin Masternode Setup Guide
 
 This is a procedural step-by-step guide to setting up your first Tomochain Masternode using the `tmn` tool.
 It is meant for first-time and intermediate-level masternode operators.
@@ -12,7 +12,7 @@ You alone must fully secure your server.
 The following are required items and server specifications. 
 [Click here for more details](https://docs.xinfin.org/masternode/requirements/)
 
-* 50,000 TOMO deposit
+* 10,00,000 XDC deposit
 * Server (cloud-VPS or your-own)
     * 16 vCPU cores (Prefer higher clock speed. Usually found on "CPU optimized" cloud providers' servers)
     * 32GB RAM
