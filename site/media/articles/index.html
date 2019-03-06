@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Create DAPP Environment - XinFin Network</title>
+  <title>Articles - XinFin Network</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -19,9 +19,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Create DAPP Environment";
-    var mkdocs_page_input_path = "get-started\\cde.md";
-    var mkdocs_page_url = "/get-started/cde/";
+    var mkdocs_page_name = "Articles";
+    var mkdocs_page_input_path = "media\\articles.md";
+    var mkdocs_page_url = "/media/articles/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -83,42 +83,39 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../productoverview/">Products overview</a>
+    <a class="" href="../../get-started/productoverview/">Products overview</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../hybblock/">Hybrid Blockchain</a>
+    <a class="" href="../../get-started/hybblock/">Hybrid Blockchain</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../smartcont/">Smart Contract</a>
+    <a class="" href="../../get-started/smartcont/">Smart Contract</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../hdpwork/">How DPOS Works?</a>
+    <a class="" href="../../get-started/hdpwork/">How DPOS Works?</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../XDC/">XinFin DPOS Consensus</a>
+    <a class="" href="../../get-started/XDC/">XinFin DPOS Consensus</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../POW-DPOS/">POW Replaced with DPOS</a>
+    <a class="" href="../../get-started/POW-DPOS/">POW Replaced with DPOS</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../ConnLeg/">Connecting Legacy Systems</a>
+    <a class="" href="../../get-started/ConnLeg/">Connecting Legacy Systems</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../hybnet/">Build with XinFin Hybrid Network</a>
+    <a class="" href="../../get-started/hybnet/">Build with XinFin Hybrid Network</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Create DAPP Environment</a>
-    <ul class="subnav">
-            
-    </ul>
+    <a class="" href="../../get-started/cde/">Create DAPP Environment</a>
                 </li>
     </ul>
 	    </li>
@@ -160,9 +157,12 @@
 		
     <span class="caption-text">XinFin Media</span>
     <ul class="subnav">
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../../media/articles/">Articles</a>
+    <a class="current" href="./">Articles</a>
+    <ul class="subnav">
+            
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -200,14 +200,14 @@
     
       
         
-          <li>Get started &raquo;</li>
+          <li>XinFin Media &raquo;</li>
         
       
     
-    <li>Create DAPP Environment</li>
+    <li>Articles</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/get-started/cde.md"> Edit on XinFinOrg/Docs-XF</a>
+        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/media/articles.md"> Edit on XinFinOrg/Docs-XF</a>
       
     </li>
   </ul>
@@ -216,39 +216,9 @@
           <div role="main">
             <div class="section">
               
-                <p><strong>Create DAPP Environment</strong></p>
-<p><strong><em>Prerequisites</em></strong></p>
-<ol>
-<li>
-<p>The Network for Running the Contract Deploying and using contract will need to consume a certain amount of resource (memory, CPU, and storage etc.). Therefore, it is recommended that the developers tune and test their smart contracts on their private networks and confirm that the contract is available before deploying them on the TestNet or MainNet.</p>
-</li>
-<li>
-<p>Wallet Client: 
-Wallet-cli is XDC Network’s command-line wallet. Developers can use wallet-cli to post and deploy contracts on the MainNet as well as execute other operations.</p>
-</li>
-</ol>
-<p><strong>Smart Contract Development</strong></p>
-<p>At this point, we recommend Remix as the coding environment for compiling and testing during the early stages. We present a simple example of contract code of data access to illustrate the process of compiling, deployment, and debugging.</p>
-<p><strong>1.Initiate the Private Chain:</strong>
- Make sure that the private chain in the prerequisite has been successfully deployed by checking if log message “Produce block successfully” of persistent block generation appears.</p>
-<p><strong>2.Develop Smart Contracts:</strong>
- Copy the code mentioned above to Remix to compile and debug. Make sure that logic of the code is correct, and the code itself is bug-free.</p>
-<p><strong>3.Compile in SimpleWebCompiler:</strong> 
- The compiler of XDC is slightly different from that of Ethereum and is still integrating with Remix. Therefore, we are providing a temporary way of acquiring ABI and ByteCode instead of acquiring them directly from Remix. Copy the code above to SImpleWebCompiler and click the Compile button to attain ABI and ByteCode.</p>
-<p><strong>4.Deploy Smart Contract via Wallet-cli :</strong></p>
-<p>Download Wallet-Cli and compile on it.</p>
-<p><strong>Initiate Wallet-Cli</strong></p>
-<blockquote>
-<p>Command to initiate the wallet-CLI</p>
-</blockquote>
-<p>After initiation, input the command interactively to the portal. Import the private key and inquire if the remaining balance is correct.
-Note: Developers can make the change in config.conf if they need to connect to a different node or interface.</p>
-<p><strong>Contract Deployment</strong></p>
-<p>A message of “Deploy the contract successfully” will be displayed upon the success of contract deployment</p>
-<p>**Acquiring addresses of the contracts</p>
-<p>**</p>
-<p><strong>Call the contracts to store and query data</strong></p>
-<p>If the called function is constant or VIEW, wallet-cli will return the results directly.</p>
+                <p><strong>XinFin Network</strong></p>
+<div class="codehilite"><pre><span></span>XinFin.Network
+</pre></div>
               
             </div>
           </div>
@@ -256,10 +226,10 @@ Note: Developers can make the change in config.conf if they need to connect to a
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../xinfinexp/features/" class="btn btn-neutral float-right" title="Features">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../wp-and-research/technical-whitepaper/" class="btn btn-neutral float-right" title="Technical whitepaper">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../hybnet/" class="btn btn-neutral" title="Build with XinFin Hybrid Network"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../XinFinAndWallet/features/" class="btn btn-neutral" title="Features"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -287,10 +257,10 @@ Note: Developers can make the change in config.conf if they need to connect to a
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../hybnet/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../XinFinAndWallet/features/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../../xinfinexp/features/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../wp-and-research/technical-whitepaper/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

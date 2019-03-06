@@ -74,6 +74,9 @@ nav:
     - XinFin Android Wallet:
       - Features: XinFinAndWallet/features.md
 
+    - XinFin Media:
+      - Articles: media/articles.md
+
     - Whitepapers and research:
       - Technical whitepaper: wp-and-research/technical-whitepaper.md
 
