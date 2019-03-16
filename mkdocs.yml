@@ -63,6 +63,7 @@ nav:
       - POW Replaced with DPOS: get-started/POW-DPOS.md
       - Connecting Legacy Systems: get-started/ConnLeg.md
       - Build with XinFin Hybrid Network: get-started/hybnet.md
+      - Set up Master Nodes: get-started/Setupmn.md
       - Create DAPP Environment: get-started/cde.md
 
     - XinFin Explorer:
