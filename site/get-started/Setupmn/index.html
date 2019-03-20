@@ -118,6 +118,18 @@
     <a class="current" href="./">Set up Master Nodes</a>
     <ul class="subnav">
             
+    <li class="toctree-l3"><a href="#1set-up-master-node">1.Set up Master Node</a></li>
+    
+
+    <li class="toctree-l3"><a href="#2-stake-xdc">2. Stake XDC</a></li>
+    
+
+    <li class="toctree-l3"><a href="#3-upload-kyc">3. Upload KYC</a></li>
+    
+
+    <li class="toctree-l3"><a href="#4-become-a-candidate">4. Become a Candidate</a></li>
+    
+
     </ul>
                 </li>
                 <li class="">
@@ -220,7 +232,114 @@
           <div role="main">
             <div class="section">
               
-                
+                <h2 id="1set-up-master-node"><strong>1.Set up Master Node</strong><a class="headerlink" href="#1set-up-master-node" title="Permanent link">&para;</a></h2>
+<p><strong>Prerequisite</strong></p>
+<ul>
+<li>
+<p>Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP &amp; without NAT</p>
+</li>
+<li>
+<p>Tools: Git, Docker, Docker Compose</p>
+</li>
+<li>
+<p>Network Ports</p>
+</li>
+</ul>
+<p>Following network ports need to be open for the nodes to communicate.</p>
+<p>8545  TCP - RPC <br> <br />
+30303 TCP/UDP - XDC</p>
+<p><strong>How to Setup Masternode ?</strong></p>
+<p><strong>0. Install Git</strong></p>
+<ul>
+<li>
+<p>Check whether git is preinstalled.</p>
+<blockquote>
+<p>git --version</p>
+</blockquote>
+</li>
+</ul>
+<p>If present, output will be something like git version 2.17.1. in this case, go to step a.</p>
+<ul>
+<li>
+<p>Otherwise follow the below steps.</p>
+</li>
+<li>
+<p>sudo apt update</p>
+</li>
+<li>sudo apt install git</li>
+<li>
+<p>git --version</p>
+</li>
+<li>
+<p>Configure Git.</p>
+</li>
+<li>
+<p>git config --global user.name "Your Name"</p>
+</li>
+<li>git config --global user.email "youremail@domain.com"</li>
+</ul>
+<p><strong>a. Clone repository</strong></p>
+<p>Run the following commands on your terminal.</p>
+<ul>
+<li>git clone <a href="https://github.com/XinFinOrg/XinFin-Node.git">https://github.com/XinFinOrg/XinFin-Node.git</a></li>
+<li>cd XinFin-Node</li>
+</ul>
+<p>The git clone command will create a new folder XinFin-Node. cd XinFin-Node command changes the current directory to XinFin-Node</p>
+<p><strong>b. Install docker &amp; docker-compose</strong></p>
+<div class="codehilite"><pre><span></span>   sudo ./install\_docker.sh
+</pre></div>
+
+
+<p>The above command will install docker and docker-compose for you.</p>
+<p><strong>c. Update .env file with details</strong></p>
+<ul>
+<li>Copy a env.example file from XinFin-Node directory and name it as a .en</li>
+<li>
+<p>Open .env file and edit values for following</p>
+</li>
+<li>
+<p>INSTANCE_NAME : A Display name of your masternode</p>
+</li>
+<li>CONTACT_DETAILS : Your Email ID</li>
+</ul>
+<p><img alt="overview" src="/assets/xinfin-node.png" /></p>
+<p><img alt="overview" src="/assets/masternode-.env.png" /></p>
+<p><strong>d. Start your Node</strong></p>
+<div class="codehilite"><pre><span></span>    sudo docker-compose -f docker-services.yml up -d
+</pre></div>
+
+
+<p>This will start a Masternode and connect to a XinFin Testnet.</p>
+<p>You should be able to see your node listed on this page: <a href="https://www.xinfin.network">XinFin Network</a> (Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner)</p>
+<p>Your coinbase address can be found in xdcchain/coinbase.txt file.</p>
+<p><img alt="overview" src="/assets/masternode-listing.png" /></p>
+<h2 id="2-stake-xdc"><strong>2. Stake XDC</strong><a class="headerlink" href="#2-stake-xdc" title="Permanent link">&para;</a></h2>
+<p><strong>Create XDC Wallet</strong></p>
+<div class="codehilite"><pre><span></span>  &amp;gt; Visit http://xinfin.network/#webWallet and Click on create a new wallet.
+  &amp;gt; you can create use a web wallet or download eWallet app from Google Play Store.
+  &amp;gt; Create an account
+  &amp;gt; Store your private key at a safe place (Hardware wallet is recommended)
+</pre></div>
+
+
+<p><img alt="overview" src="/assets/xinfin_wallet.png" /></p>
+<p><strong>Buy XDC</strong></p>
+<div class="codehilite"><pre><span></span> &amp;gt; get your free XDC to use on XinFin Testnet
+ &amp;gt; Visit XinFin TestNet Faucet http://xinfin.network/#getTestXDC.
+ &amp;gt; Add your wallet address created in step 2.b and request XDC
+</pre></div>
+
+
+<p><img alt="overview" src="/assets/masternode-faucet.png" /></p>
+<h2 id="3-upload-kyc"><strong>3. Upload KYC</strong><a class="headerlink" href="#3-upload-kyc" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>&amp;gt; Visit http://xinfin.network/#masternode
+&amp;gt; Upload a notarized kyc
+</pre></div>
+
+
+<h2 id="4-become-a-candidate"><strong>4. Become a Candidate</strong><a class="headerlink" href="#4-become-a-candidate" title="Permanent link">&para;</a></h2>
+<p>Add your account address and click on Become a Candidate to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted your stake of 10 Million XDC is locked.</p>
+<p><img alt="overview" src="/assets/1.png" /></p>
               
             </div>
           </div>
