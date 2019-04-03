@@ -67,6 +67,9 @@ nav:
       - Set up Master Nodes: get-started/Setupmn.md
       - Create DAPP Environment: get-started/cde.md
 
+    - Current Requirement:
+      - Requirement: Requirement/req.md
+
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 

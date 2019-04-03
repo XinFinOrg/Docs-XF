@@ -76,6 +76,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.xinfin.org/Requirement/req/</loc>
+     <lastmod>2019-04-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.xinfin.org/xinfinexp/features/</loc>
      <lastmod>2019-04-03</lastmod>
      <changefreq>daily</changefreq>
