@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,600,700,900');
+
 .md-header {
   background-color: #1a1f36 !important
 }
@@ -25,3 +27,89 @@
     background-color: #272f4b !important;
   }
 }
+
+.md-fenced-code-tabs * {
+    box-sizing: border-box;
+}
+
+.md-fenced-code-tabs {
+    box-sizing: border-box;
+    max-width: 100%;
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    border-radius: .2rem;*/
+	margin-bottom:20px;
+}
+
+.md-fenced-code-tabs {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow :auto;
+}
+
+.md-fenced-code-tabs input {
+    position: absolute;
+    opacity: 0;
+}
+
+.md-fenced-code-tabs label {
+    width: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+}
+
+.md-fenced-code-tabs input:checked + label {
+    color: #03a9f4;
+    border-bottom: 2px solid #03a9f4;
+}
+
+.md-fenced-code-tabs .code-tabpanel {
+    display: none;
+    width: 100%;
+    order: 99;
+}
+
+.md-fenced-code-tabs input:checked + label + .code-tabpanel {
+    display: block;
+}
+
+.md-fenced-code-tabs pre,
+.md-fenced-code-tabs .codehilite {
+    width: 100%;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	overflow-x: auto;
+	font-family: 'Source Code Pro', monospace!important;
+	font-size: 13px;
+}
+
+
+<!-- newly added css -->
+.md-fenced-code-tabs input:checked + label + .code-tabpanel {
+    padding:10px;
+	background-color: #FFFFFF!important;
+	border: 1px solid rgb(230, 236, 241)!important;
+}
+
+.code-tabpanel {
+    padding:10px;
+	background-color: #FFFFFF;
+	border: 1px solid rgb(230, 236, 241);	
+}
+.md-fenced-code-tabs label {
+    margin-bottom: -1px!important;
+	border: 1px solid rgb(230, 236, 241);
+    border-bottom: none;
+	z-index: 999;
+	font-size: 14px;
+    font-weight: 600;
+}
+.md-fenced-code-tabs input:checked + label {
+    color: #03a9f4;
+    border-bottom: none!important;
+	background-color: #FFFFFF;
+}
+<!-- newly added css -->
