@@ -1,10 +1,15 @@
+﻿<<<<<<< HEAD
 ﻿
 ##**On-Chain Governance for XinFin DPOS**
+=======
 
-#**Overview**
+**On-Chain Governance for XinFin DPOS**
+>>>>>>> b59efb8a8e0922fe0f05ac98c576ab4346dc57c6
+
+**Overview**
 Built-in Public governance mechanism where any changes in network (update_proposal) will get approved by 2/3 of register_validator (Master-node holder) by voting_system to incorporate those changes in network.
 
-#**Product Perspective**
+**Product Perspective**
 On-chain governance (by calling proxy contract ?), a formalized way in which a group of people can make changes by voting through the protocol,The purpose behind it is to provide a clear-cut path to consensus. 
 
 
@@ -36,7 +41,9 @@ On-chain governance systems solely work online. Changes to a blockchain are prop
 * Changes in the existing protocol and parameters of a blockchain.
 * Retroactively make changes to the state of the blockchain.
 * Distribution of subsidies when relevant.
-* Update Hard Coded value:
+
+
+#**Update Hard Coded value:**
 
     -HashLength
 
@@ -133,6 +140,10 @@ This will return the number of count of uploaded kyc.
 It will return an array of kyc data submitted by the mentioned user 
 
 
+<<<<<<< HEAD
 Google Doc: [Click here](https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&ts=5c778823)
 
 ![WorkFlow](/assets/flow.jpg)
+=======
+[SRS For XDPOS KYC SmartContract (Google Document)](https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&ts=5c778823)
+>>>>>>> b59efb8a8e0922fe0f05ac98c576ab4346dc57c6

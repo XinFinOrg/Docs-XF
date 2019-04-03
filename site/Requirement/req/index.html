@@ -136,16 +136,13 @@
     <li class="toctree-l3"><a href="#on-chain-governance-for-xinfin-dpos">On-Chain Governance for XinFin DPOS</a></li>
     
 
-    <li class="toctree-l3"><a href="#overview">Overview</a></li>
-    
-
-    <li class="toctree-l3"><a href="#product-perspective">Product Perspective</a></li>
-    
-
     <li class="toctree-l3"><a href="#how-it-works">How it Works?</a></li>
     
 
     <li class="toctree-l3"><a href="#pre-defined-update">Pre-defined Update:</a></li>
+    
+
+    <li class="toctree-l3"><a href="#update-hard-coded-value">Update Hard Coded value:</a></li>
     
 
     <li class="toctree-l3"><a href="#current-self-kyc-flowchart">Current self KYC Flowchart</a></li>
@@ -249,11 +246,30 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="on-chain-governance-for-xinfin-dpos"><strong>On-Chain Governance for XinFin DPOS</strong><a class="headerlink" href="#on-chain-governance-for-xinfin-dpos" title="Permanent link">&para;</a></h2>
-<h1 id="overview"><strong>Overview</strong><a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
-<p>Built-in Public governance mechanism where any changes in network (update_proposal) will get approved by 2/3 of register_validator (Master-node holder) by voting_system to incorporate those changes in network.</p>
-<h1 id="product-perspective"><strong>Product Perspective</strong><a class="headerlink" href="#product-perspective" title="Permanent link">&para;</a></h1>
-<p>On-chain governance (by calling proxy contract ?), a formalized way in which a group of people can make changes by voting through the protocol,The purpose behind it is to provide a clear-cut path to consensus. </p>
+                <p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+﻿</p>
+<h2 id="on-chain-governance-for-xinfin-dpos"><strong>On-Chain Governance for XinFin DPOS</strong><a class="headerlink" href="#on-chain-governance-for-xinfin-dpos" title="Permanent link">&para;</a></h2>
+<p>=======</p>
+<p><strong>On-Chain Governance for XinFin DPOS</strong></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>b59efb8a8e0922fe0f05ac98c576ab4346dc57c6</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><strong>Overview</strong>
+Built-in Public governance mechanism where any changes in network (update_proposal) will get approved by 2/3 of register_validator (Master-node holder) by voting_system to incorporate those changes in network.</p>
+<p><strong>Product Perspective</strong>
+On-chain governance (by calling proxy contract ?), a formalized way in which a group of people can make changes by voting through the protocol,The purpose behind it is to provide a clear-cut path to consensus. </p>
 <ul>
 <li>update_proposal: Any entity that register as  masternode is able to vote on update_proposal with proposed vote_period</li>
 <li>vote_type: Identity-based 1-register_validator (Masternode) = 1-vote</li>
@@ -280,40 +296,70 @@
 <li>Changes in the existing protocol and parameters of a blockchain.</li>
 <li>Retroactively make changes to the state of the blockchain.</li>
 <li>Distribution of subsidies when relevant.</li>
-<li>
-<p>Update Hard Coded value:</p>
-<p>-HashLength</p>
-<p>-AddressLength</p>
-<p>-MasternodeVotingSMC</p>
-<p>-BlockSigners</p>
-<p>-RandomizeSMC</p>
-<p>-FoudationAddr</p>
-<p>-TeamAddr</p>
-<p>-VoteMethod</p>
-<p>-UnvoteMethod</p>
-<p>-ProposeMethod</p>
-<p>-ResignMethod</p>
-<p>-SignMethod</p>
-<p>-RewardMasterPercent</p>
-<p>-RewardVoterPercent</p>
-<p>-RewardFoundationPercent</p>
-<p>-HexSignMethod</p>
-<p>-HexSetSecret</p>
-<p>-HexSetOpening </p>
-<p>-EpocBlockSecret</p>
-<p>-EpocBlockOpening</p>
-<p>-EpocBlockRandomize</p>
-<p>-MaxMasternodes</p>
-<p>-LimitPenaltyEpoch</p>
-<p>-BlocksPerYear</p>
-<p>-LimitThresholdNonceInQueue</p>
-<p>-DefaultMinGasPrice</p>
-<p>-MergeSignRange</p>
-<p>-RangeReturnSigner</p>
-<p>-MinimunMinerBlockPerEpoch</p>
-<p>-MinGasPrice</p>
-</li>
 </ul>
+<h1 id="update-hard-coded-value"><strong>Update Hard Coded value:</strong><a class="headerlink" href="#update-hard-coded-value" title="Permanent link">&para;</a></h1>
+<div class="codehilite"><pre><span></span>-HashLength
+
+-AddressLength
+
+-MasternodeVotingSMC
+
+-BlockSigners
+
+-RandomizeSMC
+
+-FoudationAddr
+
+-TeamAddr
+
+-VoteMethod
+
+-UnvoteMethod
+
+-ProposeMethod
+
+-ResignMethod
+
+-SignMethod
+
+-RewardMasterPercent
+
+-RewardVoterPercent
+
+-RewardFoundationPercent
+
+-HexSignMethod
+
+-HexSetSecret
+
+-HexSetOpening
+
+-EpocBlockSecret
+
+-EpocBlockOpening
+
+-EpocBlockRandomize
+
+-MaxMasternodes
+
+-LimitPenaltyEpoch
+
+-BlocksPerYear
+
+-LimitThresholdNonceInQueue
+
+-DefaultMinGasPrice
+
+-MergeSignRange
+
+-RangeReturnSigner
+
+-MinimunMinerBlockPerEpoch
+
+-MinGasPrice
+</pre></div>
+
+
 <p>Contract State Transfer: Contract state would need to be transferred to the new version of the contract, either through a migration process or a persistent storage pattern.</p>
 <p>Current TestNet Link: <a href="https://XinFin.Network">Click here</a></p>
 <p>GitHub Code: <a href="https://github.com/XinFinOrg/XDPoS-TestNet-Apothem">Click here</a></p>
@@ -333,8 +379,25 @@ This function will be used to retrieve the latest  uploaded kyc of the mentioned
 This will return the number of count of uploaded kyc.</p>
 <p>2.2.5.  Function GetAllKYC
 It will return an array of kyc data submitted by the mentioned user </p>
-<p>Google Doc: <a href="https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&amp;ts=5c778823">Click here</a></p>
-<p><img alt="WorkFlow" src="/assets/flow.jpg" /></p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+Google Doc: <a href="https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&amp;ts=5c778823">Click here</a></p>
+<h1 id="_1"><img alt="WorkFlow" src="/assets/flow.jpg" /><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><a href="https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&amp;ts=5c778823">SRS For XDPOS KYC SmartContract (Google Document)</a></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>b59efb8a8e0922fe0f05ac98c576ab4346dc57c6</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
               
             </div>
           </div>
