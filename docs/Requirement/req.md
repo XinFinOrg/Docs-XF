@@ -1,4 +1,4 @@
-
+﻿
 ##**On-Chain Governance for XinFin DPOS**
 
 #**Overview**
@@ -39,50 +39,79 @@ On-chain governance systems solely work online. Changes to a blockchain are prop
 * Update Hard Coded value:
 
     -HashLength
+
     -AddressLength
+
     -MasternodeVotingSMC
+
     -BlockSigners
+
     -RandomizeSMC
+
     -FoudationAddr
+
     -TeamAddr
+
     -VoteMethod
+
     -UnvoteMethod
+
     -ProposeMethod
+
     -ResignMethod
+
     -SignMethod
+
     -RewardMasterPercent
+
     -RewardVoterPercent
+
     -RewardFoundationPercent
+
     -HexSignMethod
+
     -HexSetSecret
+
     -HexSetOpening 
+
     -EpocBlockSecret
+
     -EpocBlockOpening
+
     -EpocBlockRandomize
+
     -MaxMasternodes
+
     -LimitPenaltyEpoch
+
     -BlocksPerYear
+
     -LimitThresholdNonceInQueue
+
     -DefaultMinGasPrice
+
     -MergeSignRange
+
     -RangeReturnSigner
+
     -MinimunMinerBlockPerEpoch
+
     -MinGasPrice
 
 
 Contract State Transfer: Contract state would need to be transferred to the new version of the contract, either through a migration process or a persistent storage pattern.
 
-Current TestNet Link: https://XinFin.Network
+Current TestNet Link: [Click here](https://XinFin.Network)
 
-GitHub Code: https://github.com/XinFinOrg/XDPoS-TestNet-Apothem 
+GitHub Code: [Click here](https://github.com/XinFinOrg/XDPoS-TestNet-Apothem)
 
-Smart-Contract Link: https://github.com/XinFinOrg/XDPoS-TestNet-Apothem/tree/master/contracts
+Smart-Contract Link: [Click here](https://github.com/XinFinOrg/XDPoS-TestNet-Apothem/tree/master/contracts)
 
 Right now, Full node have to upload Valid Self-KYC document (using IPFS) to be a Validator_Node and stake 10Million XDC.
 
-#**Current self KYC Flowchart **
+#**Current self KYC Flowchart**
 
-Smart-Contract code: https://github.com/XinFinOrg/XDPoS-TestNet-Apothem/blob/master/contracts/validator/contract/XDCValidator.sol
+Smart-Contract code: [Click here](https://github.com/XinFinOrg/XDPoS-TestNet-Apothem/blob/master/contracts/validator/contract/XDCValidator.sol)
 
 
 2.2. KYC Functions
@@ -104,5 +133,6 @@ This will return the number of count of uploaded kyc.
 It will return an array of kyc data submitted by the mentioned user 
 
 
-Google Doc : https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&ts=5c778823
+Google Doc: [Click here](https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&ts=5c778823)
 
+![WorkFlow](/assets/flow.jpg)
