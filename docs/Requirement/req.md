@@ -105,5 +105,4 @@ This will return the number of count of uploaded kyc.
 It will return an array of kyc data submitted by the mentioned user 
 
 
-Google Doc : https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&ts=5c778823
-
+[Google Document](https://docs.google.com/document/d/1GagNsOJaNgMj7UTMsUSKyJ_rBX9MjyDD5abd6dp1eOM/edit?usp=sharing_eil&ts=5c778823)
