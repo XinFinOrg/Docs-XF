@@ -1,10 +1,10 @@
 
-##**On-Chain Governance for XinFin DPOS**
+**On-Chain Governance for XinFin DPOS**
 
-#**Overview**
+**Overview**
 Built-in Public governance mechanism where any changes in network (update_proposal) will get approved by 2/3 of register_validator (Master-node holder) by voting_system to incorporate those changes in network.
 
-#**Product Perspective**
+**Product Perspective**
 On-chain governance (by calling proxy contract ?), a formalized way in which a group of people can make changes by voting through the protocol,The purpose behind it is to provide a clear-cut path to consensus. 
 
 
