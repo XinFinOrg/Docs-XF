@@ -37,7 +37,8 @@ On-chain governance systems solely work online. Changes to a blockchain are prop
 * Retroactively make changes to the state of the blockchain.
 * Distribution of subsidies when relevant.
 
-* Update Hard Coded value :
+
+#**Update Hard Coded value:**
 
     -HashLength
     -AddressLength
