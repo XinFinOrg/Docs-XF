@@ -12,7 +12,7 @@ In particular, we propose a solution for solving the transaction processing perf
 - Confirmation times: Bitcoin takes on average 1 hour to confirm a transaction because the confirmation of a Bitcoin block requires 5 subsequent blocks created following it. While Ethereum uses a smaller block-time, the average confirmation time still remains relatively high, around 13 minutes. These long confirmation times hinder many important applications (especially smart contract applications).
 - Fork Generation: The problem of fork chain consumes computational energy, time, and creates potential vulnerabilities for different types of attacks.
 
-In the newly published technical paper, XinFin Network proposes the Proof-of-Stake Voting (PoSV) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventually. The consensus has the following key novelties:
+In the newly published technical paper, XinFin Network proposes the Delegated Proof-of-Stake (DPoS) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventually. The consensus has the following key novelties:
 
 - Double Validation to strengthen security and reduce fork
 - Randomization to guarantee the fair and prevent handshaking attack
