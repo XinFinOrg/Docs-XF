@@ -25,20 +25,6 @@ We would like to add Know your customer (KYC) identification as it falls under t
 
 choose L Validators for a certain epoch N
 
-**Balanced staked**
-
-This version of the DPoS contract should balance all the stakes by finding the minimum staked for all eligible Validators (eg. take the top 1000 Validators) and balance all the Validators stakes by refunding the users the contributions that overflowed the stake.
-For example, if the minimum stake is S, we want to balance all stakes to S. If a Validator has S+100 stakes because of 3 contributions: 𝑆−10, 5 and 100, then the last nominator will be refunded 95.
-In this model, an epoch would be of the maximum number of Validators allowed, eg. 1,001 (+/- an hour on a 4-seconds block time chain).
-
-# **Rewards**
-
-Rewards are assigned via the Rewards Contract
-
->Rewards for active Validators are calculated as a percentage of total stake, VALIDATOR_REWARD.
-
->Nominators would also need to be rewarded to incentivize them to stake. There are a couple of options here: * The reward contract pays directly out to nominators, minus a fee payed the Validator, which could be specified when registering. * The Validator is responsible for calculating/paying out the rewards. This could be done by allowing the Validators to register their own Reward Contract when registering.
-
 # **Fork Perversion, Malicious or Double Spends:**
 
 To prevent fork, we add a feature to revalidate transaction. Every transaction will have 2 signatures. One signature will be by block creator and the other signature will be by block verifier (both separate validator). So the block verifier will check for malicious or double spends etc.
