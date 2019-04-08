@@ -48,7 +48,7 @@
 !!! quote "What is Double Validation?"
     Double Validation provides an additional trustless validation layer for security enhancement through a provable uniform distribution decentralized randomization.
 	Specifically, when a block is created by a masternode, it must be verified by another masternode that is randomly selected among the set of masternodes before being added to the blockchain.
-	Double validation strengthens XinFin Blockchain security, reduces fork and nothing-at-stake attacks, and makes XinFin Network unique among other Delegated Proof of stake based blockchains.
+	Double validation strengthens XinFin Blockchain security, reduces fork and makes XinFin Network unique among other Delegated Proof of stake based blockchains.
 	
 !!! quote "What is an 'epoch'?"
     An epoch is a 900-block period of 2-second block time starting from block #1 (900 blocks x 2s/block = around 1800s or ~30 minutes).
