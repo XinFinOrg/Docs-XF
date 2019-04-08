@@ -109,7 +109,7 @@
 	Any d-App written in Ethereum can be seamlessly ported to XinFin Network.
 	
 !!! quote "Is XinFin Network a side-chain of Ethereum?"
-    XinFin Network has its own blockchain since XinFin Network Mainnet was launched in December 14th, 2018.
+    XinFin Network has its own blockchain since XinFin Network Mainnet is about to launch.
 	
 !!! quote "Is XinFin Network compatible with Ethereum?"
     Yes, any smart-contract written in Ethereum protocol can be easily ported to XinFin Network.
@@ -185,9 +185,6 @@
 	
 	Besides the technical aspects, our partners will also benefit from the XinFin Network community support and fundraising opportunities, thanks to XinFin Network very good relationships with well-known investors.
 
-!!! quote "Why should developers build dApps on XinFin Network?"
-    See: [https://www.youtube.com/watch?v=yKqqbbpE2Ok](https://www.youtube.com/watch?v=yKqqbbpE2Ok)
-
 !!! quote "Where can I see XinFin Network partnerships?"
     XinFin Network is working vigorously on building its ecosystem and has sealed 10 partnerships from all fields such as agriculture, robotics, gaming, IT solution providers, advertising, pharmaceutical tracking, education and research, payment, communication, name service, food traceability, tourism (as of Jan 2019).
 
@@ -233,32 +230,8 @@
 
 
 !!! quote "Where to store XDC? How can I send XDC to my wallet?"
-    You can store XinFin in xdcwallet, TrustWallet, MetaMask, MyEtherWallet, Ledger and Trezor.
-
-	We recommend to store XDC in xdcwallet.
-
-	Please, read more details here: [https://docs.xinfin.org/get-started/wallet/](https://docs.xinfin.org/get-started/wallet/)
-		
-!!! quote "Can I send XDC directly from my MyEtherWallet?"
-    Yes. MyEtherWallet now has XinFin Network in the supported network list.
-	XinFin holders then can send XDC using MyEtherWallet.
-
-!!! quote "How to connect Metamask / MyEtherWallet with XinFin Network mainnet?"
-
-    The followings are information used for configuring Metamask to connect to XinFin Network Mainnet.
-    
-    - RPC endpoint: `https://testnet.xinfin.network`
-	- Chain ID: `88`
-	- Symbol: `XinFin`
-	- Network Name: `XinFin.network`
-
-    XinFin Network is now supported by MyEtherWallet.
-    All you need to do is to choose `Network XinFin` in the supported network list in MyEtherWallet.
-
-	You can find the info about our Testnet on our [Networks](https://docs.xinfin.org/general/networks/) page.
-	
-	Also, you can find out more detailed information about how to use different wallet types to connect to XinFin Network Mainnet on [Connect your wallet](https://docs.xinfin.org/get-started/wallet/) 
-		
+    You can store XinFin in xdcwallet.
+   		
 !!! quote "Where can I buy XinFin? (exchanges)"
     You can trade XinFin on various exchanges.
 	Take a look in the "Exchanges" section [on this page](https://xinfin.org/about-us/) of our main website.
