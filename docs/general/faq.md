@@ -472,12 +472,12 @@
 ### XinFinMaster	
 	
 !!! quote "What is XinFinMaster?"
-    [XinFinMaster](https://master.xinfin.org/), the 'Governance dApp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 50k XinFin to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
+    [XinFinMaster](https://master.xinfin.org/), the 'Governance dApp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 10,000,000 XDC to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
 	
 !!! quote "How do I login on XinFinMaster?"
     Go to XinFinMaster.
 	On the top-right corner click 'Login'.
-	Then select how do you want to login: with xdcwallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
+	Then select how do you want to login: with xdcwallet or Private Key/Mnemonic.
 
 !!! quote "What is the 'capacity' of a Candidate/Masternode?"
     The capacity of a candidate is the 10,000,000 XDC initial deposit for that candidate.
