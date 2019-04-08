@@ -1,38 +1,10 @@
 ﻿**Technicalities and Specifications of XinFin Delegated Proof of Stake**
 
-Delegated Proof of Stake (DPOS) is the fastest, most efficient, decentralized, and flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. The Self KYC feature added in XinFin DPoS is more enterprise and regulator friendly.
+Delegated Proof of Stake (DPOS) is the fastest, most efficient, decentralized, and flexible consensus model available. DPOS leverages the power of stakeholder to resolve consensus issues in a fair and democratic way. The Self KYC feature added in XinFin DPoS is more enterprise and regulator friendly.
 
 **Definitions**
 
 DPoS: Delegated Proof of Stake: a mechanism for the selection of network Validators by coin holders delegating their votes Validator: (usually denoted L) a node on the network responsible for producing and validating blocks. Nominator: a coin holder who stakes and delegates their coins to one or more Validators. Epoch: (usually denoted 𝑁) corresponds to 𝐿∈ℕ blocks: it is a cycle of a few blocks in which Validators create blocks in turn.
-
-# **Voting**
-
-Any network participant will be able to vote for eligible Validators.
-
-1.Staking
-
-Users can stake their coins by sending them to the deposit function on the staking contract.
-
->The staked amount must be larger than an amount MIN_STAKE
->The user will have to wait for 2 epochs (epoch N+2) before being able to vote for a delegate.
-
-2.Delegating
-
->After 2 epochs, a Nominator can vote for a Validator with the staked coins.
-
->The vote will be effective in the epoch N+2, N being the current epoch.
-
->A new vote can be cast every 2 epochs.
-
->In this version, the entire stake must be voted to a single Validator. If a user wants to delegate to multiple Validators they can split their stake amongst several accounts which can then individually register as Nominators.
-
-3.Withdrawal
-
-Nominators should be able to withdraw their stake.
-
->First, they must call delegate to remove their vote.
->After a specified number of epochs WITHDRAWAL_PERIOD the funds are unlocked and withdraw function on the smart contract can be called with a withdrawal address.
 
 # **Validators Registration**
 
