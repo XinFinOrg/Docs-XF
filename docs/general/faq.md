@@ -59,7 +59,6 @@
 	We achieve 2-second block-time and almost instant transaction confirmation.
 
 	To scale further our infrastructure, we have presented our [Sharding proposal](https://bit.ly/2xHK0u3) for uniquely integrating Sharding into our current architecture and consensus.
-	The implementation of sharding is on-going and we will enable it in Q2 2019, after XinFin Network decentralized exchange (XinFinX) launch.
 
 	Besides sharding, we are actively researching scalability solutions like EVM parallelization and Plasma.
 	New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into XinFin Network's masternode architecture.
@@ -93,7 +92,6 @@
 	- XinFinScan: Shows all blocks, transactions, finality, smart contracts, D-Apps and token information
 	- XinFinMaster: Allows users to apply for a Masternode Candidate position; to vote for Masternodes and shows Masternode performance statistics
 	- xdcwallet: Securely store, send, receive XinFin and other tokens issued on XinFin Network; Allows users to vote and track rewards
-	- XinFinX: A secure and efficient relayer-masternode decentralized exchange protocol
 
 	**Our own ecosystem**
 
@@ -230,7 +228,7 @@
 !!! quote "Where can I check the actual products, ecosystem?"
 	If you want to access it directly, you can find the links to our different products deployed in Testnet on our [Networks page](https://docs.xinfin.org/general/networks/).
 
-	The list of XinFin Network Products is as follows: XinFinScan, XinFinStats, XinFinMaster, xdcwallet; XinFinX.
+	The list of XinFin Network Products is as follows: XinFinScan, XinFinStats, XinFinMaster, xdcwallet.
 	
 ### XinFin - Economics
 	
