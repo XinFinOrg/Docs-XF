@@ -6,7 +6,7 @@
 
 !!! quote "What is XinFin Network?"
     XinFin Network is an innovative solution to the scalability problem of the Ethereum blockchain, and other current blockchain platforms.
-	XinFin Network relies on a system of 21 Masternodes with Proof of Stake Voting (POSV) consensus that can support low transaction fees and 2-second transaction confirmation times.
+	XinFin Network relies on a system of 18 Masternodes with Proof of Stake Voting (POSV) consensus that can support low transaction fees and 2-second transaction confirmation times.
 	Security, stability and chain finality are guaranteed via novel techniques such as double validation, staking via smart-contracts and true randomization processes.
 
 	XinFin Network supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
@@ -33,7 +33,7 @@
 	XinFin Network can currently process 2'000-5'000 transactions per second (TPS) and once sharding is enabled, XinFin Network is expected to reach 20'000-30'000 TPS.
 
 !!! quote "How does XinFin Network work? What is the architecture and consensus used?"
-    XinFin Network relies on a system of 150 Masternodes with Proof of Stake Voting (POSV) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
+    XinFin Network relies on a system of Masternodes with Proof of Stake Voting (POSV) consensus that can support low fees (approx. 1/10 of that of Ethereum's) and 2-second transaction confirmation times.
 	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation, staking via smart-contracts and true randomization processes.
 
 !!! quote "Can you tell more about Proof of Stake Voting (PoSV)? What is it?"
@@ -65,9 +65,9 @@
 	New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into XinFin Network's masternode architecture.
 
 !!! quote "What is the current TPS? What is your targeted transaction speed and when do you think you can achieve that speed?"
-    XinFin Network supports low transaction fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
+    XinFin Network supports low transaction fees (approx. 1/10 of that of Ethereum's) and 2-second transaction confirmation times.
 	The mainnet with POSV Masternodes delivers 2'000 transactions per second (TPS).
-	Once sharding is implemented by Q2 2019, we expect 20'000-30'000 TPS.
+	Once sharding is implemented, we expect 20'000-30'000 TPS.
 
 	XinFin Network team is continuously researching other scaling techniques to keep improving.
 
@@ -83,7 +83,7 @@
 
 	This enables XinFin Network to achieve:
 	
-	- Cheap transactions: approx. 1/100 of that of Ethereum
+	- Cheap transactions: approx. 1/10 of that of Ethereum
 	- 2000 TPS to handle a robust d-app and token ecosystem; TPS will be dramatically higher once our sharding solution is enabled (20k-30k TPS)
 	- 2 second block time for fast transactions
 	- EVM-compatibility allows for interoperability with Ethereum ecosystem.
@@ -97,7 +97,7 @@
 
 	**Our own ecosystem**
 
-	- XinFin Network also is working vigorously on building its ecosystem and has sealed many partnerships from all fields such as agriculture, robotics, gaming, IT solution providers, advertising, pharmaceutical tracking, education and research, payment, communication, name service, food traceability, tourism etc such as TechInAsia, Kambria, Axie Infinity, Vnext, Farmatrust, TE-Food, Triip Protocol, Portal Network...
+	- XinFin Network also is working vigorously on building its ecosystem and has sealed many partnerships from all fields such as agriculture, robotics, gaming, IT solution providers, advertising, pharmaceutical tracking, education and research, payment, communication, name service, food traceability, tourism etc
 	
 !!! quote "How does XinFin Network compare with other available blockchain projects?"
 	Some of our competitors are EOS.IO, Casper FFG, Cardano, Tendermint, Lisk.
