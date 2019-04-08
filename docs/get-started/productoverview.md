@@ -29,8 +29,7 @@ other functionalities.
 
 * **XinFin Masternode**: The `Governance dApp` - Xinfin Masternode, provides a professional 
 UI that allows to see the list of masternodes and candidates, 
-to deposit 	10,000,000 XDC to become a masternode candidate, for masternodes, 
-and to show masternode performance statistics.
+to deposit 	10,000,000 XDC to become a masternode candidate, for performance statistics.
 
 * **XinFin Android Wallet**: XinFIn Wallet is the official mobile wallet for XinFin Network, 
 aiming to store the XDC native coin and tokens issued on XinFin Network. 
