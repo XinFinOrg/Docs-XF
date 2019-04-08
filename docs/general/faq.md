@@ -336,7 +336,7 @@
 		
 !!! quote "Where can I buy XinFin? (exchanges)"
     You can trade XinFin on various exchanges.
-	Take a look in the "Exchanges" section [on this page](https://xinfin.org/about-us/) of our main website.
+	Take a look in the "Exchanges" section [on this page](https://xinfin.io/) of our main website.
 	
 ### Masternodes	
 
@@ -493,8 +493,6 @@
 !!! quote "What is the command to start a fullnode with 'tmn'?"
     `tmn start --name node_name --net mainnet --pkey your_private_key`
 
-!!! quote "tmn is installed but just not in your path."
-    See: [https://docs.xinfin.org/masternode/tmn/#tmn-command-not-found](https://docs.xinfin.org/masternode/tmn/#tmn-command-not-found)
 
 !!! quote "I tried stopping the node using 'tmn stop', but after that I ran 'tmn status' it still says running."
     You can run `tmn --debug stop` and send the log to us.
