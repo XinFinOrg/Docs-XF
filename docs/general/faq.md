@@ -284,14 +284,14 @@
 
 !!! quote "What are the incentives to run a masternode?"
     Masternodes contribute to the network and for this work they will receive a significant amount of block rewards, which will likely exceed the cost for running the infrastructure.
-	However, masternode owners need to invest in XinFin Network by depositing at least 10,000,000 XDC, and stake them in the long term.
+	However, masternode owners need to invest in XinFin Network by depositing at least 10,000,000 XDC, for the long term.
 
 !!! quote "When are Masternode rewards paid out?"
     Masternode operators will receive rewards every epoch.
 	An epoch is a 900-block period of 2-second block time (~30 minutes). 
 
 !!! quote "How can I check my rewards?"
-    You can check your masternode/staking rewards using xdcwallet.
+    You can check your masternode rewards using xdcwallet.
 	Alternatively you can use XinFinMaster or XinFinScan.
 
 ### Masternode Candidate
