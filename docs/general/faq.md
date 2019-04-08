@@ -34,7 +34,7 @@
 
 !!! quote "How does XinFin Network work? What is the architecture and consensus used?"
     XinFin Network relies on a system of 18 Masternodes with XinFin Delegated Proof of stake (XDPoS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
-	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation, staking via smart-contracts and true randomization processes.
+	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation.
 
 !!! quote "Can you tell more about XinFin Delegated Proof of stake (XDPoS)? What is it?"
     At the heart of XinFin Network, the XinFin Delegated Proof of stake (XDPoS) consensus enables XinFin Network as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmation.
