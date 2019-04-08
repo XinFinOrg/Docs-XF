@@ -315,22 +315,6 @@
 	This list will change dynamically every epoch.
 	 masternodes will be able to sign blocks and will receive rewards in the form of XDC. 
 
-!!! quote "Is there any guide on 'How to run a masternode from A to Z'?"
-    See this [Medium post](https://medium.com/XinFin Network/how-to-run-a-XinFin Network-masternode-from-a-to-z-3793752dc3d1).
- 
-!!! quote "Where can I find the latest masternode guide or the instructions for setting up a masternode?"
-    Find more details about tmn here: [https://docs.xinfin.org/masternode/tmn/](https://docs.xinfin.org/masternode/tmn/) 
-
-!!! quote "What is the command to start a fullnode with 'tmn'?"
-    `tmn start --name node_name --net mainnet --pkey your_private_key`
-
-!!! quote "tmn is installed but just not in your path."
-    See: [https://docs.xinfin.org/masternode/tmn/#tmn-command-not-found](https://docs.xinfin.org/masternode/tmn/#tmn-command-not-found)
-
-!!! quote "I tried stopping the node using 'tmn stop', but after that I ran 'tmn status' it still says running."
-    You can run `tmn --debug stop` and send the log to us.
-	We will help you to investigate the issue.
-
 !!! quote "Do I need two wallets to run a Masternode?"
     It is recommended for security reasons.
 	You can create your wallet from wherever you want, the only rule being that you need two of them.
