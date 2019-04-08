@@ -485,10 +485,10 @@
 	Only the 150 masternodes elected will be able to sign blocks and will receive rewards in the form of XinFin. 
 
 !!! quote "Is there any guide on 'How to run a masternode from A to Z'?"
-    See this [Medium post](https://medium.com/XinFin Network/how-to-run-a-XinFin Network-masternode-from-a-to-z-3793752dc3d1).
+    See this [Medium post].
  
 !!! quote "Where can I find the latest masternode guide or the instructions for setting up a masternode?"
-    Find more details about tmn here: [https://docs.xinfin.org/masternode/tmn/](https://docs.xinfin.org/masternode/tmn/) 
+    Find more details about tmn here: [](https://docs.xinfin.org/masternode/tmn/) 
 
 !!! quote "What is the command to start a fullnode with 'tmn'?"
     `tmn start --name node_name --net mainnet --pkey your_private_key`
@@ -594,7 +594,7 @@
     Token voters should vote for the candidates who demonstrate strong support to the XinFin Network ecosystem.
 	If strong candidates are voted to become masternodes, the network will be more powerful and the voters will earn more rewards.
 
-	More information on the voting and reward mechanism in the [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM).
+	More information on the voting and reward mechanism in the [Economics paper]().
 
 !!! quote "Can you stake XinFin?"
     Yes, you can stake XinFin and receive more XinFin coins as reward.
@@ -602,7 +602,7 @@
 !!! quote "How do I Stake? Just holding on my wallet?"
     To stake in XinFin Network you must participate in the XinFin Network Masternode Election, voting for masternode candidate(s) using XinFinMaster to deposit your tokens in a voting smart-contract.
 	
-	Login to XinFinMaster and click 'Vote' on a node.
+	Login to XinFinMaster 
 	
 !!! quote "How does XinFin Network Masternode Election work (POSV)?"
     All token holders can vote XinFin on any candidates via [XinFinMaster](https://master.xinfin.org/), where they can find a list of all masternode candidates.
@@ -610,12 +610,6 @@
 
 	The top-150 most-voted candidates will be promoted to masternode during the next epoch and will be able to sign blocks and collect rewards.
 	All the voters (stakers) who supported the elected masternodes will receive rewards proportional to the amount of XinFin voted.
-
-!!! quote "How do I vote?"
-    Any token holder can vote.
-	Login to XinFinMaster and then click 'Vote' on a node.
-	Then enter the amount of XinFin you want to vote (minimum is 100 XinFin).
-	You vote by depositing (staking) tokens to a smart-contract associated with a masternode candidate.
 
 	There are many ways to vote in XinFinMaster:
 	
@@ -627,9 +621,9 @@
 	- Voting with your wallet's Private Key or MNEMONIC.
 	
 !!! quote "How do I vote/stake from xdcwallet app on my phone?"
-    Please, read the [following guide](https://medium.com/XinFin Network/how-to-vote-for-XinFin Network-masternodes-using-xdcwallet-1ddc3457907f).
+    Please, read the [following guide]().
 
-	Or watch this video: [https://www.youtube.com/watch?v=tXp4WHl_sxY](https://www.youtube.com/watch?v=tXp4WHl_sxY)
+	Or watch this video:
 
 !!! quote "How do I vote from my Ledger Nano S?"
     Plug in your Ledger and open the Ethereum App. Go to XinFinMaster.
@@ -718,7 +712,7 @@
 	Paste your transaction hash (TxHash) in the search bar and click the icon or press ENTER.
 	Your transaction details will show up.
 	
-	Example: [https://scan.testnet.xinfin.org/txs/0x838d33119b33e4519cb201e49bfc570ddc0fbdc6d9cf7038d8254a4de97f7112](https://scan.testnet.xinfin.org/txs/0x838d33119b33e4519cb201e49bfc570ddc0fbdc6d9cf7038d8254a4de97f7112)
+	Example: [https://)
 
 ### XinFinStats	
 	
@@ -744,7 +738,7 @@
 	Then select how do you want to login: with xdcwallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
 
 !!! quote "What is the 'capacity' of a Candidate/Masternode?"
-    The capacity of a candidate is the 50K XinFin initial deposit plus the total amount of XinFin voted for that candidate.
+    The capacity of a candidate is the 100Mil XDC.
 
 !!! quote "Which of these numbers on XinFinMaster will tell us which is a good performing node vs poorly performing?"
     On XinFinMaster, click on a candidate to open the candidate page.
@@ -771,7 +765,7 @@
     aiming to store the XinFin native coin and tokens issued on XinFin Network. 
     XinFin Wallet also allows users to vote for masternodes and track rewards.
 
-	Users can download xdcwallet at [App Store](https://itunes.apple.com/us/app/XinFin-wallet/id1436476145?mt=8) and [Play Store](https://play.google.com/store/apps/details?id=com.XinFin Network.wallet).
+	Users can download xdcwallet at [App Store]() and [Play Store](https://play.google.com/store/apps/details?id=com.XinFin Network.wallet).
 	
 !!! quote "What tokens/coins does xdcwallet support?"
     The current xdcwallet supports native XinFin on XinFin Network Mainnet.
