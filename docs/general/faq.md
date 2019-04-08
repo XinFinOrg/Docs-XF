@@ -275,7 +275,7 @@
 	- **Rewards:** The rewards a masternode receives in each epoch is proportional to the number of signatures it signs.
 	Masternodes will also receive fees from the XinFin Network which is planned for development.
 
-	XinFin Network masternodes started signing blocks and receiving block rewards with the Mainnet release in December 14th, 2018.
+	XinFin Network masternodes started signing blocks and receiving block rewards on Mainnet.
 
 !!! quote "What is a masternode in the XinFin Network ecosystem?"
     A XinFin Network masternode is a server which uses its computing power to contribute to the network.
