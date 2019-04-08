@@ -343,10 +343,10 @@
 	**Note:** If you are running a node in Testnet, 2CPU/8GB of RAM is sufficient.
 	
 !!! quote "How do Masternode Candidates become Masternodes?"
-    Once you are a Masternode Candidate, you need the support of XinFin Network community in the form of votes.
-	The top 150 most voted candidates every period called epoch (900 blocks of 2-second block-time) will be promoted to Masternode.
+    Once you are a Masternode Candidate, you need the support of XinFin Network community.
+	Masternode candidates every period called epoch (900 blocks of 2-second block-time) will be promoted to Masternode.
 	This list will change dynamically every epoch.
-	Only the 150 masternodes elected will be able to sign blocks and will receive rewards in the form of XinFin. 
+	 masternodes will be able to sign blocks and will receive rewards in the form of XDC. 
 
 !!! quote "Is there any guide on 'How to run a masternode from A to Z'?"
     See this [Medium post](https://medium.com/XinFin Network/how-to-run-a-XinFin Network-masternode-from-a-to-z-3793752dc3d1).
@@ -367,19 +367,19 @@
 !!! quote "Do I need two wallets to run a Masternode?"
     It is recommended for security reasons.
 	You can create your wallet from wherever you want, the only rule being that you need two of them.
-	One for your masternode, and one to make the 50K deposit (this account will receive the rewards).
+	One for your masternode, and one to make the 10,000,000 XDC deposit (this account will receive the rewards).
 
 !!! quote "What is the 'coinbase address'?"
     'Coinbase address' is the public address used to run your node and register it to the system.
 
 	We recommend using two addresses when running your nodes.
 	The public address or 'coinbase address' will only receive transaction fees.
-	The private address is from where you make the initial 50K XinFin deposit and where the block rewards will be collected.
+	The private address is from where you make the initial 10,000,000 XDC deposit and where the block rewards will be collected.
 
 !!! quote "How can I create a public 'coinbase address' wallet? Is it only with xdcwallet for iOS and Android? Are there other options?"
     You need to create a wallet for the masternode public address.
-	This wallet does not need to contain any XinFin, think of it as a shell address.
-	You will then stake XinFin into the masternode address via your main XinFin wallet.
+	This wallet does not need to contain any XDC, think of it as a shell address.
+	You will then stake XDC into the masternode address via your main XinFin wallet.
 
 	You can use the iOS and Android apps.
 	Also you can create wallets with Metamask, MyEtherWallet.
@@ -399,21 +399,18 @@
 !!! quote "I have finished all steps of setting up node. Why I don't see my node on XinFinMaster?"
     You must apply to become a masternode candidate.
 	
-!!! quote "Do I need to deposit the 50K XinFin before or after running 'tmn' in VPS?"
+!!! quote "Do I need to deposit the 10,000,000 XDC before or after running 'tmn' in VPS?"
     After. Your node must be fully synched before applying.
 
 !!! quote "How do I check the blockchain sync status from the node?"
     You can watch the logs, but it is easier from the XinFinStats website or its eth.blockNumber API call.
 
-!!! quote "If the masternode owner deposits 60K XinFin instead of 50K on its own node, can it later on unstake the excess 10K?"
+!!! quote "If the masternode owner deposits 11,000,000 XDC instead of 10,000,000 XDC on its own node, can it later on unstake the excess ?"
     Yes, it can.
 
 !!! quote "How can I change my node's name?"
     You can do it on XinFinMaster.
 	Go to your masternode page on XinFinMaster, if you are logged in XinFinMaster with the owner account, you can click next to the masternode name to edit infos.
-
-!!! quote "My node status is 'Proposed', will it change status with next checkpoint?"
-    Yes, if you are in top-150 most voted.
 
 !!! quote "Why is a node flagged as 'Slashed'?"
     A masternode will be automatically slashed by the Slashing Mechanism if the node doesn't validate any block within an epoch.
@@ -432,133 +429,14 @@
 !!! quote "How can I resign as Masternode?"
     If you no longer want to be a masternode, you can resign on XinFinMaster.
 	Your masternode will stop generating rewards and your funds will be locked for 30 days (1 296 000 blocks).
-	After the lockup period you will be able to withdraw your 50’000 XinFin deposit.
+	After the lockup period you will be able to withdraw your 10,000,000 XDC deposit.
 
 !!! quote "Can I close the node entirely, then start a new one with a totally separate coinbase address without being penalized?"
     No.
-	Your old node will be penalized (50K initial deposit 30-day lockup) and your new node has to apply again.
+	Your old node will be penalized (10,000,000 XDC initial deposit 30-day lockup) and your new node has to apply again.
 	
 !!! quote "Is it possible to move a masternode later, like backup and start it from another IP address?"
     Yes.
-
-!!! quote "What if I do not have enough XinFin for a masternode? Can I stake my coins?"
-    Yes.
-	Token holders can stake XinFin and receive rewards.
-
-	To stake XinFin you need to vote for masternode candidates by sending XinFin to each candidates specific voting-address using the official governance d-App: XinFinMaster.`
-	The top-150 most voted candidates will become masternodes.
-	Token holders can also un-vote candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
-
-	Masternode token deposits, and all tokens used to vote for masternodes will enter the staking program, and earn block rewards in each epoch, plus any fees.
-	Tokens used to vote for candidates who do not become masternodes will not earn staking rewards.
-
-### Voter	
-	
-!!! quote "What are the voters incentives? Do voters get rewards too?"
-    Token voters should vote for the candidates who demonstrate strong support to the XinFin Network ecosystem.
-	If strong candidates are voted to become masternodes, the network will be more powerful and the voters will earn more rewards.
-
-	More information on the voting and reward mechanism in the [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM).
-
-!!! quote "Can you stake XinFin?"
-    Yes, you can stake XinFin and receive more XinFin coins as reward.
-
-!!! quote "How do I Stake? Just holding on my wallet?"
-    To stake in XinFin Network you must participate in the XinFin Network Masternode Election, voting for masternode candidate(s) using XinFinMaster to deposit your tokens in a voting smart-contract.
-	
-	Login to XinFinMaster and click 'Vote' on a node.
-	
-!!! quote "How does XinFin Network Masternode Election work (POSV)?"
-    All token holders can vote XinFin on any candidates via [XinFinMaster](https://master.xinfin.org/), where they can find a list of all masternode candidates.
-	To vote, they must deposit XinFin in a smart-contract associated with the voted candidate.
-
-	The top-150 most-voted candidates will be promoted to masternode during the next epoch and will be able to sign blocks and collect rewards.
-	All the voters (stakers) who supported the elected masternodes will receive rewards proportional to the amount of XinFin voted.
-
-!!! quote "How do I vote?"
-    Any token holder can vote.
-	Login to XinFinMaster and then click 'Vote' on a node.
-	Then enter the amount of XinFin you want to vote (minimum is 100 XinFin).
-	You vote by depositing (staking) tokens to a smart-contract associated with a masternode candidate.
-
-	There are many ways to vote in XinFinMaster:
-	
-	- Voting from xdcwallet.
-	- Voting from Ledger wallet
-	- Voting from Trezor wallet
-	- Voting via MetaMask (can be connected to your hardware wallets).
-	- Voting from TrustWallet
-	- Voting with your wallet's Private Key or MNEMONIC.
-	
-!!! quote "How do I vote/stake from xdcwallet app on my phone?"
-    Please, read the [following guide](https://medium.com/XinFin Network/how-to-vote-for-XinFin Network-masternodes-using-xdcwallet-1ddc3457907f).
-
-	Or watch this video: [https://www.youtube.com/watch?v=tXp4WHl_sxY](https://www.youtube.com/watch?v=tXp4WHl_sxY)
-
-!!! quote "How do I vote from my Ledger Nano S?"
-    Plug in your Ledger and open the Ethereum App. Go to XinFinMaster.
-
-	Login in the top-right corner and select Ledger from the drop-down menu.
-	
-	Change the HD path to `m/44'/60'/0'`
-	
-	You should see your XinFin balance.
-
-	To see a list of nodes click on the XinFinMaster homepage button - top left corner.
-	Next to each node should be a 'Vote' button.
-	When voting you will need to confirm transaction on your Ledger.
-
-!!! quote "Can I stake for multiple masternodes via Ledger?"
-    Yes, you can.
-	
-!!! quote "Ledger not working?"
-    Upgrade your Ledger to the newest firmware.
-
-!!! quote "Can I use Trezor to vote for masternodes?"
-    Yes. XinFinMaster supports Trezor now.
-	
-!!! quote "What criteria must be considered when voting? Which masternode candidate should I vote for?"
-    The most important criteria to maximize voter’s profit, the main points you should consider when voting, are the following:
-
-	- **Top-150 most voted:** Your candidate must be one of the top-150 most-voted. If your candidate gets in the 151th most-voted place, it will not be promoted to masternode and you will earn zero rewards.
-	- **Hardware, Performance:** Powerful CPU, RAM, bandwidth, latency, etc so the node can work hard and receive high rewards
-	- **Number of signed blocks:** The more signed blocks per epoch, the higher rewards
-	- **Time of last signed block:** Verify that the masternode is active
-	- **Total Capacity:** Staking rewards are shared between all the masternode votes. Less voted masternodes are more profitable. 5K staked on a 50K-staked masternode will receive ten times more rewards than 5K staked on a 500K total staked masternode.
-	- **Social Proof, Reputation:** Masternodes managed by trusted companies that are for the long term, maintaining the masternode, updating hardware and software to last versions, fixing problems, etc.
-
-!!! quote "How many Masternode Candidates can I vote for?"
-    You can vote for as many candidates as you wish, splitting your XinFin.
-
-	Example: If you have 1'000 XinFin you can vote 500 XinFin for candidate A, 450 XinFin for candidate B, and 50 XinFin for candidate C.
-
-!!! quote "What is the minimum amount to Stake?"
-    The minimum amount to stake is 100 XinFin.
-	
-!!! quote "Which hardware-wallet can I use to vote?"
-    You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask.
-	You can also directly connect to the XinFin Network Mainnet with Ledger/Trezor and vote on [XinFinMaster](https://master.xinfin.org/).
-
-!!! quote "Is it possible to re-invest the XinFin earned and use it to continue voting?"
-    Yes.
-
-!!! quote "Is there a way to stake the earned rewards automatically?"
-    This is not supported currently.
-
-!!! quote "What happens if the Masternode I voted for stops working? Will I get my XinFin back?"
-    Yes. You can unvote that masternode and take your tokens back after 48h lock-up period.
-
-!!! quote "How do I UnVote?"
-    If you do not want to support a masternode you voted for, you can unvote it by clicking the ‘Unvote’ button on the masternode's page and enter the amount of XinFin you wish to unvote.
-
-	After unvoting, your XinFin are still locked in the smart contract for 96 epochs (approx. 48 hours) before you are able to withdraw.
-	When the lockup period is finished you need to click the ‘Withdraw’ button and the coins will appear again on your wallet.
-
-!!! quote "How to withdraw after unvoting?"
-    After unvoting, you need to wait until your XinFin is unlocked from the smart contract (96 epochs, approx. 48 hours).
-	Then you can go to XinFinMaster and click the 'Withdraw' button in your account page (the three vertical dots on the top-right) and choose which withdrawal you want to receive back your XinFin.
-
-	Note that you might see multiple withdrawals on your account page if you made multiple unvotes previously.
 
 ## Products
 
@@ -608,7 +486,7 @@
 	Then select how do you want to login: with xdcwallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
 
 !!! quote "What is the 'capacity' of a Candidate/Masternode?"
-    The capacity of a candidate is the 50K XinFin initial deposit plus the total amount of XinFin voted for that candidate.
+    The capacity of a candidate is the 10,000,000 XDC initial deposit for that candidate.
 
 !!! quote "Which of these numbers on XinFinMaster will tell us which is a good performing node vs poorly performing?"
     On XinFinMaster, click on a candidate to open the candidate page.
@@ -632,20 +510,17 @@
 	
 !!! quote "What is xdcwallet? Where can I download it?"
     XinFin Wallet is the official mobile wallet for XinFin Network, 
-    aiming to store the XinFin native coin and tokens issued on XinFin Network. 
+    aiming to store the XDC native coin and tokens issued on XinFin Network. 
     XinFin Wallet also allows users to vote for masternodes and track rewards.
 
 	Users can download xdcwallet at [App Store](https://itunes.apple.com/us/app/XinFin-wallet/id1436476145?mt=8) and [Play Store](https://play.google.com/store/apps/details?id=com.XinFin Network.wallet).
 	
 !!! quote "What tokens/coins does xdcwallet support?"
-    The current xdcwallet supports native XinFin on XinFin Network Mainnet.
+    The current xdcwallet supports native XDC on XinFin Network Mainnet.
 	xdcwallet will support all tokens on XinFin Network platform in the future.
 
 !!! quote "How can I create a XinFin wallet? What are the options to create a XinFin wallet?"
     You can create a XinFin wallet with the iOS app, the Android app, MyEtherWallet or Metamask.
-
-!!! quote "Can we vote on XinFinMaster using xdcwallet?"
-    Yes, xdcwallet can be used for voting/staking on XinFinMaster.
 
 !!! quote "How to Restore/Import Recovery Phrase into xdcwallet?"
     Open xdcwallet, click 'Import Your Wallet', then type your recovery phrase.
