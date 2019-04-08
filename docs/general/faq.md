@@ -286,12 +286,6 @@
     Masternodes contribute to the network and for this work they will receive a significant amount of block rewards, which will likely exceed the cost for running the infrastructure.
 	However, masternode owners need to invest in XinFin Network by depositing at least 10,000,000 XDC, and stake them in the long term.
 
-!!! quote "Where will the Masternode rewards come from? Will they be from the DEX?"
-    The block rewards will come from a 17 million XinFin reserve for the next 8 years - this was decided since the genesis block.
-	Our [Economics paper](https://docs.xinfin.org/wp-and-research/economics-paper/) lays out the number in detail.
-
-	And then later on, because we plan to have a built-in DEX, the revenues from the DEX will go to the Masternodes as well.
-
 !!! quote "When are Masternode rewards paid out?"
     Masternode operators will receive rewards every epoch.
 	An epoch is a 900-block period of 2-second block time (~30 minutes). 
