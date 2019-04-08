@@ -34,7 +34,7 @@
 
 !!! quote "How does XinFin Network work? What is the architecture and consensus used?"
     XinFin Network relies on a system of 18 Masternodes with XinFin Delegated Proof of stake (XDPoS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
-	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation, staking via smart-contracts and true randomization processes.
+	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation.
 
 !!! quote "Can you tell more about XinFin Delegated Proof of stake (XDPoS)? What is it?"
     At the heart of XinFin Network, the XinFin Delegated Proof of stake (XDPoS) consensus enables XinFin Network as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmation.
@@ -48,7 +48,7 @@
 !!! quote "What is Double Validation?"
     Double Validation provides an additional trustless validation layer for security enhancement through a provable uniform distribution decentralized randomization.
 	Specifically, when a block is created by a masternode, it must be verified by another masternode that is randomly selected among the set of masternodes before being added to the blockchain.
-	Double validation strengthens XinFin Blockchain security, reduces fork and nothing-at-stake attacks, and makes XinFin Network unique among other Delegated Proof of stake based blockchains.
+	Double validation strengthens XinFin Blockchain security, reduces fork and makes XinFin Network unique among other Delegated Proof of stake based blockchains.
 	
 !!! quote "What is an 'epoch'?"
     An epoch is a 900-block period of 2-second block time starting from block #1 (900 blocks x 2s/block = around 1800s or ~30 minutes).
@@ -97,7 +97,7 @@
 	- XinFin Network also is working vigorously on building its ecosystem and has sealed many partnerships from all fields such as agriculture, robotics, gaming, IT solution providers, advertising, pharmaceutical tracking, education and research, payment, communication, name service, food traceability and tourism.
 	
 !!! quote "Which blockchain(s) are XinFin Network's main competitors?"
-    On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO, XinFin Network etc are competitors because app developers/token issuers will generally choose only one blockchain to work on.
+    On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO etc are competitors because app developers/token issuers will generally choose only one blockchain to work on.
 	On the other hand, it is too early to focus on competition as it is more important to expand the whole blockchain ecosystem rather than to compete.
 
 	XinFin Network has a unique position in which it adds value to the Ethereum ecosystem by addressing scalability and governance issues while keeping the same smart-contracts and general architecture.
@@ -275,7 +275,7 @@
 	- **Rewards:** The rewards a masternode receives in each epoch is proportional to the number of signatures it signs.
 	Masternodes will also receive fees from the XinFin Network which is planned for development.
 
-	XinFin Network masternodes started signing blocks and receiving block rewards with the Mainnet release in December 14th, 2018.
+	XinFin Network masternodes started signing blocks and receiving block rewards on Mainnet.
 
 !!! quote "What is a masternode in the XinFin Network ecosystem?"
     A XinFin Network masternode is a server which uses its computing power to contribute to the network.
@@ -284,20 +284,14 @@
 
 !!! quote "What are the incentives to run a masternode?"
     Masternodes contribute to the network and for this work they will receive a significant amount of block rewards, which will likely exceed the cost for running the infrastructure.
-	However, masternode owners need to invest in XinFin Network by depositing at least 10,000,000 XDC, and stake them in the long term.
-
-!!! quote "Where will the Masternode rewards come from? Will they be from the DEX?"
-    The block rewards will come from a 17 million XinFin reserve for the next 8 years - this was decided since the genesis block.
-	Our [Economics paper](https://docs.xinfin.org/wp-and-research/economics-paper/) lays out the number in detail.
-
-	And then later on, because we plan to have a built-in DEX, the revenues from the DEX will go to the Masternodes as well.
+	However, masternode owners need to invest in XinFin Network by depositing at least 10,000,000 XDC, for the long term.
 
 !!! quote "When are Masternode rewards paid out?"
     Masternode operators will receive rewards every epoch.
 	An epoch is a 900-block period of 2-second block time (~30 minutes). 
 
 !!! quote "How can I check my rewards?"
-    You can check your masternode/staking rewards using xdcwallet.
+    You can check your masternode rewards using xdcwallet.
 	Alternatively you can use XinFinMaster or XinFinScan.
 
 ### Masternode Candidate
