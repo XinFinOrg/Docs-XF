@@ -97,7 +97,7 @@
 	- XinFin Network also is working vigorously on building its ecosystem and has sealed many partnerships from all fields such as agriculture, robotics, gaming, IT solution providers, advertising, pharmaceutical tracking, education and research, payment, communication, name service, food traceability and tourism.
 	
 !!! quote "Which blockchain(s) are XinFin Network's main competitors?"
-    On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO, XinFin Network etc are competitors because app developers/token issuers will generally choose only one blockchain to work on.
+    On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO etc are competitors because app developers/token issuers will generally choose only one blockchain to work on.
 	On the other hand, it is too early to focus on competition as it is more important to expand the whole blockchain ecosystem rather than to compete.
 
 	XinFin Network has a unique position in which it adds value to the Ethereum ecosystem by addressing scalability and governance issues while keeping the same smart-contracts and general architecture.
