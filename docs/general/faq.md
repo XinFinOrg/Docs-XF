@@ -839,22 +839,3 @@
 !!! quote "Can I switch from my existing wallet app like Metamask, MyEtherWallet, etc.?"
     You can export private key/recovery phrases from existing wallet app then import to xdcwallet.
 
-### XinFinX
-	
-!!! quote "What is the difference between XinFinX and a DeX?"
-    XinFin Network's philosophy on decentralized exchanges is quite different from others.
-	In XinFin Network's design for decentralized exchanges, XinFinX is the core decentralized exchange protocol, which takes in charge the order matching and execution.
-	XinFinX is integrated into the core layer of the XinFin Network consensus. 
-
-	A decentralized exchange (DEX) in XinFin Network's design for DEXs is a relayer that interacts with the underlying XinFinX protocol.
-	Typically, a relayer will send/receive trade orders to/from XinFinX which processes these trade orders. 
-
-	XinFinDEX will be the first relayer in XinFin Network's decentralized exchange ecosystem.
-	We expect XinFinDex to be one of the most sophisticated Dex out there, consequently users who like the Dex experience will use XinFinDex.
-	XinFinDex will be the first to list any token running on top of XinFin Network together with well-known cryptocurrencies such as BTC and ETH, and have the best liquidity for new XinFin Network's tokens.
-
-	With XinFin Network almost zero-fee, 2-second confirmation and 2'000 transactions per second, all relayers interacting with XinFinX Protocol will be fully decentralized and very efficient.
-
-!!! quote "What is a Relayer? How can I set up one?"
-    A decentralized exchange (DEX) in XinFin Network's design for DEXs is a relayer that interacts with the underlying XinFinX protocol.
-	Typically, a relayer will send/receive trade orders to/from XinFinX which processes these trade orders. 
