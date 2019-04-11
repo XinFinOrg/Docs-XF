@@ -235,39 +235,292 @@
           <div role="main">
             <div class="section">
               
-                <p><strong>Create DAPP Environment</strong></p>
-<p><strong><em>Prerequisites</em></strong></p>
-<ol>
-<li>
-<p>The Network for Running the Contract Deploying and using contract will need to consume a certain amount of resource (memory, CPU, and storage etc.). Therefore, it is recommended that the developers tune and test their smart contracts on their private networks and confirm that the contract is available before deploying them on the TestNet or MainNet.</p>
-</li>
-<li>
-<p>Wallet Client: 
-Wallet-cli is XDC Network’s command-line wallet. Developers can use wallet-cli to post and deploy contracts on the MainNet as well as execute other operations.</p>
-</li>
-</ol>
-<p><strong>Smart Contract Development</strong></p>
-<p>At this point, we recommend Remix as the coding environment for compiling and testing during the early stages. We present a simple example of contract code of data access to illustrate the process of compiling, deployment, and debugging.</p>
-<p><strong>1.Initiate the Private Chain:</strong>
- Make sure that the private chain in the prerequisite has been successfully deployed by checking if log message “Produce block successfully” of persistent block generation appears.</p>
-<p><strong>2.Develop Smart Contracts:</strong>
- Copy the code mentioned above to Remix to compile and debug. Make sure that logic of the code is correct, and the code itself is bug-free.</p>
-<p><strong>3.Compile in SimpleWebCompiler:</strong> 
- The compiler of XDC is slightly different from that of Ethereum and is still integrating with Remix. Therefore, we are providing a temporary way of acquiring ABI and ByteCode instead of acquiring them directly from Remix. Copy the code above to SImpleWebCompiler and click the Compile button to attain ABI and ByteCode.</p>
-<p><strong>4.Deploy Smart Contract via Wallet-cli :</strong></p>
-<p>Download Wallet-Cli and compile on it.</p>
-<p><strong>Initiate Wallet-Cli</strong></p>
-<blockquote>
-<p>Command to initiate the wallet-CLI</p>
-</blockquote>
-<p>After initiation, input the command interactively to the portal. Import the private key and inquire if the remaining balance is correct.
-Note: Developers can make the change in config.conf if they need to connect to a different node or interface.</p>
-<p><strong>Contract Deployment</strong></p>
-<p>A message of “Deploy the contract successfully” will be displayed upon the success of contract deployment</p>
-<p>**Acquiring addresses of the contracts</p>
-<p>**</p>
-<p><strong>Call the contracts to store and query data</strong></p>
-<p>If the called function is constant or VIEW, wallet-cli will return the results directly.</p>
+                <p><strong>How to set up loyalty token on XinFin.Network</strong></p>
+<p><strong>Step 1</strong>: Create and Deploy Loyalty Smart Contract and Deploy on Public network.</p>
+<p>Goto: https://mycontract.co/ and create Loyalty Token (Token Contract) After Entering Detail like: Token Name, Token Symbol and Total Token Supply. </p>
+<p>Note: After Creating Token Contract then Deploy to XinFin Network and Download Private Key and store at safe place Without a doubt, the safest way to store any Private Key is using a paper wallet. </p>
+<p><strong>Step 2</strong>: Setup XinFin Full node to get Full control over your Privaye key and Data backup. </p>
+<p>Follow step and setup XinFin Full Node :- https://github.com/XinFinOrg/XinFin-Node</p>
+<p><strong>Step 3</strong>: Install Dependencies. 
+Download <a href="https://docs.npmjs.com/getting-started/installing-node" title="Nodejs install">Nodejs and npm</a> if you don't have them</p>
+<p>Install dependencies:</p>
+<p><code>npm install xdc3@1.0.0-beta.41</code></p>
+<p><strong>Step 4</strong>: Dowlonad Ready Script File, Learn API Command to Manage Loyalty Loken with your ERP/CRM System: </p>
+<p>e.g. <code>node Token_Transfer.js RPC_IP RPC_Port from_address to_address amount contract_address private_key decimals</code></p>
+<p>Execute XRC20 Transfer : 
+<code>node Token_Transfer.js testnet.xinfin.network 443 xdcD000ea0B094EB93Bf4a545994048e630DFef922d  xdca5b6045297fc6aec660a2769e3bad08acb2098b3  1000  xdc880997e0a6de5671e8fc9e7b5424cd07b51c9ab8  c3d09a56285d70a531128cec7eb5ae905070f17705d2e1d112eaafd7d257f29b 18</code></p>
+<p> <div class=codehilite><pre><span></span>//to execute the script run the following command
+// node file_name.js wallet_ip port from_address to_address amount contract_address private_key decimals
+
+
+//ip and port for the blockchain node to be connected
+var wallet_ip = process.argv[2];
+var wallet_port = process.argv[3];
+//address from which tokens need to be sent
+var from_address = process.argv[4];
+//address to which tokens need to be sent
+var to_address = process.argv[5];
+//amount of tokens to be sent
+var sendamount = process.argv[6];
+//contract address of the ERC20 token
+var coinAddress = process.argv[7];
+//private key of the from address
+var private_key = process.argv[8];
+//predefined no. of decimals in the contract
+var tokendecimal = process.argv[9];
+
+//web3 library needed
+const Web3 = require(&quot;xdc3&quot;);
+
+//connecting to the web3 provider
+if (typeof web3 !== &quot;undefined&quot;) {
+  web3 = new Web3(web3.currentProvider);
+} else {
+  web3 = new Web3(
+    new Web3.providers.HttpProvider(&quot;http://&quot; + wallet_ip + &quot;:&quot; + wallet_port)
+  );
+}
+
+//if the token decimal isn&#39;t specified then set it to default 18 and converting the amount to decimal form
+if (tokendecimal == 18 || tokendecimal == null) {
+  var send_amount = web3.utils.toWei(sendamount);
+} else {
+  var send_amount = sendamount * Math.pow(10, tokendecimal);
+}
+
+//data required for estimating the gas that will be needed for the transaction to complete
+var est_main_gas = { from: from_address, to: to_address, value: send_amount };
+
+//standard ERC20 contract ABI
+const coinabi = [
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;name&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;string&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: &quot;_spender&quot;, type: &quot;address&quot; },
+      { name: &quot;_value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;approve&quot;,
+    outputs: [{ name: &quot;success&quot;, type: &quot;bool&quot; }],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;totalSupply&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: &quot;_from&quot;, type: &quot;address&quot; },
+      { name: &quot;_to&quot;, type: &quot;address&quot; },
+      { name: &quot;_value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;transferFrom&quot;,
+    outputs: [{ name: &quot;success&quot;, type: &quot;bool&quot; }],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;decimals&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [{ name: &quot;_owner&quot;, type: &quot;address&quot; }],
+    name: &quot;balanceOf&quot;,
+    outputs: [{ name: &quot;balance&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;owner&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;address&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;symbol&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;string&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: &quot;_to&quot;, type: &quot;address&quot; },
+      { name: &quot;_value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;transfer&quot;,
+    outputs: [{ name: &quot;success&quot;, type: &quot;bool&quot; }],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [
+      { name: &quot;_owner&quot;, type: &quot;address&quot; },
+      { name: &quot;_spender&quot;, type: &quot;address&quot; }
+    ],
+    name: &quot;allowance&quot;,
+    outputs: [{ name: &quot;remaining&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [{ name: &quot;_newOwner&quot;, type: &quot;address&quot; }],
+    name: &quot;transferOwnership&quot;,
+    outputs: [],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    inputs: [],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;constructor&quot;
+  },
+  {
+    anonymous: false,
+    inputs: [
+      { indexed: true, name: &quot;from&quot;, type: &quot;address&quot; },
+      { indexed: true, name: &quot;to&quot;, type: &quot;address&quot; },
+      { indexed: false, name: &quot;value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;Transfer&quot;,
+    type: &quot;event&quot;
+  },
+  {
+    anonymous: false,
+    inputs: [
+      { indexed: true, name: &quot;owner&quot;, type: &quot;address&quot; },
+      { indexed: true, name: &quot;spender&quot;, type: &quot;address&quot; },
+      { indexed: false, name: &quot;value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;Approval&quot;,
+    type: &quot;event&quot;
+  }
+];
+
+//creating an instance of the ERC20 contract
+const coin = new web3.eth.Contract(coinabi, coinAddress);
+//checking the balance of the from address to asure that it has sufficient balance to complete the transaction
+coin.methods.balanceOf(from_address).call(function(err, bal) {
+  bal = web3.utils.fromWei(bal, &quot;wei&quot;).toString(10);
+
+//generating the data for the transfer method of the ERC20 contract
+  const txdata = coin.methods.transfer(to_address, send_amount).encodeABI(); //to adress
+
+//estimating the gas required for the transaction to be completed
+  web3.eth.estimateGas(est_main_gas, function(gaslimit_err, gaslimit) {
+ //getting the current gas price on the network or else setting it to minimum 4 Gwei so that it won&#39;t take much time to execute 
+    web3.eth.getGasPrice(function(gas_err, getGasPrice) {
+      if (gas_err) {
+        console.log(JSON.stringify({ error1: gas_err }));
+
+        getGasPrice = 4000000000;
+      } else {
+        if (getGasPrice &lt; 4000000000 || getGasPrice == null) {
+          getGasPrice = 4000000000;
+        }
+      }
+
+//finding the nonce for the from address
+      web3.eth.getTransactionCount(from_address, function(
+        tx_count_err,
+        transactionCount
+      ) {
+        if (tx_count_err) {
+          console.log(
+            JSON.stringify({ &quot;transaction count error &quot;: tx_count_err })
+          );
+        }
+
+//generating the transaction data
+        const trans_det = {
+          nonce: transactionCount, // Replace by nonce for your account on geth node
+          gasPrice: getGasPrice,
+          gas: &quot;200000&quot;,
+          to: coinAddress, //contract address
+          from: from_address, //coin base
+          data: txdata
+        };
+
+//signing the transaction generated to get a raw transaction
+        web3.eth.accounts.signTransaction(trans_det, private_key, function(
+          sign_error,
+          signedTransaction
+        ) {
+          if (sign_error) {
+            console.log(
+              JSON.stringify({ &quot;sign transaction error &quot;: sign_error })
+            );
+          }
+
+//raw transaction to be sent to the network.
+          const rawTransaction = signedTransaction.rawTransaction;
+          //sending the raw transaction after converting it in to hex format
+          web3.eth.sendSignedTransaction(
+            rawTransaction.toString(&quot;hex&quot;),
+            function(trans_err, txid) {
+                     //printing the transaction hash or error
+              if (trans_err)
+                console.log(JSON.stringify({ &quot;transaction error&quot;: trans_err }));
+
+              if (txid &amp;&amp; txid != &quot;&quot;)
+                console.log(JSON.stringify({ tx: txid, hash: txid }));
+            }
+          );
+        });
+      });
+    });
+  });
+});
+</pre></div></p>
+<p><strong>Other Useful Command</strong></p>
+<p>eth.estimateGas
+eth.getGasPrice
+eth.getTransactionCount
+eth.accounts.signTransaction
+eth.sendSignedTransaction</p>
+<p>Ref Link: https://github.com/ethereum/wiki/wiki/JavaScript-API</p>
+<p>Note: XinFin Network Replace Address start from OX to XDC </p>
+<p><strong>Troubleshooting</strong></p>
+<p>Public discussions on the technical issues. Please Join Below mention Public Chat or Group. </p>
+<p><a href="https://launchpass.com/xinfin-public">Slack Public Chat</a>, </p>
+<p><a href="http://bit.do/Telegram-XinFinDev">Telegram Chat</a>, </p>
+<p><a href="https://xinfin.net">Forum</a></p>
               
             </div>
           </div>
