@@ -57,7 +57,7 @@
     XinFin Network solutions are based on on-chain scaling built into an architecture of 18 masternodes with our XinFin Delegated Proof of stake (XDPoS) consensus protocol.
 	We achieve 2-second block-time and almost instant transaction confirmation.
 
-	To scale further our infrastructure, we have presented our [Sharding proposal](https://bit.ly/2xHK0u3) for uniquely integrating Sharding into our current architecture and consensus.
+	To scale further our infrastructure, we have presented our Sharding proposal for uniquely integrating Sharding into our current architecture and consensus.
 
 	Besides sharding, we are actively researching scalability solutions like EVM parallelization and Plasma.
 	New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into XinFin Network's masternode architecture.
@@ -121,7 +121,6 @@
 
 !!! quote "How do you solve 'security problems' when using XinFin Network?"
     In terms of security of consensus protocol, XinFin Network proposes Double Validation and Randomization to protect the system.
-	The details of these techniques can be referred in our [Technical paper](https://xinfin.org/docs/technical-whitepaper--1.0.pdf).
 
 	XinFin Network solves some consensus-related security aspects:
 	
@@ -136,7 +135,7 @@
 ### Company
 
 !!! quote "Where is XinFin Network registered?"
-    You can check our company `XinFin Network Pte. Ltd.` information on the [Singaporean registry](https://www.sgpbusiness.com/company/XinFinchain-Pte-Ltd).
+    You can check our company `XinFin Network Pte. Ltd.` information on the Singaporean registry
 	
 	You can also check the ACRA copy if you need more details.
 	
@@ -145,7 +144,7 @@
 	
 	- SINGAPORE
 		
-	Check us out on our [main website](https://xinfin.org/about-us/)!
+	Check us out on our [main website](https://www.xinfin.org)!
 
 !!! quote "Where can I take a look at XinFin Network code? Is there a GitHub repository?"
     All the code regarding XinFin Network is free to consult on our [GitHub](https://github.com/xinfinorg).
@@ -234,15 +233,14 @@
    		
 !!! quote "Where can I buy XinFin? (exchanges)"
     You can trade XinFin on various exchanges.
-	Take a look in the "Exchanges" section [on this page](https://xinfin.org/about-us/) of our main website.
-	
+		
 ### Masternodes	
 
 !!! quote "Does XinFin Network have Masternodes? How do they work?"
     Yes, XinFin Network has a maximum of 18 Masternodes with XinFin Delegated Proof of stake (XDPOS) consensus for low transaction fee, and instant transaction confirmation.
 	Masternodes create, verify and validate new blocks in XinFin platform.
 
-	- **Masternode Candidates:** Any account can deposit 10,000,000 XDC using [XinFinMaster](https://master.xinfin.org/) to become a masternode candidate.
+	- **Masternode Candidates:** Any account can deposit 10,000,000 XDC using [XinFinMaster](https://xinfin.network/) to become a masternode candidate.
 	A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 	A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 	- **Rewards:** The rewards a masternode receives in each epoch is proportional to the number of signatures it signs.
@@ -270,7 +268,7 @@
 ### Masternode Candidate
 
 !!! quote "What is a masternode candidate? What is the difference between masternode candidate and masternode?"
-    A Masternode Candidate is any node who deposited 10,000,000 XDC and is listed on [XinFinMaster](https://master.xinfin.org/).
+    A Masternode Candidate is any node who deposited 10,000,000 XDC and is listed on [XinFinMaster](https://xinfin.network).
 	
 	 masternodes will be able to sign blocks and receive block rewards.
 
@@ -281,13 +279,11 @@
 	- to run XinFin Network software in a machine with certain minimal hardware requirements
 	- to deposit 10,000,000 XDC in a smart-contract via XinFinMaster
 
-	The list of Masternode Candidates will be available on the governance DApp, [XinFinMaster](https://master.xinfin.org/).
+	The list of Masternode Candidates will be available on the governance DApp, [XinFinMaster](https://xinfin.network/).
 	
 !!! quote "Do I need to use my own computer to run a node?"
     We recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc).
 	The machine must be directly facing internet (public IP, no NAT) and with 100% uptime.
-
-	If you have other production grade environment than cloud provider at your disposal, please tell us more about on our [Gitter](https://gitter.im/XinFin Network).
 
 !!! quote "Which are the hardware requirements to run a node?"
     Processing transactions is mostly CPU bound.
@@ -335,7 +331,7 @@
 	You can use the iOS and Android apps.
 	Also you can create wallets with Metamask, MyEtherWallet.
 
-	You can also use [https://wallet.testnet.xinfin.org](https://wallet.testnet.xinfin.org) to create an empty wallet, then use it as coinbase address.
+	You can also use [https://wallet.testnet.xinfin.org](http://xinfin.network/#webWallet) to create an empty wallet, then use it as coinbase address.
 
 !!! quote "I noticed that we need another wallet for masternode with a different mnemonic. Assume we use a hardware wallet, we would need another hardware wallet with different mnemonic?"
     It is recommended to use a separate empty account for your masternode as it only receive transactions fees - what we call public or 'coinbase address' on the documentation.
@@ -394,7 +390,7 @@
 ### XinFinScan	
 	
 !!! quote "What is XinFinScan?"
-    [XinFinScan](https://scan.xinfin.org/) is our block explorer. It is pretty similar to EtherScan if you are already familiar with it.
+    [XinFinScan](http://xinfin.network/#explorer) is our block explorer. It is pretty similar to EtherScan if you are already familiar with it.
 
 	XinFinScan provides a user friendly, details and perfection-oriented user interface for XinFin Network block explorer.
 	From a user perspective, XinFinScan brings XinFinChain’s transparency to users, because all block, transaction, finality, smart contracts, dApp and token information are read from XinFin Network and shown to users.
@@ -407,11 +403,10 @@
 
 	To check a TxHash, follow the steps below:
 
-	On [XinFinScan](https://scan.xinfin.org/), go to the search bar with the magnifying glass icon.
+	On [XinFinScan](http://xinfin.network/#explorer), go to the search bar with the magnifying glass icon.
 	Paste your transaction hash (TxHash) in the search bar and click the icon or press ENTER.
 	Your transaction details will show up.
 	
-	Example: [https://scan.testnet.xinfin.org/txs/0x838d33119b33e4519cb201e49bfc570ddc0fbdc6d9cf7038d8254a4de97f7112](https://scan.testnet.xinfin.org/txs/0x838d33119b33e4519cb201e49bfc570ddc0fbdc6d9cf7038d8254a4de97f7112)
 
 ### XinFinStats	
 	
@@ -429,7 +424,7 @@
 ### XinFinMaster	
 	
 !!! quote "What is XinFinMaster?"
-    [XinFinMaster](https://master.xinfin.org/), the 'Governance dApp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 10,000,000 XDC to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
+    [XinFinMaster](http://xinfin.network), the 'Governance dApp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 10,000,000 XDC to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
 	
 !!! quote "How do I login on XinFinMaster?"
     Go to XinFinMaster.
