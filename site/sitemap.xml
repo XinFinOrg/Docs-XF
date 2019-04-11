@@ -81,11 +81,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.xinfin.org/Requirement/req/</loc>
-     <lastmod>2019-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.xinfin.org/xinfinexp/features/</loc>
      <lastmod>2019-04-11</lastmod>
      <changefreq>daily</changefreq>
@@ -97,6 +92,11 @@
     </url>
     <url>
      <loc>https://docs.xinfin.org/XinFinAndWallet/features/</loc>
+     <lastmod>2019-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.xinfin.org/Requirement/req/</loc>
      <lastmod>2019-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>

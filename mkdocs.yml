@@ -67,8 +67,6 @@ nav:
       - Set up Master Nodes: get-started/Setupmn.md
       - Create DAPP Environment: get-started/cde.md
       - Set up Loyalty Token on XinFin.Network: get-started/lyl.md
-    - Current Requirement:
-      - Requirement: Requirement/req.md
 
     - XinFin Explorer:
       - Features: xinfinexp/features.md
@@ -78,6 +76,9 @@ nav:
 
     - XinFin Android Wallet:
       - Features: XinFinAndWallet/features.md
+
+    - Current Requirement:
+      - Requirement: Requirement/req.md
 
     - XinFin Media:
       - Articles: media/articles.md
