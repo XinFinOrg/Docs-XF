@@ -165,12 +165,12 @@
 !!! quote "Which are XinFin Network's official channels for communication and information?"
     You can keep in touch with our latest news here:
 	
-	1. [Twitter](https://twitter.com/xinfinf](https://twitter.com/xinfinf)
+	1. [Twitter](https://twitter.com/xinfinf)
 	2. [Telegram Announcements](https://t.me/XinFinChainChannel)
-	3. [Facebook](https://www.facebook.com/pages/xinfin](https://www.facebook.com/pages/xinfin)
-	4. [Website](https://xinfin.org](https://www.xinfin.org)
-	5. [Medium](https://medium.com/xinfin](https://medium.com/xinfin)
-	6. [Reddit](https://www.reddit.com/r/xinfin/](https://www.reddit.com/r/xinfin/)
+	3. [Facebook](https://www.facebook.com/pages/xinfin)
+	4. [Website](https://xinfin.org)
+	5. [Medium](https://medium.com/xinfin)
+	6. [Reddit](https://www.reddit.com/r/xinfin/)
 
 ### Ecosystem
 	
