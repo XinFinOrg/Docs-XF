@@ -75,7 +75,7 @@
 	This enables XinFin Network to achieve:
 	
 	- Cheap transactions: approx. 1/100 of that of Ethereum
-	- 2000 TPS to handle a robust d-app and token ecosystem; TPS will be dramatically higher once our sharding solution is enabled (20k-30k TPS)
+	- 2000 TPS to handle a robust d-app and token ecosystem.
 	- 2 second block time for fast transactions
 	- EVM-compatibility allows for interoperability with Ethereum ecosystem.
 
