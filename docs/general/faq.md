@@ -30,8 +30,7 @@
 	Regarding on-chain scaling, Sharding and Proof-of-Stake-based consensus are of potential that can significantly improve transaction processing performance while trying to maintain security requirements of the system. 
 
 	XinFin Network supports low fee and 2-second transaction confirmation times.
-	XinFin Network can currently process 2'000-5'000 transactions per second (TPS) and once sharding is enabled, XinFin Network is expected to reach 20'000-30'000 TPS.
-
+	XinFin Network can currently process 2'000-5'000 transactions per second (TPS).
 !!! quote "How does XinFin Network work? What is the architecture and consensus used?"
     XinFin Network relies on a system of 18 Masternodes with XinFin Delegated Proof of stake (XDPoS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
 	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation.
@@ -171,7 +170,7 @@
     XinFin Network supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
 	This means that any smart-contract written in Ethereum protocol can be easily ported to XinFin Network.
 
-	Any d-App written in Ethereum can be seamlessly ported to XinFin Network, instantly enjoying all XinFin Network advantages: almost zero-transaction fee; 2-second confirmation time; 2'000 TPS and soon 20K-30K TPS once sharding is enabled.
+	Any d-App written in Ethereum can be seamlessly ported to XinFin Network, instantly enjoying all XinFin Network advantages: almost zero-transaction fee; 2-second confirmation time; 2'000 TPS.
 	
 	D-app developers also have dedicated technical support from XinFin Network developers.
 	
