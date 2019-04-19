@@ -62,13 +62,6 @@
 	Besides sharding, we are actively researching scalability solutions like EVM parallelization and Plasma.
 	New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into XinFin Network's masternode architecture.
 
-!!! quote "What is the current TPS? What is your targeted transaction speed and when do you think you can achieve that speed?"
-    XinFin Network supports low transaction fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
-	The mainnet with XDPoS Masternodes delivers 2'000 transactions per second (TPS).
-	Once sharding is implemented by Q2 2019, we expect 20'000-30'000 TPS.
-
-	XinFin Network team is continuously researching other scaling techniques to keep improving.
-
 !!! quote "What makes XinFin Network different?"
     The unique point of XinFin Network comes from technology, the products and the ecosystem.
 
