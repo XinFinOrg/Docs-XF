@@ -1,14 +1,23 @@
-# *Download XinFin One Click Installer for Windows, Linux and macOS - Release Notes*
+# *Download XinFin One Click Installer (to setup Masternode) for Windows, Linux and macOS - Release Notes*
 
 
 *XinFin offers the first and only genuinely one-click masternode deployment. Our Masternode One-Click Installer has been heralded by many as the easiest solution for setting up a masternode and earning XDC.*
 
 *You can download the latest 64-bit stable release of XinFin - One Click Installer for our primary platforms below. Packages for all supported platforms, as well as develop builds, can be found further down the page.*
 
-[One Click Installer for Windows](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
+[One Click Installer for Windows (64-bit)](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
 
 
 [One Click Installer for Linux](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
 
 
 [One Click Installer for macOS](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
+
+
+Masternode Tools
+
+Community Forum update link: http://xinfin.net
+
+Telegram Development Community: https://t.me/XinFinDevelopers
+
+Slack Public Channel: https://xinfin-public.slack.com/messages/CELR2M831/
