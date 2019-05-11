@@ -14,7 +14,7 @@
 [One Click Installer for macOS](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
 
 
-Masternode Tools
+#*Masternode Tools and Public Community Channel*#
 
 Community Forum update link: http://xinfin.net
 
