@@ -5,10 +5,10 @@
 
 *You can download the latest 64-bit stable release of XinFin - One Click Installer for our primary platforms below. Packages for all supported platforms, as well as develop builds, can be found further down the page.*
 
-[One Click Masternode Installer for Windows OS (64-bit)](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
+[One Click Masternode Installer for Windows OS (64-bit)](http://download.xinfin.network/XinFin-Network-installer-0-12-0.exe)
 
 
-[One Click Masternode Installer for Linux OS](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
+[One Click Masternode Installer for Linux OS](http://download.xinfin.network/XinFin-Network-linux64-0-12-0.deb)
 
 
 [One Click Masternode Installer for macOS](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
