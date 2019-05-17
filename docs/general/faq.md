@@ -330,7 +330,7 @@
 
 	The block rewards are sent to the account connected to XinFinMaster who make the initial deposit - the 'private' address.
 
-!!! quote "Can I use the same address pair (tmn public address + initial deposit address) for all my nodes? Or I have to transfer tokens to another wallet and start the second node?"
+!!! quote "Can I use the same address pair (XinFin-Node or One-Click-Installer public address + initial deposit address) for all my nodes? Or I have to transfer tokens to another wallet and start the second node?"
     No.
 	Must use different public 'coinbase' addresses.
 	But you can use the same initial deposit ('private') address, then all rewards will be transferred to only one address.
@@ -338,7 +338,7 @@
 !!! quote "I have finished all steps of setting up node. Why I don't see my node on XinFinMaster?"
     You must apply to become a masternode candidate.
 	
-!!! quote "Do I need to deposit the 10,000,000 XDC before or after running 'tmn' in VPS?"
+!!! quote "Do I need to deposit the 10,000,000 XDC before or after running 'One-Click-Installer' in VPS?"
     After. Your node must be fully synched before applying.
 
 !!! quote "How do I check the blockchain sync status from the node?"
@@ -404,7 +404,7 @@
     XinFinStats shows the various metrics regarding the current mainnet including the current number of masternodes, masternodes performance, current TPS, block-time, confirmation time, finality and other useful metrics.
 
 !!! quote "How much is the average time to see my node appear on XinFinStats?"
-    It should be less than a minute after tmn command is executed and finished.
+    It should be less than a minute after One-Click-Installer command is executed and finished.
 
 !!! quote "Stats page wasn't working and showed a 70-second block. What happened?"
     The stats page is javascript code running in your browser.
