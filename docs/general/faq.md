@@ -198,7 +198,7 @@
 
 	In addition to the above, XDC is an integral part of the XinFin Network network for a number of reasons.
 	
-	- XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMater, xdcwallet, etc.).
+	- XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMaster, xdcwallet, etc.).
 	- XinFin will be used as a incentivise the building of the XinFin Network engine/ecosystem.
 	- XinFin will be used as a long-term, decentralized governance instrument of the XinFin Network network.
 
@@ -359,8 +359,6 @@
 	A Slashed node will be 'kicked out' for the next 4 epochs.
 	At the 5th epoch after being slashed, the slashed masternode can go back to the candidate list.
 
-!!! quote "How do I update my Masternode to the newest version?"
-    Run this command: `pip3 install -U tmn && tmn update && tmn start`
 	
 !!! quote "How many nodes I am allowed to run?"
     As many as you can.
