@@ -16,8 +16,9 @@
 
 # Masternode Tools and Public Community Channel #
 
-Community Forum update link: http://xinfin.net
+**[Community Forum update link:](http://xinfin.net)** 
 
-Telegram Development Community: https://t.me/XinFinDevelopers
+**[Telegram Development Community:](https://t.me/XinFinDevelopers)**
 
-Slack Public Channel: https://xinfin-public.slack.com/messages/CELR2M831/
+**[Slack Public Channel:](https://xinfin-public.slack.com/messages/CELR2M831/)**
+
