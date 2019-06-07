@@ -11,4 +11,4 @@ The XDC token is the underlying utility token that powers XinFin's Hybrid Blockc
 # [Airnetz Charter](https://www.airnetzcharter.com/)
 # [Invoice Factoring](https://www.infactor.io/)
 
-You can consult a more detailed list of dApps on the main XDCchain [website](https://xinfin.org/dapps/).
+You can consult a more detailed list of dApps on the main XDCchain [website](https://xinfin.org/xinfin-consensus.php).
