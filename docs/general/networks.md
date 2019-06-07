@@ -5,9 +5,9 @@ XinFin Network, a independent hybrid blockchain, the most efficient platform for
 ### Specifications
 
 - Chain id: `853`
-- RPC endpoint: `https://testnet.xinfin.org`
+- RPC endpoint: `http://rpc.apothem.network`
 - Websocket endpoint: `wss://wstestnet.xinfin.org`
-- Consensus: XDPOS
+- Consensus: XDPoS
 - Block finality: `>75%`
 - Consensus nodes: up to 18 (masternodes)
 - Genesis block date: `TBA`
@@ -16,9 +16,9 @@ XinFin Network, a independent hybrid blockchain, the most efficient platform for
 
 ### Usefull links
 
-- [Status Page](https://xinfin.network/#stats)
-- [XinFin Explorer](https://xinfin.network/#explorer) (Block explorer)
-- [XinFin Master](https://xinfin.network/#masternode) (Governance dApp)
+- [Status Page](http://apothem.network/#stats)
+- [XinFin Explorer](http://apothem.network/#explorer) (XinFin Scan)
+- [XinFin MasterNode APP ](https://xinfin.network/#masternode) (MasterNodeApp)
 
 ### Bootnodes
 
