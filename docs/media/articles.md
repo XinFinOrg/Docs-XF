@@ -1,6 +1,9 @@
 **[XinFin Network Presents One-Click Installer for Blockchain Node Setup](https://www.pr.com/press-release/785335)**
 
 
+**[A Step-by-Step Guide to Swap Tokens on XinFin Mainnet](https://medium.com/xinfin/a-step-by-step-guide-to-swap-tokens-on-xinfin-mainnet-c28099dd9eb5)**
+
+
 **[XinFin Connects Blockchain Factoring Tool To QuickBooks](https://www.pymnts.com/news/b2b-payments/2019/xinfin-quickbooks-blockchain-invoice-financing)**
 
 
@@ -11,6 +14,3 @@
 
 
 **[Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple ](https://https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4)**
-
-
-**[A Step-by-Step Guide to Swap Tokens on XinFin Mainnet](https://medium.com/xinfin/a-step-by-step-guide-to-swap-tokens-on-xinfin-mainnet-c28099dd9eb5)**
