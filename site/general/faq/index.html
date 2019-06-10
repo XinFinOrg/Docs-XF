@@ -294,8 +294,6 @@ Nevertheless, the reality is disappointing: Bitcoin and Ethereum can only proces
 Remember that, these numbers in Visa and MasterCard are around 5'000-6'000 transactions per second.</p>
 <p>XinFin Network is continuously working and researching several scaling solutions.
 Regarding on-chain scaling, Sharding and Proof-of-Stake-based consensus are of potential that can significantly improve transaction processing performance while trying to maintain security requirements of the system. </p>
-<p>XinFin Network supports low fee and 2-second transaction confirmation times.
-XinFin Network can currently process 2'000-5'000 transactions per second (TPS) and once sharding is enabled, XinFin Network is expected to reach 20'000-30'000 TPS.</p>
 </div>
 <div class="admonition quote">
 <p class="admonition-title">How does XinFin Network work? What is the architecture and consensus used?</p>
@@ -330,13 +328,6 @@ We achieve 2-second block-time and almost instant transaction confirmation.</p>
 New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into XinFin Network's masternode architecture.</p>
 </div>
 <div class="admonition quote">
-<p class="admonition-title">What is the current TPS? What is your targeted transaction speed and when do you think you can achieve that speed?</p>
-<p>XinFin Network supports low transaction fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
-The mainnet with XDPoS Masternodes delivers 2'000 transactions per second (TPS).
-Once sharding is implemented by Q2 2019, we expect 20'000-30'000 TPS.</p>
-<p>XinFin Network team is continuously researching other scaling techniques to keep improving.</p>
-</div>
-<div class="admonition quote">
 <p class="admonition-title">What makes XinFin Network different?</p>
 <p>The unique point of XinFin Network comes from technology, the products and the ecosystem.</p>
 <p><strong>Novel technology:</strong> includes</p>
@@ -349,7 +340,7 @@ Once sharding is implemented by Q2 2019, we expect 20'000-30'000 TPS.</p>
 <p>This enables XinFin Network to achieve:</p>
 <ul>
 <li>Cheap transactions: approx. 1/100 of that of Ethereum</li>
-<li>2000 TPS to handle a robust d-app and token ecosystem; TPS will be dramatically higher once our sharding solution is enabled (20k-30k TPS)</li>
+<li>2000 TPS to handle a robust d-app and token ecosystem.</li>
 <li>2 second block time for fast transactions</li>
 <li>EVM-compatibility allows for interoperability with Ethereum ecosystem.</li>
 </ul>
@@ -450,7 +441,7 @@ It might change in the future.</p>
 <p class="admonition-title">What incentives have partners and dApp developers to build on XinFin Network?</p>
 <p>XinFin Network supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
 This means that any smart-contract written in Ethereum protocol can be easily ported to XinFin Network.</p>
-<p>Any d-App written in Ethereum can be seamlessly ported to XinFin Network, instantly enjoying all XinFin Network advantages: almost zero-transaction fee; 2-second confirmation time; 2'000 TPS and soon 20K-30K TPS once sharding is enabled.</p>
+<p>Any d-App written in Ethereum can be seamlessly ported to XinFin Network, instantly enjoying all XinFin Network advantages: almost zero-transaction fee; 2-second confirmation time; 2'000 TPS.</p>
 <p>D-app developers also have dedicated technical support from XinFin Network developers.</p>
 <p>Besides the technical aspects, our partners will also benefit from the XinFin Network community support and fundraising opportunities, thanks to XinFin Network very good relationships with well-known investors.</p>
 </div>
@@ -473,7 +464,7 @@ Being the protocol token for the XinFin Network infrastructure, XDC will be need
 <p>The supply of XDC is fixed, long-term and non-inflationary.</p>
 <p>In addition to the above, XDC is an integral part of the XinFin Network network for a number of reasons.</p>
 <ul>
-<li>XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMater, xdcwallet, etc.).</li>
+<li>XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMaster, xdcwallet, etc.).</li>
 <li>XinFin will be used as a incentivise the building of the XinFin Network engine/ecosystem.</li>
 <li>XinFin will be used as a long-term, decentralized governance instrument of the XinFin Network network.</li>
 </ul>
@@ -617,7 +608,7 @@ Also you can create wallets with Metamask, MyEtherWallet.</p>
 <p>The block rewards are sent to the account connected to XinFinMaster who make the initial deposit - the 'private' address.</p>
 </div>
 <div class="admonition quote">
-<p class="admonition-title">Can I use the same address pair (tmn public address + initial deposit address) for all my nodes? Or I have to transfer tokens to another wallet and start the second node?</p>
+<p class="admonition-title">Can I use the same address pair (XinFin-Node or One-Click-Installer public address + initial deposit address) for all my nodes? Or I have to transfer tokens to another wallet and start the second node?</p>
 <p>No.
 Must use different public 'coinbase' addresses.
 But you can use the same initial deposit ('private') address, then all rewards will be transferred to only one address.</p>
@@ -627,7 +618,7 @@ But you can use the same initial deposit ('private') address, then all rewards w
 <p>You must apply to become a masternode candidate.</p>
 </div>
 <div class="admonition quote">
-<p class="admonition-title">Do I need to deposit the 10,000,000 XDC before or after running 'tmn' in VPS?</p>
+<p class="admonition-title">Do I need to deposit the 10,000,000 XDC before or after running 'One-Click-Installer' in VPS?</p>
 <p>After. Your node must be fully synched before applying.</p>
 </div>
 <div class="admonition quote">
@@ -649,10 +640,6 @@ Go to your masternode page on XinFinMaster, if you are logged in XinFinMaster wi
 <p>Some reasons for this might be that the masternode does not have the correct XinFin Network software, lack of memory or masternode crashes due to the lack of e-maintenance and operation by the masternode owner.</p>
 <p>A Slashed node will be 'kicked out' for the next 4 epochs.
 At the 5th epoch after being slashed, the slashed masternode can go back to the candidate list.</p>
-</div>
-<div class="admonition quote">
-<p class="admonition-title">How do I update my Masternode to the newest version?</p>
-<p>Run this command: <code>pip3 install -U tmn &amp;&amp; tmn update &amp;&amp; tmn start</code></p>
 </div>
 <div class="admonition quote">
 <p class="admonition-title">How many nodes I am allowed to run?</p>
@@ -698,7 +685,7 @@ Your transaction details will show up.</p>
 </div>
 <div class="admonition quote">
 <p class="admonition-title">How much is the average time to see my node appear on XinFinStats?</p>
-<p>It should be less than a minute after tmn command is executed and finished.</p>
+<p>It should be less than a minute after One-Click-Installer command is executed and finished.</p>
 </div>
 <div class="admonition quote">
 <p class="admonition-title">Stats page wasn't working and showed a 70-second block. What happened?</p>
