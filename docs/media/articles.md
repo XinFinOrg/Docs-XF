@@ -12,3 +12,5 @@
 
 **[Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple ](https://https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4)**
 
+
+**[A Step-by-Step Guide to Swap Tokens on XinFin Mainnet](https://medium.com/xinfin/a-step-by-step-guide-to-swap-tokens-on-xinfin-mainnet-c28099dd9eb5)**
