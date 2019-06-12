@@ -1,16 +1,20 @@
-**[XinFin Network Presents One-Click Installer for Blockchain Node Setup](https://www.pr.com/press-release/785335)**
+Welcome, The communities and posts below include content that has been curated by XinFin team members, community members and projects building on XinFin Platform. While some of these links include information specific to these projects, every resource also has information that can be generally applied to the Platform. We welcome Community to ”EDIT” and simplify the content by adding more Tools, Article, Video, Plug and Play Scripts, and documentation to make it more simple and friendly for the developer community to build more DApps on XinFin Platform.
 
 
-**[A Step-by-Step Guide to Swap Tokens on XinFin Mainnet](https://medium.com/xinfin/a-step-by-step-guide-to-swap-tokens-on-xinfin-mainnet-c28099dd9eb5)**
+**Developer Specific Communities:**
+
+Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions
+
+[Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net/), [GitHub](https://github.com/XinFinorg)
 
 
-**[XinFin Connects Blockchain Factoring Tool To QuickBooks](https://www.pymnts.com/news/b2b-payments/2019/xinfin-quickbooks-blockchain-invoice-financing)**
+
+**General Communities:**
 
 
-**[XinFin joins R3 blockchain consortium to host dApps on Corda](https://tokenpost.com/XinFin-joins-R3-blockchain-consortium-to-host-dApps-on-Corda-1246)**
+Topic: Public discussions on general topics, post articles and Request for Enhancement and General Contributions
 
 
-**[XinFin successfully tested 2000 TPS](https://medium.com/xinfin/enhancing-transaction-speed-in-xinfin-network-31293b0e73de)**
+[Twitter](https://twitter.com/XinFin_Official), [Facebook](https://www.facebook.com/XinFinHybridBlockchain/), [Reddit](https://www.reddit.com/r/xinfin/), [Medium](https://medium.com/xinfin), [Linkedin](https://www.linkedin.com/company/xinfin/), [Meetup](https://www.meetup.com/members/270624533/), [YouTube](https://www.youtube.com/channel/UCQaL6FixEQ80RJC0B2egX6g)
 
 
-**[Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple ](https://https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4)**
