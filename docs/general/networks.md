@@ -4,7 +4,7 @@ XinFin Network, a independent hybrid blockchain, the most efficient platform for
 
 ### Specifications
 
-- Chain id: `853`
+- Chain id: `51`
 - RPC endpoint: `http://rpc.apothem.network`
 - Websocket endpoint: `wss://wstestnet.xinfin.org`
 - Consensus: XDPoS
@@ -28,13 +28,13 @@ XinFin Network, a independent hybrid blockchain, the most efficient platform for
 
 ### Stats websocket secret
 
-`xinfin_network_stats`
+`xdc_xinfin_apothem_network_stats`
 
 
 ### For developers
 
 Testnet is the best way to test your smart contracts.
-Configure your deployment tool (truffle for example) to connect to the testnet and deploy your new code without having to worry about fees.
+Configure your deployment tool to connect to the testnet and deploy your new code without having to worry about fees.
 
 ### For investors and enthusiasts
 
