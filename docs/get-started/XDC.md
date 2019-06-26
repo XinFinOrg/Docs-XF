@@ -1,10 +1,10 @@
 ﻿**Technicalities and Specifications of XinFin Delegated Proof of Stake**
 
-Delegated Proof of Stake (DPOS) is the fastest, most efficient, decentralized, and flexible consensus model available. DPOS leverages the power of stakeholder to resolve consensus issues in a fair and democratic way. The Self KYC feature added in XinFin DPoS is more enterprise and regulator friendly.
+XinFin Delegated Proof of Stake (XDPOS) is the fastest, most efficient, decentralized, and flexible consensus model available. XDPOS leverages the power of stakeholder to resolve consensus issues in a fair and democratic way. The Self KYC feature added in XinFin XDPoS is more enterprise and regulator friendly.
 
 **Definitions**
 
-DPoS: Delegated Proof of Stake: a mechanism for the selection of network Validators by coin holders delegating their votes Validator: (usually denoted L) a node on the network responsible for producing and validating blocks. Nominator: a coin holder who stakes and delegates their coins to one or more Validators. Epoch: (usually denoted 𝑁) corresponds to 𝐿∈ℕ blocks: it is a cycle of a few blocks in which Validators create blocks in turn.
+XDPoS: XinFin Delegated Proof of Stake: a mechanism for the selection of network Validators by coin holders delegating their Validator: (usually denoted L) a node on the network responsible for producing and validating blocks. Nominator: a coin holder who stakes and delegates their coins to one or more Validators. Epoch: (usually denoted 𝑁) corresponds to 𝐿∈ℕ blocks: it is a cycle of a few blocks in which Validators create blocks in turn.
 
 # **Validators Registration**
 
@@ -19,7 +19,24 @@ Any network participant will be able to register as a Validator.
 
 **KYC Compliance:**
 
-We would like to add Know your customer (KYC) identification as it falls under the responsibility of financial institution and/or regulated company. Validator needs to upload self KYC document and this document will be visible on the open public network.
+We would like to add Know your customer (KYC) identification as it falls under the responsibility of financial institution and/or regulated company.
+
+Become a MasterNode and upload the Know Your Community (KYC) certificate in PDF format.
+
+This KYC certificate needs to be signed by one of the following personnel:
+
+Company Secretary,
+A Notary Public,
+Chartered Secretary,
+Consulate, or
+A lawyer with Seal.
+For INDIVIDUAL format, click here.
+
+For ORGANIZATION format, click here.
+
+Note: It’s mandatory to upload the certificate in a PDF format.
+
+Validator needs to upload self KYC document and this document will be visible on the open public network
 
 # **Choosing Validators**
 
@@ -51,7 +68,7 @@ Suggested parameter values from requirements:
 
 MIN_STAKE: 10,000,000
 
-XDC VALIDATOR_REWARD: 0.01370% (Daily) 
+XDC VALIDATOR_REWARD: 4000 xdc (Daily) 
 
 VALIDATOR_SET_SIZE:  18
 
