@@ -1,17 +1,62 @@
-# *Download XinFin One Click Installer (to setup Masternode) for Windows, Linux and macOS - Release Notes*
+# Setup a Masternode with XinFin MainNet in 8 Simple Steps
+
+Step 1: Host the Masternode either by downloading the One-Click Installer (recommended) or by using a Docker Compose file.
+
+Download the One-Click Installer (Recommended),
+Or
+Setup Masternode using Docker Compose.
+
+ 
+Step 2: Once downloaded, run the One-Click Installer on the server.
 
 
-*XinFin offers the first and only genuinely one-click masternode deployment. Our Masternode One-Click Installer has been heralded by many as the easiest solution for setting up a masternode and earning XDC.*
-
-*You can download the latest 64-bit stable release of XinFin - One Click Installer for our primary platforms below. Packages for all supported platforms, as well as develop builds, can be found further down the page.*
-
-[One Click Masternode Installer for Windows OS (64-bit)](http://download.xinfin.network/XinFin-Network-installer-0-12-0.exe)
 
 
-[One Click Masternode Installer for Linux OS](http://download.xinfin.network/XinFin-Network-linux64-0-12-0.deb)
 
 
-[One Click Masternode Installer for macOS](http://download.xinfin.network/XinFin-Network-installer-0-12-0.rar)
+On successful installation, you will get the Coinbase address as shown below.
+
+
+
+Step 3: View the active node at by clicking here.
+
+
+
+
+Step 4: Create a new account address from the XinFin wallet. An exclusive address will be generated.
+The new address generated would contain the balance required to propose the Masternode.
+
+
+Step 5: Log in to the Masternode app using the private key.
+
+
+
+
+
+
+Step 6: Become a candidate and upload the Know Your Community (KYC) certificate in PDF format. 
+This KYC certificate needs to be signed by one of the following personnel: 
+Company Secretary,
+A Notary Public,
+Chartered Secretary,
+Consulate, or
+A lawyer with Seal. 
+
+For INDIVIDUAL format, click here.
+For ORGANIZATION format, click here. 
+
+Note: It’s mandatory to upload the certificate in a PDF format. 
+
+
+
+
+Step 7: Once the KYC is uploaded, enter the Coinbase address and lock 10 million XDC tokens before running the Masternode.
+
+
+
+
+Step 8: The proposed node will be added to the Masternode randomly through the Round-Robin method. On successful addition to the Masternode, the reward will be sent to the assigned XinFin Wallet.
+
 
 
 # Masternode Tools and Public Community Channel #
