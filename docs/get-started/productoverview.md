@@ -2,8 +2,8 @@
 [how to read](/get-started/how_to_read/) the documentation site, depending on readers' interest.
 
 The backbone of XinFin Network's products and ecosystem is the XinFin Network blockchain 
-with its innovative XDPOS Votin consensus.
-To facilitate interactions between users (including voters and masternode owners) 
+with its innovative XDPOS consensus.
+To facilitate interactions between users (including masternode owners) 
 and the XinFin Network blockchain, 
 a set of products have been built, including XinFin Explorer, XinFin Masternode, XinFin Wallet, 
 and our Network stats page.
