@@ -157,9 +157,9 @@
 !!! quote "Which are XinFin Network's official channels for communication and information?"
     You can keep in touch with our latest news here:
 	
-	1. [Twitter](https://twitter.com/xinfinf)
-	2. [Telegram Announcements](https://t.me/XinFinChainChannel)
-	3. [Facebook](https://www.facebook.com/pages/xinfin)
+	1. [Twitter](https://twitter.com/XinFin_Official)
+	2. [Telegram Announcements](https://t.me/xinfin)
+	3. [Facebook](https://www.facebook.com/XinFinHybridBlockchain)
 	4. [Website](https://xinfin.org)
 	5. [Medium](https://medium.com/xinfin)
 	6. [Reddit](https://www.reddit.com/r/xinfin/)
@@ -179,14 +179,14 @@
 !!! quote "Where can I see XinFin Network partnerships?"
     XinFin Network is working vigorously on building its ecosystem and has sealed 10 partnerships from all fields such as agriculture, robotics, gaming, IT solution providers, advertising, pharmaceutical tracking, education and research, payment, communication, name service, food traceability, tourism (as of Jan 2019).
 
-	All partnership announcements can be found [Medium](https://medium.com/xinfin) and our official [Twitter account](https://twitter.com/xinfinf) for partnership announcements.
+	All partnership announcements can be found [Medium](https://medium.com/xinfin) and our official [Twitter account](https://twitter.com/XinFin_Official) for partnership announcements.
 
-	You can also find a list of partners willing to run D-apps on XinFin Network [here](https://docs.xinfin.org/general/use-cases/). This list will be updated in the future.
+	You can also find a list of partners willing to run D-apps on XinFin Network. This list will be updated in the future.
 
 !!! quote "Where can I check the actual products, ecosystem?"
-	If you want to access it directly, you can find the links to our different products deployed in Testnet on our [Networks page](https://docs.xinfin.org/general/networks/).
+	If you want to access it directly, you can find the links to our different products deployed in Testnet on our [Block Explorer](http://apothem.network/#explorer).
 
-	The list of XinFin Network Products is as follows: XinFinScan, XinFinStats, XinFinMaster, xdcwallet.
+	The list of XinFin Network Products is as follows: XinFinScan, XinFinStats, XinFinMaster, XinFinWebWallet.
 	
 ### XinFin - Economics
 	
@@ -198,11 +198,11 @@
 
 	In addition to the above, XDC is an integral part of the XinFin Network network for a number of reasons.
 	
-	- XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMaster, xdcwallet, etc.).
+	- XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMaster, XinFinWebWallet, etc.).
 	- XinFin will be used as a incentivise the building of the XinFin Network engine/ecosystem.
 	- XinFin will be used as a long-term, decentralized governance instrument of the XinFin Network network.
 
-	You can check our [technical whitepaper](https://docs.xinfin.org/wp-and-research/technical-whitepaper/) for more details.
+	You can check our [technical whitepaper](https://www.xinfin.org/docs/whitepaper-tech.pdf) for more details.
 
 !!! quote "Can I mine XDC?"
     XDC is not `mineable` but `mintable` by masternodes.
@@ -212,7 +212,7 @@
 !!! quote "How often are block rewards paid out?"
     Block rewards will be earnt every epoch, which lasts for 900 of two-second-block time (~30 minutes)
 
-!!! quote "When will XinFin be listed on new exchanges?"
+!!! quote "When will XDC be listed on new exchanges?"
     We do not discuss about exchange related questions due to the regulation.
 	We will announce every exchange news on our official channels on due time.
 
@@ -221,10 +221,10 @@
 
 
 !!! quote "Where to store XDC? How can I send XDC to my wallet?"
-    You can store XinFin in xdcwallet.
+    You can store XinFin in XinFin Web Wallet or Mobile Wallet.
    		
-!!! quote "Where can I buy XinFin? (exchanges)"
-    You can trade XinFin on various exchanges.
+!!! quote "Where can I buy XDC? (exchanges)"
+    For Now You can trade XDC on [alphaex](https://www.alphaex.net/).
 		
 ### Masternodes	
 
@@ -254,13 +254,13 @@
 	An epoch is a 900-block period of 2-second block time (~30 minutes). 
 
 !!! quote "How can I check my rewards?"
-    You can check your masternode rewards using xdcwallet.
-	Alternatively you can use XinFinMaster or XinFinScan.
+    You can check your masternode rewards using XinFin WebWallet.
+	Alternatively you can use XinFinScan.
 
 ### Masternode Candidate
 
 !!! quote "What is a masternode candidate? What is the difference between masternode candidate and masternode?"
-    A Masternode Candidate is any node who deposited 10,000,000 XDC and is listed on [XinFinMaster](https://xinfin.network).
+    A Masternode Candidate is any node who deposited 10,000,000 XDC and is listed on [XinFinMaster](https://xinfin.network/#masternode).
 	
 	 masternodes will be able to sign blocks and receive block rewards.
 
@@ -271,7 +271,7 @@
 	- to run XinFin Network software in a machine with certain minimal hardware requirements
 	- to deposit 10,000,000 XDC in a smart-contract via XinFinMaster
 
-	The list of Masternode Candidates will be available on the governance DApp, [XinFinMaster](https://xinfin.network/).
+	The list of Masternode Candidates will be available on the governance DApp, [XinFinMaster](https://xinfin.network/#masternode).
 	
 !!! quote "Do I need to use my own computer to run a node?"
     We recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc).
@@ -315,17 +315,17 @@
 	The public address or 'coinbase address' will only receive transaction fees.
 	The private address is from where you make the initial 10,000,000 XDC deposit and where the block rewards will be collected.
 
-!!! quote "How can I create a public 'coinbase address' wallet? Is it only with xdcwallet for iOS and Android? Are there other options?"
+!!! quote "How can I create a public 'coinbase address' wallet? Is it only with xdcwallet for Android? Are there other options?"
     You need to create a wallet for the masternode public address.
 	This wallet does not need to contain any XDC, think of it as a shell address.
-	You will then stake XDC into the masternode address via your main XinFin wallet.
+	You will then stake XDC into the masternode address via your main XinFin Web wallet.
 
-	You can use the iOS and Android apps.
-	Also you can create wallets with Metamask, MyEtherWallet.
+	You can use the Android apps.
+	Also you can create wallets with XinFin Web Wallet.
 
 	You can also use [https://wallet.testnet.xinfin.org](http://xinfin.network/#webWallet) to create an empty wallet, then use it as coinbase address.
 
-!!! quote "I noticed that we need another wallet for masternode with a different mnemonic. Assume we use a hardware wallet, we would need another hardware wallet with different mnemonic?"
+!!! quote "I noticed that we need another wallet for masternode?"
     It is recommended to use a separate empty account for your masternode as it only receive transactions fees - what we call public or 'coinbase address' on the documentation.
 
 	The block rewards are sent to the account connected to XinFinMaster who make the initial deposit - the 'private' address.
@@ -346,10 +346,6 @@
 
 !!! quote "If the masternode owner deposits 11,000,000 XDC instead of 10,000,000 XDC on its own node, can it later on unstake the excess ?"
     Yes, it can.
-
-!!! quote "How can I change my node's name?"
-    You can do it on XinFinMaster.
-	Go to your masternode page on XinFinMaster, if you are logged in XinFinMaster with the owner account, you can click next to the masternode name to edit infos.
 
 !!! quote "Why is a node flagged as 'Slashed'?"
     A masternode will be automatically slashed by the Slashing Mechanism if the node doesn't validate any block within an epoch.
@@ -414,24 +410,15 @@
 ### XinFinMaster	
 	
 !!! quote "What is XinFinMaster?"
-    [XinFinMaster](http://xinfin.network), the 'Governance dApp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 10,000,000 XDC to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
+    [XinFinMaster](https://xinfin.network/#masternode), the 'Governance dApp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 10,000,000 XDC to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
 	
 !!! quote "How do I login on XinFinMaster?"
     Go to XinFinMaster.
 	On the top-right corner click 'Login'.
-	Then select how do you want to login: with xdcwallet or Private Key/Mnemonic.
+	Then select how do you want to login: with Private Key.
 
 !!! quote "What is the 'capacity' of a Candidate/Masternode?"
     The capacity of a candidate is the 10,000,000 XDC initial deposit for that candidate.
-
-!!! quote "Which of these numbers on XinFinMaster will tell us which is a good performing node vs poorly performing?"
-    On XinFinMaster, click on a candidate to open the candidate page.
-	Scroll down to 'Masternode Rewards'.
-	You should look at 'Sign number' under Masternode Rewards to determine a good node or not.
-	
-	Masternodes will sign a maximum of 60 blocks per epoch. A good masternode will create around 60 sign transactions in that epoch.
-	We also calculate the reward based on sign transactions number.
-
 
 !!! quote "What is a 'checkpoint'?"
     For each iteration of 900 blocks (called epoch), a checkpoint block is created, which implements only reward works.
