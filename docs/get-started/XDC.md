@@ -30,9 +30,9 @@ A Notary Public,
 Chartered Secretary,
 Consulate, or
 A lawyer with Seal.
-For INDIVIDUAL format, click here.
+For INDIVIDUAL format, [click here](https://docs.google.com/document/d/1Us9chjXEDYrDOpfuwWITxaQOSEYxYIpJpwWuYK0TyXY/edit).
 
-For ORGANIZATION format, click here.
+For ORGANIZATION format,[click here](https://docs.google.com/document/d/1eyjFp3DXhrpLscngELocmXFwJ_Y8H9si6n8Z2SLADhg/edit).
 
 Note: It’s mandatory to upload the certificate in a PDF format.
 
@@ -68,7 +68,7 @@ Suggested parameter values from requirements:
 
 MIN_STAKE: 10,000,000
 
-XDC VALIDATOR_REWARD: 4000 xdc (Daily) 
+XDC VALIDATOR_REWARD: 10% xdc (Yearly) 
 
 VALIDATOR_SET_SIZE:  18
 
