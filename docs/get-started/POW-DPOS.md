@@ -29,7 +29,7 @@ ii) Block validators are the full nodes who verify that the blocks created by th
 
 The main difference between XDPoS and PoS is in the consensus mechanism of XDPoS. The community members have more rights in governance of the network.
 
-**Pros and cons of XinFin Delegated Proof of Stake**
+**pos and cons of XinFin Delegated Proof of Stake**
 
 In XDPoS consensus, only the Master Node or the block producers can create the blocks. The transactions are permitted only within the limited number of witnesses. Therefore, XDPoS helps to make processing faster, reduce cost and improve scaling. The witnesses are regularly monitored. If they are found to be malicious, i.e. try to censor transactions or double spend, the other master node can fire a witness by slashing them for the next round.
 

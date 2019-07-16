@@ -3,7 +3,6 @@
 XinFin Delegated Proof of Stake(XDPoS) is another form of Proof of Stake(PoS) consensus mechanism to scale up to Thousands of transactions per second.
 XDPOS concentrates block production in the hands of few semi-trusted entities in order to achieve more scalability than Proof of Work(PoW) or other Proof of Stake blockchains.
 
-
 # **Common Terms**
 
 Nominator: A coin holder who stakes or delegates their coin to one or more validator. 
@@ -11,30 +10,21 @@ Validator: A semi-trusted entity responsible for validating and producing blocks
 Epoch: A cycle of few blocks in which validator nodes create blocks in turn.
 
 
-In XinFin Delegated Proof of Stake(XDPoS) anyone can participate in Validator (Block Producer) elections and those who hold the network token are able to cast votes to one or more Validator (Block Producers) candidates. 
-Votes are weighted by the voter’s stake and the Validators (Block Producers) candidates who receive a maximum number of votes become Validator (Block Producer).
-Users can also delegate their voting power to some other user, who can then vote on their behalf.
-Validator (Block Producer) can be voted in or out anytime so the threat of loss of income becomes a major incentive against bad behaviour.
-Token holder votes are tallied after a specific time or after each epoch.
+In XinFin Delegated Proof of Stake (XDPoS) anyone can participate in Validator (Block Producer). 
+
+Token holder are tallied after a specific time or after each epoch.
 
 # **Why XDPOS?**
 
 Scalability Blocks can be propagated through the network much more efficiently. And blocks can be produced more consistently and reliably in a much shorter time frame. Moreover, finality can be reached as soon as ⅔ of the block producer has confirmed a transaction.
 
-1. Network Infrastructure In XDPoS users have control over who will provide the infrastructure unlike PoW and PoS, where users have no choice on validators. In XDPoS, validators can be thought of as employees of users(nominators) and can be fired for not performing their duties.
+1.Network Infrastructure In XDPoS users have control over who will provide the infrastructure unlike PoW and PoS, where users have no choice on validators. In XDPoS, validators can be thought of as employees of users(nominators) and can be fired for not performing their duties.
 
-2. On-Chain Governance XDPoS is a liquid form of democracy where voting power canbe allocated to other participants and votes can be changed at any time. While block producers are the primary use case, but token holder voting can be conducted on different things like monetary policy, development funding and many more.
-
-3. Self-Funding Through Inflation In XDPoS, unlike PoS or PoW where miners getrewards for validating a block, inflation is used to pay block producers as well as to fund the development of platform itself.
+2.Self-Funding Through Inflation In XDPoS, unlike PoS or PoW where miners getrewards for validating a block, inflation is used to pay block producers as well as to fund the development of platform itself.
 
 # **Attack Vectors**
 
-1. Exploit Low Voter Turnout  This problem exists in almost all PoS protocols, as the participants who show up and actually vote are really less. Voting is done by whales, exchanges and wallet providers. Although one good thing in XDPoS is that, tokens can delegate voting power and still retain all of their utility.
-
-2. Bribing Attacks It is a case where Validators (Block Producers) pay for their votes, they pay a small percentage of their earning per block. Although it may be good for some people, in the long term it will harm as the Validators who would do this wouldn’t be able to scale up their systems and hence the block production will be slowed down. To tackle these attacks there is a **voting decay** concept where freshly cast votes are considered full while other votes will slowly decay until they have a minimal impact after 2 years. This will encourage participation and slowly discount those who just cast their votes once.
-
-3. Block Producers Collude The main problem this can cause is a delay in the transaction and double spends. Although these situations are highly unlikely.
-
+Block Producers Collude The main problem this can cause is a delay in the transaction and double spends. Although these situations are highly unlikely.
 
 # **Conclusion**
 
