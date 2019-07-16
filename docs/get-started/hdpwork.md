@@ -1,13 +1,14 @@
 ﻿**Understand Features and Attack Vectors of XDPoS**
 
-XinFin Delegated Proof of Stake(XDPoS) is another form of Proof of Stake(PoS) consensus mechanism to scale up to million transactions per second.
-DPOS concentrates block production in the hands of few semi-trusted entities in order to achieve more scalability than Proof of Work(PoW) or other Proof of Stake blockchains.
-
+XinFin Delegated Proof of Stake(XDPoS) is another form of Proof of Stake(PoS) consensus mechanism to scale up to Thousands of transactions per second.
+XDPOS concentrates block production in the hands of few semi-trusted entities in order to achieve more scalability than Proof of Work(PoW) or other Proof of Stake blockchains.
 
 # **Common Terms**
 
-Nominator: A coin holder who stakes or delegates their coin to one or more validator. Validator: A semi-trusted entity responsible for validating and producing blocks. Epoch: A cycle of few blocks in which validator nodes create blocks in turn.
-Elections:
+Nominator: A coin holder who stakes or delegates their coin to one or more validator. 
+Validator: A semi-trusted entity responsible for validating and producing blocks. 
+Epoch: A cycle of few blocks in which validator nodes create blocks in turn.
+
 
 In XinFin Delegated Proof of Stake (XDPoS) anyone can participate in Validator (Block Producer). 
 
@@ -24,7 +25,6 @@ Scalability Blocks can be propagated through the network much more efficiently. 
 # **Attack Vectors**
 
 Block Producers Collude The main problem this can cause is a delay in the transaction and double spends. Although these situations are highly unlikely.
-
 
 # **Conclusion**
 
