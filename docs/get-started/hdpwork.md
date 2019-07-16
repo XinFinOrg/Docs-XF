@@ -1,6 +1,6 @@
-﻿**Understand Features and Attack Vectors of DPoS**
+﻿**Understand Features and Attack Vectors of XDPoS**
 
-Delegated Proof of Stake(DPoS) is another form of Proof of Stake(PoS) consensus mechanism to scale up to million transactions per second.
+XinFin Delegated Proof of Stake(XDPoS) is another form of Proof of Stake(PoS) consensus mechanism to scale up to million transactions per second.
 DPOS concentrates block production in the hands of few semi-trusted entities in order to achieve more scalability than Proof of Work(PoW) or other Proof of Stake blockchains.
 
 
