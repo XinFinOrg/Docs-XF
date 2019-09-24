@@ -77,6 +77,12 @@ nav:
     - XinFin Android Wallet:
       - Features: XinFinAndWallet/features.md
 
+    - XinPay:
+      - Features: xinfinpay/features.md
+
+    - XinFin-Remix:
+      - Features: xinfinrem/features.md
+
     - Current Requirement:
       - Requirement: Requirement/req.md
 
