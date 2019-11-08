@@ -7,7 +7,7 @@ Furthermore, Xinfin Explorer also offers technical overview and expose useful me
 
 ## [Home](http://xinfin.network/#explorer)
       
-![Xinfin Explorer homepage](/assets/Explorer1.jpg)
+![Xinfin Explorer homepage](/assets/Explorer1.png)
 
 This is the home page of Xinfin Explorer.
 In the right corner of the page you can find a search field that let you find anything by its address or tx hash.
@@ -15,7 +15,7 @@ Under it, some general stats gives you the total amount of accounts, tokens, tim
 
 ## [Transactions](https://scan.xinfin.org/txs)
 
-![Xinfin Explorer transactions](/assets/Explorer2.jpg)
+![Xinfin Explorer transactions](/assets/Explorer2.png)
 
 All the transactions pages list the following informations:
 
@@ -67,7 +67,7 @@ When consulting a blocks, the page list the following informations:
 - The transaction size.
 
 
-![Xinfin Explorer Blocks](/assets/Explorer3.jpg)
+![Xinfin Explorer Blocks](/assets/Explorer3.png)
 
 Please keep in mind that Xinfin Explorer is subject to go through some changes.
 
