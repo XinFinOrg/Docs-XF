@@ -92,7 +92,7 @@ You’ll be taken to this interface, initially on the Settings tab. Without scro
 
 For this feature, it lets you add more than one wallet. This can be useful both in development and in real life. Since you’ll be making applications, you will need to test not only one account but will have to get your accounts to interact with each other on a smart contract. Makes sense, right?
 
-![XinPay Home Page](assets/Xinpay10.png)
+![XinPay Home Page](/assets/Xinpay10.png)
 
 # Adding accounts
 
@@ -177,7 +177,7 @@ From what you can see above, your token shows up, under that is a supposed list 
 
 With that said, you can add a token, it’s either you add your own made token from an ERC20 standard contract or you search someone’s token assuming that you have one already. Let’s go with adding your own first.
 
-![XinPay Home Page](assests/Xinpay19.png)
+![XinPay Home Page](/assets/Xinpay19.png)
 
 On the Custom Token tab is where you can add your own created token. There are 3 input fields. The last two fill in by themselves once you fill in the Token Address input text field. So the first one is the only one needed.
 
@@ -189,7 +189,7 @@ Now on to the searching of the token.
 
 Same as before, if you go to the menu icon again, on the Search tab, you will see this interface:
 
-![XinPay Home Page](assests/Xinpay20.png)
+![XinPay Home Page](/assets/Xinpay20.png)
 
 As seen above, XF is a known example of a crypto token. If in an instance, you have received XF tokens, then you can search and verify it from here, and add it to your token list.
 
@@ -197,7 +197,7 @@ As seen above, XF is a known example of a crypto token. If in an instance, you h
 
 If in case you forgot your secret backup phrase, you can get it from your settings, so go back to settings from the top-right menu button.
 
-![XinPay Home Page](assests/Xinpay21.png)
+![XinPay Home Page](/assets/Xinpay21.png)
 
 When you get inside Settings, and if you scroll down in the middle you will find the Reveal Seed Words section. If you hit the Reveal Seed Words button, the secret backup phrase will be shown and you can copy it. Keep it safe!
 
