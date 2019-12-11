@@ -1,312 +1,72 @@
-**How to set up loyalty token on XinFin.Network**
+# **Issue Your Own StableCoin in Minutes**
 
-**Step 1**: Create and Deploy Loyalty Smart Contract and Deploy on Public network.
+This information is intended to understanding what is Stable Coin, why do we need it and what are its real-world applications.
 
-Goto: https://mycontract.co/ and create Loyalty Token (Token Contract) After Entering Detail like: Token Name, Token Symbol and Total Token Supply. 
+We shall discuss the following topics in the article:
 
-Note: After Creating Token Contract then Deploy to XinFin Network and Download Private Key and store at safe place Without a doubt, the safest way to store any Private Key is using a paper wallet. 
-
-
-**Step 2**: Setup XinFin Full node to get Full control over your Privaye key and Data backup. 
-
-Follow step and setup XinFin Full Node :- https://github.com/XinFinOrg/XinFin-Node
-
-
-**Step 3**: Install Dependencies. 
-Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
-
-Install dependencies:
-
-`npm install xdc3@1.0.0-beta.41`
+* What is a StableCoin?
+* Types of StableCoins
+* Why StableCoin?
+* Real-World Applications of Stable Coins
+* Top StableCoins in the Market
 
 
-**Step 4**: Dowlonad Ready Script File, Learn API Command to Manage Loyalty Loken with your ERP/CRM System: 
 
-e.g. `node Token_Transfer.js RPC_IP RPC_Port from_address to_address amount contract_address private_key decimals`
+**What is a StableCoin?**
 
-Execute XRC20 Transfer : 
-`node Token_Transfer.js testnet.xinfin.network 443 xdcD000ea0B094EB93Bf4a545994048e630DFef922d  xdca5b6045297fc6aec660a2769e3bad08acb2098b3  1000  xdc880997e0a6de5671e8fc9e7b5424cd07b51c9ab8  c3d09a56285d70a531128cec7eb5ae905070f17705d2e1d112eaafd7d257f29b 18`
+XinFin Stable coins aim to bridge the gap between cryptocurrencies’ benefits and the stable nature offered by fiat currencies. It is a crypto token with a value pegged to the price of a national currency to combat its volatility.
 
-```
-//to execute the script run the following command
-// node file_name.js wallet_ip port from_address to_address amount contract_address private_key decimals
+Now, the question is, why do we need a stable coin.
 
+Though cryptocurrencies are global currencies, coins like Bitcoin and Ether are volatile. The price of Bitcoin raised from $1000 to $20000 during 2017. Since it is not sustainable, users and investors require more stability in the market.
 
-//ip and port for the blockchain node to be connected
-var wallet_ip = process.argv[2];
-var wallet_port = process.argv[3];
-//address from which tokens need to be sent
-var from_address = process.argv[4];
-//address to which tokens need to be sent
-var to_address = process.argv[5];
-//amount of tokens to be sent
-var sendamount = process.argv[6];
-//contract address of the ERC20 token
-var coinAddress = process.argv[7];
-//private key of the from address
-var private_key = process.argv[8];
-//predefined no. of decimals in the contract
-var tokendecimal = process.argv[9];
+Imagine that you pay $30 for dinner today and the same amount would be worth $40 tomorrow because the value of that crypto token went up. Small investors cannot handle that kind of volatility. Therefore, stable coins emerged as a new technique to drive the new way of adoption to cryptocurrencies.
 
-//web3 library needed
-const Web3 = require("xdc3");
+You might think why do we need to create fiat-backed crypto tokens instead of just using fiat currency. Decentralized currencies do not require any centralized authority to bring trust in the system, thereby reducing additional costs involved.
 
-//connecting to the web3 provider
-if (typeof web3 !== "undefined") {
-  web3 = new Web3(web3.currentProvider);
-} else {
-  web3 = new Web3(
-    new Web3.providers.HttpProvider("http://" + wallet_ip + ":" + wallet_port)
-  );
-}
+Also, cross border payments can be made quickly with cryptocurrencies. Backing crypto tokens with stable fiat currency or assets can add more value and build more trust among investors and users.
 
-//if the token decimal isn't specified then set it to default 18 and converting the amount to decimal form
-if (tokendecimal == 18 || tokendecimal == null) {
-  var send_amount = web3.utils.toWei(sendamount);
-} else {
-  var send_amount = sendamount * Math.pow(10, tokendecimal);
-}
+**What are the types of StableCoins?**
 
-//data required for estimating the gas that will be needed for the transaction to complete
-var est_main_gas = { from: from_address, to: to_address, value: send_amount };
+1. Fiat-backed
+Fiat backed stablecoins are crypto tokens associated with the value of a specific fiat currency. These tokens hold their value fixed at 1:1 ratio. 
+For example, Tether is a stable coin, which is pegged 1:1 to the US dollar. Fiat currency is deposited as collateral to ensure the existence of a fiat-backed stablecoin. As a result, it requires financial custodian and regular auditing to determine that the token always remains collateralized.
 
-//standard ERC20 contract ABI
-const coinabi = [
-  {
-    constant: true,
-    inputs: [],
-    name: "name",
-    outputs: [{ name: "", type: "string" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: false,
-    inputs: [
-      { name: "_spender", type: "address" },
-      { name: "_value", type: "uint256" }
-    ],
-    name: "approve",
-    outputs: [{ name: "success", type: "bool" }],
-    payable: false,
-    stateMutability: "nonpayable",
-    type: "function"
-  },
-  {
-    constant: true,
-    inputs: [],
-    name: "totalSupply",
-    outputs: [{ name: "", type: "uint256" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: false,
-    inputs: [
-      { name: "_from", type: "address" },
-      { name: "_to", type: "address" },
-      { name: "_value", type: "uint256" }
-    ],
-    name: "transferFrom",
-    outputs: [{ name: "success", type: "bool" }],
-    payable: false,
-    stateMutability: "nonpayable",
-    type: "function"
-  },
-  {
-    constant: true,
-    inputs: [],
-    name: "decimals",
-    outputs: [{ name: "", type: "uint256" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: true,
-    inputs: [{ name: "_owner", type: "address" }],
-    name: "balanceOf",
-    outputs: [{ name: "balance", type: "uint256" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: true,
-    inputs: [],
-    name: "owner",
-    outputs: [{ name: "", type: "address" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: true,
-    inputs: [],
-    name: "symbol",
-    outputs: [{ name: "", type: "string" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: false,
-    inputs: [
-      { name: "_to", type: "address" },
-      { name: "_value", type: "uint256" }
-    ],
-    name: "transfer",
-    outputs: [{ name: "success", type: "bool" }],
-    payable: false,
-    stateMutability: "nonpayable",
-    type: "function"
-  },
-  {
-    constant: true,
-    inputs: [
-      { name: "_owner", type: "address" },
-      { name: "_spender", type: "address" }
-    ],
-    name: "allowance",
-    outputs: [{ name: "remaining", type: "uint256" }],
-    payable: false,
-    stateMutability: "view",
-    type: "function"
-  },
-  {
-    constant: false,
-    inputs: [{ name: "_newOwner", type: "address" }],
-    name: "transferOwnership",
-    outputs: [],
-    payable: false,
-    stateMutability: "nonpayable",
-    type: "function"
-  },
-  {
-    inputs: [],
-    payable: false,
-    stateMutability: "nonpayable",
-    type: "constructor"
-  },
-  {
-    anonymous: false,
-    inputs: [
-      { indexed: true, name: "from", type: "address" },
-      { indexed: true, name: "to", type: "address" },
-      { indexed: false, name: "value", type: "uint256" }
-    ],
-    name: "Transfer",
-    type: "event"
-  },
-  {
-    anonymous: false,
-    inputs: [
-      { indexed: true, name: "owner", type: "address" },
-      { indexed: true, name: "spender", type: "address" },
-      { indexed: false, name: "value", type: "uint256" }
-    ],
-    name: "Approval",
-    type: "event"
-  }
-];
+2. Non-collateralized
+Non-collateralized stablecoins are based on the concept of a Seigniorage Shares system. Seigniorage is the difference between the value of money and its printing cost. 
+These coins depend on the algorithm, which changes the supply volume to control their price. Using smart contracts, these stable coins are sold if the price falls below the pegged currency and more tokens are supplied to the market if its value rises above the pegged currency.
 
-//creating an instance of the ERC20 contract
-const coin = new web3.eth.Contract(coinabi, coinAddress);
-//checking the balance of the from address to asure that it has sufficient balance to complete the transaction
-coin.methods.balanceOf(from_address).call(function(err, bal) {
-  bal = web3.utils.fromWei(bal, "wei").toString(10);
-
-//generating the data for the transfer method of the ERC20 contract
-  const txdata = coin.methods.transfer(to_address, send_amount).encodeABI(); //to adress
-
-//estimating the gas required for the transaction to be completed
-  web3.eth.estimateGas(est_main_gas, function(gaslimit_err, gaslimit) {
- //getting the current gas price on the network or else setting it to minimum 4 Gwei so that it won't take much time to execute 
-    web3.eth.getGasPrice(function(gas_err, getGasPrice) {
-      if (gas_err) {
-        console.log(JSON.stringify({ error1: gas_err }));
-
-        getGasPrice = 4000000000;
-      } else {
-        if (getGasPrice < 4000000000 || getGasPrice == null) {
-          getGasPrice = 4000000000;
-        }
-      }
-
-//finding the nonce for the from address
-      web3.eth.getTransactionCount(from_address, function(
-        tx_count_err,
-        transactionCount
-      ) {
-        if (tx_count_err) {
-          console.log(
-            JSON.stringify({ "transaction count error ": tx_count_err })
-          );
-        }
-
-//generating the transaction data
-        const trans_det = {
-          nonce: transactionCount, // Replace by nonce for your account on geth node
-          gasPrice: getGasPrice,
-          gas: "200000",
-          to: coinAddress, //contract address
-          from: from_address, //coin base
-          data: txdata
-        };
-
-//signing the transaction generated to get a raw transaction
-        web3.eth.accounts.signTransaction(trans_det, private_key, function(
-          sign_error,
-          signedTransaction
-        ) {
-          if (sign_error) {
-            console.log(
-              JSON.stringify({ "sign transaction error ": sign_error })
-            );
-          }
-
-//raw transaction to be sent to the network.
-          const rawTransaction = signedTransaction.rawTransaction;
-          //sending the raw transaction after converting it in to hex format
-          web3.eth.sendSignedTransaction(
-            rawTransaction.toString("hex"),
-            function(trans_err, txid) {
-                     //printing the transaction hash or error
-              if (trans_err)
-                console.log(JSON.stringify({ "transaction error": trans_err }));
-
-              if (txid && txid != "")
-                console.log(JSON.stringify({ tx: txid, hash: txid }));
-            }
-          );
-        });
-      });
-    });
-  });
-});
-```
-
-**Other Useful Command**
-
-eth.estimateGas
-eth.getGasPrice
-eth.getTransactionCount
-eth.accounts.signTransaction
-eth.sendSignedTransaction
-
-Ref Link: https://github.com/ethereum/wiki/wiki/JavaScript-API
-
-Note: XinFin Network Replace Address start from OX to XDC 
+3. Cryptocurrency-backed
+Cryptocurrency-backed stable coins work similarly to that of a fiat-backed stablecoin. However, it locks up cryptocurrency as collateral instead of using fiat currency. For example, Ethereum can be kept as collateral to create a cryptocurrency-backed stablecoin. 
+These tokens use a security pledge to compensate for the volatility of cryptocurrency to be used as collateral. It states that the stablecoin will not be based on 1:1 ration for the crypto collateral.
 
 
-**Troubleshooting**
+4. Commodity-collateralized
+Commodity-collateralized stablecoins are backed by other types of interchangeable assets like real estate and precious metals. Gold is one of the most common commodities to be collateralized. Commodity-backed stable coins hold a tangible asset with some real value. These commodities can appreciate value over time, which offers an increased incentive to people to use and keep these coins.
+Using commodity-collateralized stable coins, anyone can invest in real estate properties or precious metals across the world. Generally, the investment in such assets is only reserved for the wealthy class of investors. However, stablecoins open up investment opportunities for average individuals globally.
 
-Public discussions on the technical issues. Please Join Below mention Public Chat or Group. 
+**Why StableCoin?**
 
-[Slack Public Chat](https://launchpass.com/xinfin-public), 
+A XinFin stablecoin is a cryptocurrency that offers low volatility against the world’s major national currencies, unlocking the benefits for decentralized technology. In a nutshell, stablecoins can be defined as a cryptocurrency with a fixed price.
 
-[Telegram Chat](http://bit.do/Telegram-XinFinDev), 
+A reliable stablecoin offers a number of use cases than that of the blockchain. People no more need to worry about the fluctuations in prices of the cryptocurrency daily while buying them. Stability in cryptocurrencies allows people to transact quickly and it also enables other crucial financial functions, including credit and loans.
 
-[Forum](https://xinfin.net)
+Moreover, a stable decentralized currency could become a global currency by allowing trustless and cross-border transactions. It will especially benefit people residing in countries with unstable monetary systems like Argentina.
+
+Therefore, stablecoins emerge as a new option for investors who want to make a transaction via a global currency, providing access to all.
+
+The adoption of stablecoins will support the capital market formation and present new opportunities for decentralized finance on the blockchain like derivatives markets and lending.
+
+
+**Real-World Applications of Stable Coins**
+
+In case, the fiat currency crashes in value; local citizens can exchange the crashed money for EUR-backed, USD-backed, or asset-backed stablecoins before they lose their savings. In this way, people get protected from further drops in the value of the local currency.
+
+For example, currently, Venezuela is facing hyperinflation. The prices of goods in that country have been doubling almost every week on average.
+
+Annual inflation rate at the end of 2018 in Venezuela was 80,000%. Most of the citizens cannot even afford food as their savings became worthless and the value continued to drop with each passing day.
+
+Stablecoins can offer an ideal solution to all such people by allowing them to exchange their dropped currency holdings with a stable currency.
+
+
+If you are looking to gain the trust of investors by creating a stablecoin backed by a stable asset or fiat currency, we can help you develop a secure and reliable stablecoin for you. Please visit https://st.mycontract.co to create your own stable coin on XinFin Network. 
