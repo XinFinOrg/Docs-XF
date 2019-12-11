@@ -67,6 +67,7 @@ nav:
       - Set up Master Nodes: get-started/Setupmn.md
       - Create DAPP Environment: get-started/cde.md
       - Set up Loyalty Token on XinFin.Network: get-started/lyl.md
+      - Set up Stable Coin on XinFin Network: get-started/stablecoin.md
 
     - XinFin Explorer:
       - Features: xinfinexp/features.md
