@@ -77,16 +77,22 @@ At the bottom of the application, there is a navigation bar with options:
 
 **Screenshots of Android Wallet**
 
-**Dashboard**
+**Create/Recover Wallet &x Dashboard**
 
-![Xinfin Android Wallet](/assets/mobile1.jpg)
+![Xinfin Android Wallet](/assets/mobile1.png)
 
-**Send Tokens**
+**Recover Wallet & Mobile Pin/Finger Access**
 
-![Xinfin Android Wallet](/assets/mobile2.jpg)
+![Xinfin Android Wallet](/assets/mobile4.png)
 
-**Recover your Wallet**
+**Send & Receive Tokens**
 
-![Xinfin Android Wallet](/assets/mobile3.jpg)
+![Xinfin Android Wallet](/assets/mobile2.png)
+
+**Trasnsaction Histroy & Wallet Settings**
+
+![Xinfin Android Wallet](/assets/mobile3.png)
+
+
 
 ### [Download Now](https://play.google.com/store/apps/details?id=com.xdcwallet)
