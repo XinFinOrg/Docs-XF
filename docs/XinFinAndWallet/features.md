@@ -77,45 +77,16 @@ At the bottom of the application, there is a navigation bar with options:
 
 **Screenshots of Android Wallet**
 
-**Fingerprint to Access Wallet**
-
-![Xinfin Android Wallet](/assets/awallet1.jpg)
-
-**M-PIN**
-
-![Xinfin Android Wallet](/assets/awallet2.jpg)
-
-**Sign-up for Wallet**
-
-![Xinfin Android Wallet](/assets/awallet3.jpg)
-
-**Create or Recover Wallet**
-
-![Xinfin Android Wallet](/assets/awallet4.jpg)
-
 **Dashboard**
 
-![Xinfin Android Wallet](/assets/awallet5.jpg)
-
-**Side Navigations**
-
-![Xinfin Android Wallet](/assets/awallet6.jpg)
-
-**Receive XDC**
-
-![Xinfin Android Wallet](/assets/awallet7.jpg)
-
-**Recover your Wallet**
-
-![Xinfin Android Wallet](/assets/awallet8.jpg)
+![Xinfin Android Wallet](/assets/mobile1.jpg)
 
 **Send Tokens**
 
-![Xinfin Android Wallet](/assets/awallet9.jpg)
+![Xinfin Android Wallet](/assets/mobile2.jpg)
 
-**MyTransactions**
+**Recover your Wallet**
 
-![Xinfin Android Wallet](/assets/awallet10.jpg)
-
+![Xinfin Android Wallet](/assets/mobile3.jpg)
 
 ### [Download Now](https://play.google.com/store/apps/details?id=com.xdcwallet)
