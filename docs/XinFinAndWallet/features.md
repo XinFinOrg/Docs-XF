@@ -2,7 +2,7 @@
 
 XDC Mobile Wallet is an easy-to-use, open-source, multiplatform, secure XDC and ERC20 wallet platform for both individuals and companies. XDC Mobile Wallet uses XDC01 Network for peer synchronization and network interfacing.
 
-### [Download Now](https://play.google.com/store/apps/details?id=com.xdcwallet)
+### [Download XDC Wallet](https://play.google.com/store/apps/details?id=com.xdcwallet)
 
 
 XDC Wallet is:
@@ -19,20 +19,5 @@ XDC Wallet is:
 
 **Screenshots of Android Wallet**
 
-**Create/Recover Wallet &x Dashboard**
+![Xinfin Android Wallet](/assets/XDC_Wallet.gif)
 
-![Xinfin Android Wallet](/assets/mobile1.png)
-
-**Recover Wallet & Mobile Pin/Finger Access**
-
-![Xinfin Android Wallet](/assets/mobile4.png)
-
-**Send & Receive Tokens**
-
-![Xinfin Android Wallet](/assets/mobile2.png)
-
-**Trasnsaction Histroy & Wallet Settings**
-
-![Xinfin Android Wallet](/assets/mobile3.png)
-
-### [Download Now](https://play.google.com/store/apps/details?id=com.xdcwallet)
