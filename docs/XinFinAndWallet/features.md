@@ -1,6 +1,6 @@
 # XinFin Android Wallet
 
-XDC Mobile Wallet is an easy-to-use, open-source, multiplatform, secure XDC and ERC20 wallet platform for both individuals and companies. XDC Mobile Wallet uses XDC01 Network for peer synchronization and network interfacing and it provides support to XinFin XDC, XDCt (Apothem Testnet), XDCe (ERC20), Ethereum, USDT Tether, USDC Circle.
+XDC Mobile Wallet is an easy-to-use, open-source, multiplatform, secure XDC and ERC20 wallet platform for both individuals and companies. XDC Mobile Wallet uses XDC Network for peer synchronization and network interfacing and it provides support to XinFin XDC, XDCt (Apothem Testnet), XDCe (ERC20), Ethereum, USDT Tether, USDC Circle.
 
 ### [Download XDC Wallet](https://play.google.com/store/apps/details?id=com.xdcwallet)
 
