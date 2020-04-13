@@ -1,24 +1,52 @@
-**Testnet**
 
-XinFin Network, a independent hybrid blockchain, the most efficient platform for the token economy
+**XinFin MainNet**
+
+### Specifications
+
+- Chain id: `50`
+- RPC endpoint: `https://rpc.xinfin.network`
+- Websocket endpoint: `wss://ws.xinfin.network`
+- Consensus: XDPoS
+- Block finality: `>75%`
+- Consensus nodes: up to 108 (masternodes)
+- Genesis block date: `2019-05-31 `
+- Transaction fee: gas price 0.25 Gwei
+
+### Usefull links
+
+- [Status Page](https://xinfin.network/#stats)
+- [XinFin Explorer](http://explorer.xinfin.network) (XinFin Scan)
+- [XinFin MasterNode APP ](https://xinfin.network/#masternode) (MasterNodeApp)
+
+### Bootnodes
+
+```
+0x
+```
+
+### Stats websocket secret
+
+`xinfin_xdpos_hybrid_network_stats`
+
+
+
+**Apothem Network (TestNet)**
 
 ### Specifications
 
 - Chain id: `51`
-- RPC endpoint: `http://rpc.apothem.network`
-- Websocket endpoint: `wss://wstestnet.xinfin.org`
+- RPC endpoint: `https://rpc.apothem.network`
+- Websocket endpoint: `wss://ws.apothem.network`
 - Consensus: XDPoS
 - Block finality: `>75%`
-- Consensus nodes: up to 18 (masternodes)
-- Genesis block date: `TBA`
+- Consensus nodes: up to 108 (masternodes)
 - Transaction fee: gas price 0.25 Gwei
-- Smart contract creation fee: gas price 10000 Gwei, gas limit >= 1000000
 
 ### Usefull links
 
-- [Status Page](http://apothem.network/#stats)
-- [XinFin Explorer](http://apothem.network/#explorer) (XinFin Scan)
-- [XinFin MasterNode APP ](https://xinfin.network/#masternode) (MasterNodeApp)
+- [Status Page](https://apothem.network/#stats)
+- [XinFin Explorer](https://explorer.apothem.network/) (XinFin Scan)
+- [XinFin MasterNode APP ](https://apothem.network/#masternode) (MasterNodeApp)
 
 ### Bootnodes
 
