@@ -1,4 +1,4 @@
-# **What is a Stablecoin ? how to create a stablecoin**
+# **What is a Stablecoin ? how to create a stablecoin ?**
 
 This information is intended to understanding what is Stable Coin, why do we need it and what are its real-world applications. A Complete Guide on StableCoin.
 
