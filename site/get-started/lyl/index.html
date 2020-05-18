@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Set up Loyalty Token on XinFin.Network - XinFin Network</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Set up Loyalty Token on XinFin.Network";
+    var mkdocs_page_input_path = "get-started\\lyl.md";
+    var mkdocs_page_url = "/get-started/lyl/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> XinFin Network</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">General</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../..">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/utilities/">Use cases</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/networks/">Networks</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/faq/">FAQ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/about/">About</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Get started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../productoverview/">Products overview</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../hybblock/">Hybrid Blockchain</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../smartcont/">Smart Contract</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../hdpwork/">How DPOS Works?</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../XDC/">XinFin DPOS Consensus</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../POW-DPOS/">POW Replaced with DPOS</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ConnLeg/">Connecting Legacy Systems</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../hybnet/">Build with XinFin Hybrid Network</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../Setupmn/">Set up Master Nodes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../cde/">Create DAPP Environment</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Set up Loyalty Token on XinFin.Network</a>
+    <ul class="subnav">
+            
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stablecoin/">Set up Stable Coin on XinFin Network</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Explorer</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinexp/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Original Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinWallet/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Android Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinAndWallet/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinPay</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinpay/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin-Remix</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinrem/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Current Requirement</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Requirement/req/">Requirement</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Media</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../media/articles/">Articles</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Whitepapers and research</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Community Support</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Community/support/">Community</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">XinFin Network</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Get started &raquo;</li>
+        
+      
+    
+    <li>Set up Loyalty Token on XinFin.Network</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/get-started/lyl.md"> Edit on XinFinOrg/Docs-XF</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><strong>How to set up loyalty token on XinFin.Network</strong></p>
+<p><strong>Step 1</strong>: Create and Deploy Loyalty Smart Contract and Deploy on Public network.</p>
+<p>Goto: https://mycontract.co/ and create Loyalty Token (Token Contract) After Entering Detail like: Token Name, Token Symbol and Total Token Supply. </p>
+<p>Note: After Creating Token Contract then Deploy to XinFin Network and Download Private Key and store at safe place Without a doubt, the safest way to store any Private Key is using a paper wallet. </p>
+<p><strong>Step 2</strong>: Setup XinFin Full node to get Full control over your Privaye key and Data backup. </p>
+<p>Follow step and setup XinFin Full Node :- https://github.com/XinFinOrg/XinFin-Node</p>
+<p><strong>Step 3</strong>: Install Dependencies. 
+Download <a href="https://docs.npmjs.com/getting-started/installing-node" title="Nodejs install">Nodejs and npm</a> if you don't have them</p>
+<p>Install dependencies:</p>
+<p><code>npm install xdc3@1.0.0-beta.41</code></p>
+<p><strong>Step 4</strong>: Dowlonad Ready Script File, Learn API Command to Manage Loyalty Loken with your ERP/CRM System: </p>
+<p>e.g. <code>node Token_Transfer.js RPC_IP RPC_Port from_address to_address amount contract_address private_key decimals</code></p>
+<p>Execute XRC20 Transfer : 
+<code>node Token_Transfer.js testnet.xinfin.network 443 xdcD000ea0B094EB93Bf4a545994048e630DFef922d  xdca5b6045297fc6aec660a2769e3bad08acb2098b3  1000  xdc880997e0a6de5671e8fc9e7b5424cd07b51c9ab8  c3d09a56285d70a531128cec7eb5ae905070f17705d2e1d112eaafd7d257f29b 18</code></p>
+<p> <div class=codehilite><pre><span></span>//to execute the script run the following command
+// node file_name.js wallet_ip port from_address to_address amount contract_address private_key decimals
+
+
+//ip and port for the blockchain node to be connected
+var wallet_ip = process.argv[2];
+var wallet_port = process.argv[3];
+//address from which tokens need to be sent
+var from_address = process.argv[4];
+//address to which tokens need to be sent
+var to_address = process.argv[5];
+//amount of tokens to be sent
+var sendamount = process.argv[6];
+//contract address of the ERC20 token
+var coinAddress = process.argv[7];
+//private key of the from address
+var private_key = process.argv[8];
+//predefined no. of decimals in the contract
+var tokendecimal = process.argv[9];
+
+//web3 library needed
+const Web3 = require(&quot;xdc3&quot;);
+
+//connecting to the web3 provider
+if (typeof web3 !== &quot;undefined&quot;) {
+  web3 = new Web3(web3.currentProvider);
+} else {
+  web3 = new Web3(
+    new Web3.providers.HttpProvider(&quot;http://&quot; + wallet_ip + &quot;:&quot; + wallet_port)
+  );
+}
+
+//if the token decimal isn&#39;t specified then set it to default 18 and converting the amount to decimal form
+if (tokendecimal == 18 || tokendecimal == null) {
+  var send_amount = web3.utils.toWei(sendamount);
+} else {
+  var send_amount = sendamount * Math.pow(10, tokendecimal);
+}
+
+//data required for estimating the gas that will be needed for the transaction to complete
+var est_main_gas = { from: from_address, to: to_address, value: send_amount };
+
+//standard ERC20 contract ABI
+const coinabi = [
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;name&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;string&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: &quot;_spender&quot;, type: &quot;address&quot; },
+      { name: &quot;_value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;approve&quot;,
+    outputs: [{ name: &quot;success&quot;, type: &quot;bool&quot; }],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;totalSupply&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: &quot;_from&quot;, type: &quot;address&quot; },
+      { name: &quot;_to&quot;, type: &quot;address&quot; },
+      { name: &quot;_value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;transferFrom&quot;,
+    outputs: [{ name: &quot;success&quot;, type: &quot;bool&quot; }],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;decimals&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [{ name: &quot;_owner&quot;, type: &quot;address&quot; }],
+    name: &quot;balanceOf&quot;,
+    outputs: [{ name: &quot;balance&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;owner&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;address&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [],
+    name: &quot;symbol&quot;,
+    outputs: [{ name: &quot;&quot;, type: &quot;string&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: &quot;_to&quot;, type: &quot;address&quot; },
+      { name: &quot;_value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;transfer&quot;,
+    outputs: [{ name: &quot;success&quot;, type: &quot;bool&quot; }],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: true,
+    inputs: [
+      { name: &quot;_owner&quot;, type: &quot;address&quot; },
+      { name: &quot;_spender&quot;, type: &quot;address&quot; }
+    ],
+    name: &quot;allowance&quot;,
+    outputs: [{ name: &quot;remaining&quot;, type: &quot;uint256&quot; }],
+    payable: false,
+    stateMutability: &quot;view&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    constant: false,
+    inputs: [{ name: &quot;_newOwner&quot;, type: &quot;address&quot; }],
+    name: &quot;transferOwnership&quot;,
+    outputs: [],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;function&quot;
+  },
+  {
+    inputs: [],
+    payable: false,
+    stateMutability: &quot;nonpayable&quot;,
+    type: &quot;constructor&quot;
+  },
+  {
+    anonymous: false,
+    inputs: [
+      { indexed: true, name: &quot;from&quot;, type: &quot;address&quot; },
+      { indexed: true, name: &quot;to&quot;, type: &quot;address&quot; },
+      { indexed: false, name: &quot;value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;Transfer&quot;,
+    type: &quot;event&quot;
+  },
+  {
+    anonymous: false,
+    inputs: [
+      { indexed: true, name: &quot;owner&quot;, type: &quot;address&quot; },
+      { indexed: true, name: &quot;spender&quot;, type: &quot;address&quot; },
+      { indexed: false, name: &quot;value&quot;, type: &quot;uint256&quot; }
+    ],
+    name: &quot;Approval&quot;,
+    type: &quot;event&quot;
+  }
+];
+
+//creating an instance of the ERC20 contract
+const coin = new web3.eth.Contract(coinabi, coinAddress);
+//checking the balance of the from address to asure that it has sufficient balance to complete the transaction
+coin.methods.balanceOf(from_address).call(function(err, bal) {
+  bal = web3.utils.fromWei(bal, &quot;wei&quot;).toString(10);
+
+//generating the data for the transfer method of the ERC20 contract
+  const txdata = coin.methods.transfer(to_address, send_amount).encodeABI(); //to adress
+
+//estimating the gas required for the transaction to be completed
+  web3.eth.estimateGas(est_main_gas, function(gaslimit_err, gaslimit) {
+ //getting the current gas price on the network or else setting it to minimum 4 Gwei so that it won&#39;t take much time to execute 
+    web3.eth.getGasPrice(function(gas_err, getGasPrice) {
+      if (gas_err) {
+        console.log(JSON.stringify({ error1: gas_err }));
+
+        getGasPrice = 4000000000;
+      } else {
+        if (getGasPrice &lt; 4000000000 || getGasPrice == null) {
+          getGasPrice = 4000000000;
+        }
+      }
+
+//finding the nonce for the from address
+      web3.eth.getTransactionCount(from_address, function(
+        tx_count_err,
+        transactionCount
+      ) {
+        if (tx_count_err) {
+          console.log(
+            JSON.stringify({ &quot;transaction count error &quot;: tx_count_err })
+          );
+        }
+
+//generating the transaction data
+        const trans_det = {
+          nonce: transactionCount, // Replace by nonce for your account on geth node
+          gasPrice: getGasPrice,
+          gas: &quot;200000&quot;,
+          to: coinAddress, //contract address
+          from: from_address, //coin base
+          data: txdata
+        };
+
+//signing the transaction generated to get a raw transaction
+        web3.eth.accounts.signTransaction(trans_det, private_key, function(
+          sign_error,
+          signedTransaction
+        ) {
+          if (sign_error) {
+            console.log(
+              JSON.stringify({ &quot;sign transaction error &quot;: sign_error })
+            );
+          }
+
+//raw transaction to be sent to the network.
+          const rawTransaction = signedTransaction.rawTransaction;
+          //sending the raw transaction after converting it in to hex format
+          web3.eth.sendSignedTransaction(
+            rawTransaction.toString(&quot;hex&quot;),
+            function(trans_err, txid) {
+                     //printing the transaction hash or error
+              if (trans_err)
+                console.log(JSON.stringify({ &quot;transaction error&quot;: trans_err }));
+
+              if (txid &amp;&amp; txid != &quot;&quot;)
+                console.log(JSON.stringify({ tx: txid, hash: txid }));
+            }
+          );
+        });
+      });
+    });
+  });
+});
+</pre></div></p>
+<p><strong>Other Useful Command</strong></p>
+<p>eth.estimateGas
+eth.getGasPrice
+eth.getTransactionCount
+eth.accounts.signTransaction
+eth.sendSignedTransaction</p>
+<p>Ref Link: https://github.com/ethereum/wiki/wiki/JavaScript-API</p>
+<p>Note: XinFin Network Replace Address start from OX to XDC </p>
+<p><strong>Troubleshooting</strong></p>
+<p>Public discussions on the technical issues. Please Join Below mention Public Chat or Group. </p>
+<p><a href="https://launchpass.com/xinfin-public">Slack Public Chat</a>, </p>
+<p><a href="http://bit.do/Telegram-XinFinDev">Telegram Chat</a>, </p>
+<p><a href="https://xinfin.net">Forum</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../stablecoin/" class="btn btn-neutral float-right" title="Set up Stable Coin on XinFin Network">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../cde/" class="btn btn-neutral" title="Create DAPP Environment"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-XF/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-XF/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>XinFin Network.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../cde/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../stablecoin/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Networks - XinFin Network</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Networks";
+    var mkdocs_page_input_path = "general\\networks.md";
+    var mkdocs_page_url = "/general/networks/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> XinFin Network</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">General</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../..">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../utilities/">Use cases</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Networks</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#specifications">Specifications</a></li>
+    
+
+    <li class="toctree-l3"><a href="#usefull-links">Usefull links</a></li>
+    
+
+    <li class="toctree-l3"><a href="#bootnodes">Bootnodes</a></li>
+    
+
+    <li class="toctree-l3"><a href="#stats-websocket-secret">Stats websocket secret</a></li>
+    
+
+    <li class="toctree-l3"><a href="#specifications_1">Specifications</a></li>
+    
+
+    <li class="toctree-l3"><a href="#usefull-links_1">Usefull links</a></li>
+    
+
+    <li class="toctree-l3"><a href="#bootnodes_1">Bootnodes</a></li>
+    
+
+    <li class="toctree-l3"><a href="#stats-websocket-secret_1">Stats websocket secret</a></li>
+    
+
+    <li class="toctree-l3"><a href="#for-developers">For developers</a></li>
+    
+
+    <li class="toctree-l3"><a href="#for-investors-and-enthusiasts">For investors and enthusiasts</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../faq/">FAQ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../about/">About</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Get started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../get-started/productoverview/">Products overview</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/hybblock/">Hybrid Blockchain</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/smartcont/">Smart Contract</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/hdpwork/">How DPOS Works?</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/XDC/">XinFin DPOS Consensus</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/POW-DPOS/">POW Replaced with DPOS</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/ConnLeg/">Connecting Legacy Systems</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/hybnet/">Build with XinFin Hybrid Network</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/Setupmn/">Set up Master Nodes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/cde/">Create DAPP Environment</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/lyl/">Set up Loyalty Token on XinFin.Network</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../get-started/stablecoin/">Set up Stable Coin on XinFin Network</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Explorer</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinexp/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Original Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinWallet/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Android Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinAndWallet/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinPay</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinpay/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin-Remix</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinrem/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Current Requirement</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Requirement/req/">Requirement</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Media</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../media/articles/">Articles</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Whitepapers and research</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Community Support</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Community/support/">Community</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">XinFin Network</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>General &raquo;</li>
+        
+      
+    
+    <li>Networks</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/general/networks.md"> Edit on XinFinOrg/Docs-XF</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><strong>XinFin MainNet</strong></p>
+<h3 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Chain id: <code>50</code></li>
+<li>RPC endpoint: <code>https://rpc.xinfin.network</code></li>
+<li>Websocket endpoint: <code>wss://ws.xinfin.network</code></li>
+<li>Consensus: XDPoS</li>
+<li>Block finality: <code>&gt;75%</code></li>
+<li>Consensus nodes: up to 108 (masternodes)</li>
+<li>Genesis block date: <code>2019-05-31</code></li>
+<li>Transaction fee: gas price 0.25 Gwei</li>
+</ul>
+<h3 id="usefull-links">Usefull links<a class="headerlink" href="#usefull-links" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://xinfin.network/#stats">Status Page</a></li>
+<li><a href="http://explorer.xinfin.network">XinFin Explorer</a> (XinFin Scan)</li>
+<li><a href="https://xinfin.network/#masternode">XinFin MasterNode APP </a> (MasterNodeApp)</li>
+</ul>
+<h3 id="bootnodes">Bootnodes<a class="headerlink" href="#bootnodes" title="Permanent link">&para;</a></h3>
+<p> <div class=codehilite><pre><span></span>0x
+</pre></div></p>
+<h3 id="stats-websocket-secret">Stats websocket secret<a class="headerlink" href="#stats-websocket-secret" title="Permanent link">&para;</a></h3>
+<p><code>xinfin_xdpos_hybrid_network_stats</code></p>
+<p><strong>Apothem Network (TestNet)</strong></p>
+<h3 id="specifications_1">Specifications<a class="headerlink" href="#specifications_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Chain id: <code>51</code></li>
+<li>RPC endpoint: <code>https://rpc.apothem.network</code></li>
+<li>Websocket endpoint: <code>wss://ws.apothem.network</code></li>
+<li>Consensus: XDPoS</li>
+<li>Block finality: <code>&gt;75%</code></li>
+<li>Consensus nodes: up to 108 (masternodes)</li>
+<li>Transaction fee: gas price 0.25 Gwei</li>
+</ul>
+<h3 id="usefull-links_1">Usefull links<a class="headerlink" href="#usefull-links_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://apothem.network/#stats">Status Page</a></li>
+<li><a href="https://explorer.apothem.network/">XinFin Explorer</a> (XinFin Scan)</li>
+<li><a href="https://apothem.network/#masternode">XinFin MasterNode APP </a> (MasterNodeApp)</li>
+</ul>
+<h3 id="bootnodes_1">Bootnodes<a class="headerlink" href="#bootnodes_1" title="Permanent link">&para;</a></h3>
+<p> <div class=codehilite><pre><span></span>0x
+</pre></div></p>
+<h3 id="stats-websocket-secret_1">Stats websocket secret<a class="headerlink" href="#stats-websocket-secret_1" title="Permanent link">&para;</a></h3>
+<p><code>xdc_xinfin_apothem_network_stats</code></p>
+<h3 id="for-developers">For developers<a class="headerlink" href="#for-developers" title="Permanent link">&para;</a></h3>
+<p>Testnet is the best way to test your smart contracts.
+Configure your deployment tool to connect to the testnet and deploy your new code without having to worry about fees.</p>
+<h3 id="for-investors-and-enthusiasts">For investors and enthusiasts<a class="headerlink" href="#for-investors-and-enthusiasts" title="Permanent link">&para;</a></h3>
+<p>You will find on the Testnet the exact same ecosystem as on the actual Mainnet.
+You can try all the features we propose like voting, running a masternode, discovering our dApps, etc.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../faq/" class="btn btn-neutral float-right" title="FAQ">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../utilities/" class="btn btn-neutral" title="Use cases"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-XF/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-XF/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>XinFin Network.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../utilities/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../faq/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

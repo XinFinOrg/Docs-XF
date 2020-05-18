@@ -4,27 +4,28 @@ This information is intended to understanding what is Stable Coin, why do we nee
 
 We shall discuss the following topics in the article:
 
-* What is a StableCoin?
+* What is a StableCoin
 * Types of StableCoins
-* Why StableCoin?
+* Why StableCoin
 * Real-World Applications of Stable Coins
 * Top StableCoins in the Market
 
 
-
 **What is a StableCoin?**
 
-XinFin Stable coins aim to bridge the gap between cryptocurrencies’ benefits and the stable nature offered by fiat currencies. It is a crypto token with a value pegged to the price of a national currency to combat its volatility.
+XinFin Stable coins aim to bridge the gap between cryptocurrencies benefits and the stable nature offered by fiat currencies. It is a crypto token with a value pegged to the price of a national currency to combat its volatility.
 
 Now, the question is, why do we need a stable coin.
 
-Though cryptocurrencies are global currencies, coins like Bitcoin and Ether are volatile. The price of Bitcoin raised from $1000 to $20000 during 2017. Since it is not sustainable, users and investors require more stability in the market.
+Though cryptocurrencies are global currencies, coins like Bitcoin and Ether are volatile. The price of Bitcoin raised from USD 1000 to USD 20000 during 2017. Since it is not sustainable, users and investors require more stability in the market.
 
-Imagine that you pay $30 for dinner today and the same amount would be worth $40 tomorrow because the value of that crypto token went up. Small investors cannot handle that kind of volatility. Therefore, stable coins emerged as a new technique to drive the new way of adoption to cryptocurrencies.
+Imagine that you pay USD 30 for dinner today and the same amount would be worth USD 40 tomorrow because the value of that crypto token went up. Small investors cannot handle that kind of volatility. Therefore, stable coins emerged as a new technique to drive the new way of adoption to cryptocurrencies.
 
 You might think why do we need to create fiat-backed crypto tokens instead of just using fiat currency. Decentralized currencies do not require any centralized authority to bring trust in the system, thereby reducing additional costs involved.
 
 Also, cross border payments can be made quickly with cryptocurrencies. Backing crypto tokens with stable fiat currency or assets can add more value and build more trust among investors and users.
+
+
 
 **What are the types of StableCoins?**
 
@@ -45,9 +46,10 @@ These tokens use a security pledge to compensate for the volatility of cryptocur
 Commodity-collateralized stablecoins are backed by other types of interchangeable assets like real estate and precious metals. Gold is one of the most common commodities to be collateralized. Commodity-backed stable coins hold a tangible asset with some real value. These commodities can appreciate value over time, which offers an increased incentive to people to use and keep these coins.
 Using commodity-collateralized stable coins, anyone can invest in real estate properties or precious metals across the world. Generally, the investment in such assets is only reserved for the wealthy class of investors. However, stablecoins open up investment opportunities for average individuals globally.
 
+
 **Why StableCoin?**
 
-A XinFin stablecoin is a cryptocurrency that offers low volatility against the world’s major national currencies, unlocking the benefits for decentralized technology. In a nutshell, stablecoins can be defined as a cryptocurrency with a fixed price.
+A XinFin stablecoin is a cryptocurrency that offers low volatility against the worlds major national currencies, unlocking the benefits for decentralized technology. In a nutshell, stablecoins can be defined as a cryptocurrency with a fixed price.
 
 A reliable stablecoin offers a number of use cases than that of the blockchain. People no more need to worry about the fluctuations in prices of the cryptocurrency daily while buying them. Stability in cryptocurrencies allows people to transact quickly and it also enables other crucial financial functions, including credit and loans.
 
@@ -57,16 +59,29 @@ Therefore, stablecoins emerge as a new option for investors who want to make a t
 
 The adoption of stablecoins will support the capital market formation and present new opportunities for decentralized finance on the blockchain like derivatives markets and lending.
 
+**If you are looking to gain the trust of investors by creating a stablecoin backed by a stable asset or fiat currency, we can help you develop a secure and reliable stablecoin for you.**
 
-**Real-World Applications of Stable Coins**
+**Please visit https://st.mycontract.co to create your own stable coin on XinFin Main Network OR XinFin Apothem Network and follow the below steps.**
 
-In case, the fiat currency crashes in value; local citizens can exchange the crashed money for EUR-backed, USD-backed, or asset-backed stablecoins before they lose their savings. In this way, people get protected from further drops in the value of the local currency.
+![Stable Coin](/assets/st.home.jpg)
 
-For example, currently, Venezuela is facing hyperinflation. The prices of goods in that country have been doubling almost every week on average.
+**Login through XinPay OR Private Key**
 
-Annual inflation rate at the end of 2018 in Venezuela was 80,000%. Most of the citizens cannot even afford food as their savings became worthless and the value continued to drop with each passing day.
+![Stable Coin](/assets/st.unlock.jpg)
 
-Stablecoins can offer an ideal solution to all such people by allowing them to exchange their dropped currency holdings with a stable currency.
+**Fill up the require details**
 
+![Stable Coin](/assets/st.dashboard.jpg)
 
-If you are looking to gain the trust of investors by creating a stablecoin backed by a stable asset or fiat currency, we can help you develop a secure and reliable stablecoin for you. Please visit https://st.mycontract.co to create your own stable coin on XinFin Network. 
+**Review the token details**
+
+![Stable Coin](/assets/st.issreview.jpg)
+
+**Token Deployed**
+
+![Stable Coin](/assets/st.issued.jpg)
+
+**Demo Video**
+
+<iframe width="700" height="300" src="https://www.youtube.com/embed/tsh0GCLucYU"></iframe>
+

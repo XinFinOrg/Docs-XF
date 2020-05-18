@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>How DPOS Works? - XinFin Network</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "How DPOS Works?";
+    var mkdocs_page_input_path = "get-started\\hdpwork.md";
+    var mkdocs_page_url = "/get-started/hdpwork/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> XinFin Network</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">General</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../..">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/utilities/">Use cases</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/networks/">Networks</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/faq/">FAQ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../general/about/">About</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Get started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../productoverview/">Products overview</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../hybblock/">Hybrid Blockchain</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../smartcont/">Smart Contract</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">How DPOS Works?</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#common-terms">Common Terms</a></li>
+    
+
+    <li class="toctree-l3"><a href="#why-xdpos">Why XDPOS?</a></li>
+    
+
+    <li class="toctree-l3"><a href="#attack-vectors">Attack Vectors</a></li>
+    
+
+    <li class="toctree-l3"><a href="#conclusion">Conclusion</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../XDC/">XinFin DPOS Consensus</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../POW-DPOS/">POW Replaced with DPOS</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ConnLeg/">Connecting Legacy Systems</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../hybnet/">Build with XinFin Hybrid Network</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../Setupmn/">Set up Master Nodes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../cde/">Create DAPP Environment</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../lyl/">Set up Loyalty Token on XinFin.Network</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stablecoin/">Set up Stable Coin on XinFin Network</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Explorer</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinexp/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Original Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinWallet/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Android Wallet</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../XinFinAndWallet/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinPay</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinpay/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin-Remix</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../xinfinrem/features/">Features</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Current Requirement</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Requirement/req/">Requirement</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Media</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../media/articles/">Articles</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Whitepapers and research</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">XinFin Community Support</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Community/support/">Community</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">XinFin Network</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Get started &raquo;</li>
+        
+      
+    
+    <li>How DPOS Works?</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/get-started/hdpwork.md"> Edit on XinFinOrg/Docs-XF</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><strong>Understand Features and Attack Vectors of XDPoS</strong></p>
+<p>XinFin Delegated Proof of Stake(XDPoS) is another form of Proof of Stake(PoS) consensus mechanism to scale up to Thousands of transactions per second.
+XDPOS concentrates block production in the hands of few semi-trusted entities in order to achieve more scalability than Proof of Work(PoW) or other Proof of Stake blockchains.</p>
+<h1 id="common-terms"><strong>Common Terms</strong><a class="headerlink" href="#common-terms" title="Permanent link">&para;</a></h1>
+<p>Nominator: A coin holder who stakes or delegates their coin to one or more validator. 
+Validator: A semi-trusted entity responsible for validating and producing blocks. 
+Epoch: A cycle of few blocks in which validator nodes create blocks in turn.</p>
+<p>In XinFin Delegated Proof of Stake (XDPoS) anyone can participate in Validator (Block Producer). </p>
+<p>Token holder are tallied after a specific time or after each epoch.</p>
+<h1 id="why-xdpos"><strong>Why XDPOS?</strong><a class="headerlink" href="#why-xdpos" title="Permanent link">&para;</a></h1>
+<p>Scalability Blocks can be propagated through the network much more efficiently. And blocks can be produced more consistently and reliably in a much shorter time frame. Moreover, finality can be reached as soon as ⅔ of the block producer has confirmed a transaction.</p>
+<p>1.Network Infrastructure In XDPoS users have control over who will provide the infrastructure unlike PoW and PoS, where users have no choice on validators. In XDPoS, validators can be thought of as employees of users(nominators) and can be fired for not performing their duties.</p>
+<p>2.Self-Funding Through Inflation In XDPoS, unlike PoS or PoW where miners getrewards for validating a block, inflation is used to pay block producers as well as to fund the development of platform itself.</p>
+<h1 id="attack-vectors"><strong>Attack Vectors</strong><a class="headerlink" href="#attack-vectors" title="Permanent link">&para;</a></h1>
+<p>Block Producers Collude The main problem this can cause is a delay in the transaction and double spends. Although these situations are highly unlikely.</p>
+<h1 id="conclusion"><strong>Conclusion</strong><a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h1>
+<p>XinFin Delegated Proof of Stake(XDPoS) is an elegant, robust and practically proven solution to the scalability issues of Blockchain. Although, XDPoS does compromise decentralization in some sense, and it is up to token holders to monitor the health of the system, watch for bad behaviour and decide upon what makes for sufficient decentralization. It still solves the scalability and safety issues in Blockchain. And, all in all if not everywhere XDPoS can still be used as a Layer 2 or Layer 3 security while keeping a PoW system as a security base layer. It will help us achieve decentralization, safety as well as scalability which is the most important issue of current blockchain networks.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../XDC/" class="btn btn-neutral float-right" title="XinFin DPOS Consensus">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../smartcont/" class="btn btn-neutral" title="Smart Contract"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-XF/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-XF/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>XinFin Network.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../smartcont/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../XDC/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
