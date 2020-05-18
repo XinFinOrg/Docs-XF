@@ -1,6 +1,6 @@
-# **What is a Stablecoin ? how to create a stablecoin**
+# **Issue Your Own StableCoin in Minutes**
 
-This information is intended to understanding what is Stable Coin, why do we need it and what are its real-world applications. A Complete Guide on StableCoin.
+This information is intended to understanding what is Stable Coin, why do we need it and what are its real-world applications.
 
 We shall discuss the following topics in the article:
 
@@ -9,11 +9,12 @@ We shall discuss the following topics in the article:
 * Why StableCoin?
 * Real-World Applications of Stable Coins
 * Top StableCoins in the Market
-* How to Build a Stablecoin To Compete with Libra or USD Coin.
 
-**What is a StableCoin? Explaining Stablecoin**
 
-XinFin XDC Network's Stable coins aim to bridge the gap between cryptocurrenciesâ€™ benefits and the stable nature offered by fiat currencies. It is a crypto token with a value pegged to the price of a national currency to combat its volatility.
+
+**What is a StableCoin?**
+
+XinFin Stable coins aim to bridge the gap between cryptocurrencies’ benefits and the stable nature offered by fiat currencies. It is a crypto token with a value pegged to the price of a national currency to combat its volatility.
 
 Now, the question is, why do we need a stable coin.
 
@@ -29,7 +30,7 @@ Also, cross border payments can be made quickly with cryptocurrencies. Backing c
 
 1. Fiat-backed
 Fiat backed stablecoins are crypto tokens associated with the value of a specific fiat currency. These tokens hold their value fixed at 1:1 ratio. 
-For example, Tether is a stable coin, which is pegged 1:1 to the US dollar. Fiat currency is deposited as collateral to ensure the existence of a fiat-backed stablecoin. As a result, it requires financial custodian and regular auditing to determine that the token always remains collateralized. e.g: Facebook LIBRA, USD Coin (USDC), Gemini stablecoin (GUSDT) etc
+For example, Tether is a stable coin, which is pegged 1:1 to the US dollar. Fiat currency is deposited as collateral to ensure the existence of a fiat-backed stablecoin. As a result, it requires financial custodian and regular auditing to determine that the token always remains collateralized.
 
 2. Non-collateralized
 Non-collateralized stablecoins are based on the concept of a Seigniorage Shares system. Seigniorage is the difference between the value of money and its printing cost. 
@@ -46,7 +47,7 @@ Using commodity-collateralized stable coins, anyone can invest in real estate pr
 
 **Why StableCoin?**
 
-A XinFin stablecoin is a cryptocurrency that offers low volatility against the worldâ€™s major national currencies, unlocking the benefits for decentralized technology. In a nutshell, stablecoins can be defined as a cryptocurrency with a fixed price.
+A XinFin stablecoin is a cryptocurrency that offers low volatility against the world’s major national currencies, unlocking the benefits for decentralized technology. In a nutshell, stablecoins can be defined as a cryptocurrency with a fixed price.
 
 A reliable stablecoin offers a number of use cases than that of the blockchain. People no more need to worry about the fluctuations in prices of the cryptocurrency daily while buying them. Stability in cryptocurrencies allows people to transact quickly and it also enables other crucial financial functions, including credit and loans.
 
@@ -54,7 +55,7 @@ Moreover, a stable decentralized currency could become a global currency by allo
 
 Therefore, stablecoins emerge as a new option for investors who want to make a transaction via a global currency, providing access to all.
 
-The adoption of stablecoins will support the capital market formation and present new opportunities for decentralized finance on the blockchain like derivatives markets and lending. USDT or tether stablecoin widely used in cryptocurrency indutry. 
+The adoption of stablecoins will support the capital market formation and present new opportunities for decentralized finance on the blockchain like derivatives markets and lending.
 
 
 **Real-World Applications of Stable Coins**
@@ -67,6 +68,5 @@ Annual inflation rate at the end of 2018 in Venezuela was 80,000%. Most of the c
 
 Stablecoins can offer an ideal solution to all such people by allowing them to exchange their dropped currency holdings with a stable currency.
 
-**How to Build a Stablecoin To Compete with Libra**
 
-If you are looking to gain the trust of investors by creating a stablecoin backed by a stable asset or fiat currency, we can help you develop a secure and reliable stablecoin for you. Please visit https://st.mycontract.co to create your own stable coin on XinFin (XDC) Network.You dont need stablecoin development company to deploy stablecoin on XinFin XDC Network. 
+If you are looking to gain the trust of investors by creating a stablecoin backed by a stable asset or fiat currency, we can help you develop a secure and reliable stablecoin for you. Please visit https://st.mycontract.co to create your own stable coin on XinFin Network. 
