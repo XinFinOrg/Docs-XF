@@ -6,7 +6,7 @@
 
 !!! quote "What is XinFin Network?"
     XinFin Network is an innovative solution to the scalability problem of the Ethereum blockchain, and other current blockchain platforms.
-	XinFin Network relies on a system of 18 Masternodes with XinFin Delegated Proof of stake (XDPOS)consensus that can support low transaction fees and 2-second transaction confirmation times.
+	XinFin Network relies on a system of 108 Masternodes with XinFin Delegated Proof of stake (XDPOS)consensus that can support low transaction fees and 2-second transaction confirmation times.
 	Security, stability and chain finality are guaranteed via novel techniques such as double validation, staking via smart-contracts and true randomization processes.
 
 	XinFin Network supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
@@ -16,7 +16,7 @@
 !!! quote "What problem is XinFin Network aiming to solve?"
 	The problems that XinFin Network aims to solve can be summarized as follows:
 
-	- The network congestion on Ethereum (low transaction time)
+	- The network congestion on Ethereum (high transaction time)
 	- High transaction fees on Ethereum
 	- Most other blockchains are highly centralized and/or do not have interoperability with Ethereum system
 
@@ -32,7 +32,7 @@
 	XinFin Network supports low fee and 2-second transaction confirmation times.
 	XinFin Network can currently process 2'000-5'000 transactions per second (TPS).
 !!! quote "How does XinFin Network work? What is the architecture and consensus used?"
-    XinFin Network relies on a system of 18 Masternodes with XinFin Delegated Proof of stake (XDPoS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
+    XinFin Network relies on a system of 108 Masternodes with XinFin Delegated Proof of stake (XDPoS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
 	Security, stability and chain finality are guaranteed via novel techniques such as Double Validation.
 
 !!! quote "Can you tell more about XinFin Delegated Proof of stake (XDPoS)? What is it?"
@@ -101,7 +101,7 @@
 	Any d-App written in Ethereum can be seamlessly ported to XinFin Network.
 	
 !!! quote "Is XinFin Network a side-chain of Ethereum?"
-    XinFin Network has its own blockchain since XinFin Network Mainnet is about to launch.
+    XinFin Network has its own blockchain which is live since June 1, 2019.
 	
 !!! quote "Is XinFin Network compatible with Ethereum?"
     Yes, any smart-contract written in Ethereum protocol can be easily ported to XinFin Network.
@@ -132,7 +132,7 @@
 	You can also check the ACRA copy if you need more details.
 	
 !!! quote "Where are XinFin Network offices?"
-    XinFin current offices is located in Singapore
+    XinFin's current office is located in Singapore.
 	
 	- SINGAPORE
 		
@@ -166,7 +166,7 @@
 
 ### Ecosystem
 	
-!!! quote "What incentives have partners and dApp developers to build on XinFin Network?"
+!!! quote "What incentives do the partners and dApp developers have to build on XinFin Network?"
     XinFin Network supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
 	This means that any smart-contract written in Ethereum protocol can be easily ported to XinFin Network.
 
@@ -198,9 +198,9 @@
 
 	In addition to the above, XDC is an integral part of the XinFin Network network for a number of reasons.
 	
-	- XinFin will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMaster, XinFinWebWallet, etc.).
-	- XinFin will be used as a incentivise the building of the XinFin Network engine/ecosystem.
-	- XinFin will be used as a long-term, decentralized governance instrument of the XinFin Network network.
+	- XDC will be used to fund the development of XinFin Network and its ecosystem (XinFinScan, XinFinMaster, XinFinWebWallet, etc.).
+	- XDC will be used as a incentivise the building of the XinFin Network engine/ecosystem.
+	- XDC will be used as a long-term, decentralized governance instrument of the XinFin Network network.
 
 	You can check our [technical whitepaper](https://www.xinfin.org/docs/whitepaper-tech.pdf) for more details.
 
@@ -210,31 +210,30 @@
 	Masternodes will receive block rewards.
 
 !!! quote "How often are block rewards paid out?"
-    Block rewards will be earnt every epoch, which lasts for 900 of two-second-block time (~30 minutes)
+    Block rewards will be paid every epoch, which lasts for 900 of two-second-block time (~30 minutes)
 
 !!! quote "When will XDC be listed on new exchanges?"
     We do not discuss about exchange related questions due to the regulation.
 	We will announce every exchange news on our official channels on due time.
 
 !!! quote "Is XDC an ERC-20 token?"
-    Since Mainnet is above to Launch, XDC has become the native coin of the XinFin Network blockchain.
+    No, XDC is the native coin of the XinFin Network blockchain (XDC01 Protocol).
 
 
 !!! quote "Where to store XDC? How can I send XDC to my wallet?"
     You can store XinFin in XinFin Web Wallet or Mobile Wallet.
    		
 !!! quote "Where can I buy XDC? (exchanges)"
-    For Now You can trade XDC on [alphaex](https://www.alphaex.net/).
+    For Now You can trade XDC on Alphaex (https://www.alphaex.net/), Homiex (https://www.homiex.com/) and Stex (https://www.stex.com/).
 		
 ### Masternodes	
 
 !!! quote "Does XinFin Network have Masternodes? How do they work?"
-    Yes, XinFin Network has a maximum of 18 Masternodes with XinFin Delegated Proof of stake (XDPOS) consensus for low transaction fee, and instant transaction confirmation.
+    Yes, XinFin Network has a maximum of 108 Masternodes with XinFin Delegated Proof of stake (XDPOS) consensus for low transaction fee, and instant transaction confirmation.
 	Masternodes create, verify and validate new blocks in XinFin platform.
 
 	- **Masternode Candidates:** Any account can deposit 10,000,000 XDC using [XinFinMaster](https://xinfin.network/) to become a masternode candidate.
-	A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
-	A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
+	A Masternode can resign anytime, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 	- **Rewards:** The rewards a masternode receives in each epoch is proportional to the number of signatures it signs.
 	Masternodes will also receive fees from the XinFin Network which is planned for development.
 
@@ -301,7 +300,7 @@
     Once you are a Masternode Candidate, you need the support of XinFin Network community.
 	Masternode candidates every period called epoch (900 blocks of 2-second block-time) will be promoted to Masternode.
 	This list will change dynamically every epoch.
-	 masternodes will be able to sign blocks and will receive rewards in the form of XDC. 
+	Masternodes will be able to sign blocks and will receive rewards in the form of XDC. 
 
 !!! quote "Do I need two wallets to run a Masternode?"
     It is recommended for security reasons.
