@@ -14,9 +14,16 @@
 
 ### Usefull links
 
-- [Status Page](https://xinfin.network/#stats)
-- [XinFin Explorer](http://explorer.xinfin.network) (XinFin Scan)
-- [XinFin MasterNode APP ](https://xinfin.network/#masternode) (MasterNodeApp)
+- [XinFin Status Page](https://xinfin.network/#stats)
+- [XinFin Explorer](https://explorer.xinfin.network) (XinFin Scan)
+- [XinFin MasterNode APP ](https://master.xinfin.network) (MasterNodeApp)
+- [XinFin Web Wallet](https://wallet.xinfin.network) (web Wallet)
+- [XinFin Mobile Wallet](https://play.google.com/store/apps/details?id=com.xdcwallet&hl=en_IN) (Mobile Wallet)
+
+
+### Usefull Tools
+- [XinFin Remix](https://remix.xinfin.network)
+- [XinPay](https://chrome.google.com/webstore/detail/xinpay/bocpokimicclpaiekenaeelehdjllofo?hl=en)
 
 ### Bootnodes
 
@@ -44,9 +51,16 @@
 
 ### Usefull links
 
-- [Status Page](https://apothem.network/#stats)
-- [XinFin Explorer](https://explorer.apothem.network/) (XinFin Scan)
-- [XinFin MasterNode APP ](https://apothem.network/#masternode) (MasterNodeApp)
+- [Apothem Status Page](https://apothem.network/#stats)
+- [Apothem Explorer](https://explorer.apothem.network/) (XinFin Scan)
+- [Apothem MasterNode APP ](https://master.apothem.network/) (MasterNodeApp)
+- [Apotehm Web Wallet](https://wallet.apothem.network) (web Wallet)
+- [Apothem Mobile Wallet](https://play.google.com/store/apps/details?id=com.xdcwallet&hl=en_IN) (Mobile Wallet)
+
+### Usefull Tools
+
+- [XinFin Remix](https://remix.xinfin.network)
+- [XinPay](https://chrome.google.com/webstore/detail/xinpay/bocpokimicclpaiekenaeelehdjllofo?hl=en)
 
 ### Bootnodes
 
