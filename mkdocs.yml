@@ -33,11 +33,11 @@ extra:
         - type: 'github'
           link: 'https://github.com/xinfinorg'
         - type: 'twitter'
-          link: 'https://twitter.com/xinfinf'
+          link: 'https://twitter.com/XinFin_Official'
         - type: 'reddit'
           link: 'https://www.reddit.com/r/xinfin/'
         - type: 'facebook'
-          link: 'https://www.facebook.com/pages/xinfin'
+          link: 'https://www.facebook.com/XinFinHybridBlockchain/'
         - type: 'telegram'
           link: 'https://t.me/xinfintalk'
         - type: 'medium'
@@ -59,9 +59,9 @@ nav:
       - Products overview: get-started/productoverview.md
       - Hybrid Blockchain: get-started/hybblock.md
       - Smart Contract: get-started/smartcont.md
-      - How DPOS Works?: get-started/hdpwork.md
-      - XinFin DPOS Consensus: get-started/XDC.md
-      - POW Replaced with DPOS: get-started/POW-DPOS.md
+      - How XDPOS Works?: get-started/hdpwork.md
+      - XinFin XDPOS Consensus: get-started/XDC.md
+      - POW Replaced with XDPOS: get-started/POW-DPOS.md
       - Connecting Legacy Systems: get-started/ConnLeg.md
       - Build with XinFin Hybrid Network: get-started/hybnet.md
       - Set up Master Nodes: get-started/Setupmn.md
@@ -72,7 +72,7 @@ nav:
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 
-    - XinFin Original Wallet:
+    - XinFin Web Wallet:
       - Features: XinFinWallet/features.md
 
     - XinFin Android Wallet:
