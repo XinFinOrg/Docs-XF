@@ -63,9 +63,10 @@ nav:
       - XinFin XDPOS Consensus: get-started/XDC.md
       - POW Replaced with XDPOS: get-started/POW-DPOS.md
       - Connecting Legacy Systems: get-started/ConnLeg.md
-      - Build with XinFin Hybrid Network: get-started/hybnet.md
+      - Build with XinFin Delegated prrof of Stake (XDPoS) Network: get-started/hybnet.md
       - Set up Master Nodes: get-started/Setupmn.md
       - Create DAPP Environment: get-started/cde.md
+      - Deploy a SmartContract on XinFin Network: get-started/contract.md 
       - Set up Loyalty Token on XinFin.Network: get-started/lyl.md
       - Set up Stable Coin on XinFin Network: get-started/stablecoin.md
       - Set up a token on XinFin Network: get-started/token.md
