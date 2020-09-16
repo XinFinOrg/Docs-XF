@@ -68,6 +68,7 @@ nav:
       - Create DAPP Environment: get-started/cde.md
       - Set up Loyalty Token on XinFin.Network: get-started/lyl.md
       - Set up Stable Coin on XinFin Network: get-started/stablecoin.md
+      - Set up a token on XinFin Network: get-started/token.md
 
     - XinFin Explorer:
       - Features: xinfinexp/features.md
