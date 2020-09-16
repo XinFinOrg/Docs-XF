@@ -75,6 +75,9 @@ nav:
     - XinFin Explorer:
       - Features: xinfinexp/features.md
 
+    - XinFin One click Installer:
+      - Features: oneclick/features.md
+
     - XinFin Web Wallet:
       - Features: XinFinWallet/features.md
 
