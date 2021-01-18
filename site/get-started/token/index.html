@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://docs.xinfin.org/get-started/token/">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Set up a token on XinFin Network - XinFin Network</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="../../css/style.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Set up a token on XinFin Network";
+    var mkdocs_page_input_path = "get-started\\token.md";
+    var mkdocs_page_url = "/get-started/token/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> XinFin Network</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">General</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Introduction</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/utilities/">Use cases</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/networks/">Networks</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/faq/">FAQ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/about/">About</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Get started</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../productoverview/">Products overview</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../hybblock/">Hybrid Blockchain</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../smartcont/">Smart Contract</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../hdpwork/">How XDPOS Works?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../XDC/">XinFin XDPOS Consensus</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../POW-DPOS/">POW Replaced with XDPOS</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../ConnLeg/">Connecting Legacy Systems</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../hybnet/">Build with XinFin Delegated prrof of Stake (XDPoS) Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Setupmn/">Set up Master Nodes</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../cde/">Create DAPP Environment</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../contract/">Deploy a SmartContract on XinFin Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../master/">Set up Masternode on XinFin Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../lyl/">Set up Loyalty Token on XinFin.Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../stablecoin/">Set up Stable Coin on XinFin Network</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Set up a token on XinFin Network</a>
+    <ul class="current">
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Explorer</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../xinfinexp/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin One click Installer</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../oneclick/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Web Wallet</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../XinFinWallet/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Android Wallet</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../XinFinAndWallet/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinPay</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../xinfinpay/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin-Remix</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../xinfinrem/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Current Requirement</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Requirement/req/">Requirement</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Media</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../media/articles/">Articles</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Whitepapers and research</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Community Support</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Community/support/">Community</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">XinFin Network</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Get started &raquo;</li>
+        
+      
+    
+    <li>Set up a token on XinFin Network</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/get-started/token.md"> Edit on XinFinOrg/Docs-XF</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="a-step-by-step-guide-to-issue-your-own-token-on-xinfin-network-in-a-few-minutes">A Step-By-Step Guide To Issue Your Own Token On XinFin Network In A Few Minutes<a class="headerlink" href="#a-step-by-step-guide-to-issue-your-own-token-on-xinfin-network-in-a-few-minutes" title="Permanent link">&para;</a></h1>
+<p>Gone are the days when issuing your own token on a network would cost a fortune. Mycontract is a revolutionary platform that allows users to issue their tokens on XinFin network in as little as 20 minutes.</p>
+<p>Before users explore further, it’s recommended to read the below-given disclaimer.</p>
+<p>*As XinFin global community knows, XinFin platform is fully compatible with Ethereum Virtual Machine. Therefore, XinFin will be using ERC20 smart contract template on mycontract platform to issue new tokens on the XinFin network.</p>
+<p>Let’s see how to deploy a new token on XinFin network using MyContract:</p>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-1.png" /></p>
+<h1 id="visit-mycontract-website-to-deploy-the-new-token-contract-on-xinfin-network">Visit mycontract website to deploy the new token contract on XinFin network.<a class="headerlink" href="#visit-mycontract-website-to-deploy-the-new-token-contract-on-xinfin-network" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-2.png" /></p>
+<h1 id="login-into-mycontract-platform-new-users-can-sign-up-either-by-email-or-by-using-facebook-google-or-github">Login into MyContract platform. New users can sign up either by email or by using Facebook, Google or Github.<a class="headerlink" href="#login-into-mycontract-platform-new-users-can-sign-up-either-by-email-or-by-using-facebook-google-or-github" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-3.png" /></p>
+<h1 id="the-user-needs-to-visit-his-profile-and-buy-the-package-as-per-his-requirement-alternatively-the-user-can-also-send-1200000-xdce-tokens-to-his-mycontract-address-to-deploy-the-contract-on-xinfin-network">The user needs to visit his profile and buy the package as per his requirement. Alternatively, the user can also send 1200000 XDCE tokens to his mycontract address to deploy the contract on XinFin network.<a class="headerlink" href="#the-user-needs-to-visit-his-profile-and-buy-the-package-as-per-his-requirement-alternatively-the-user-can-also-send-1200000-xdce-tokens-to-his-mycontract-address-to-deploy-the-contract-on-xinfin-network" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-4.png" /></p>
+<h1 id="the-user-can-check-the-number-of-the-packages-he-has-bought-on-his-mycontract-dashboard-to-deploy-the-token-contract-on-xinfin-network">The user can check the number of the packages he has bought on his mycontract dashboard to deploy the token contract on XinFin network.<a class="headerlink" href="#the-user-can-check-the-number-of-the-packages-he-has-bought-on-his-mycontract-dashboard-to-deploy-the-token-contract-on-xinfin-network" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-5.png" /></p>
+<h1 id="after-purchasing-the-package-the-user-is-required-to-create-the-tokenization-erc-20-contract-just-type-in-the-right-token-details-and-click-create-to-get-your-contract-code-in-a-few-seconds">After purchasing the package, the user is required to create the tokenization ERC-20 contract. Just type in the right token details and click ‘create’ to get your contract code in a few seconds.<a class="headerlink" href="#after-purchasing-the-package-the-user-is-required-to-create-the-tokenization-erc-20-contract-just-type-in-the-right-token-details-and-click-create-to-get-your-contract-code-in-a-few-seconds" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-6.png" /></p>
+<h1 id="as-soon-as-the-contract-code-is-generated-the-user-needs-to-automatically-deploy-the-generated-contract-on-the-xinfin-network">As soon as the contract code is generated, the user needs to automatically deploy the generated contract on the XinFin network.<a class="headerlink" href="#as-soon-as-the-contract-code-is-generated-the-user-needs-to-automatically-deploy-the-generated-contract-on-the-xinfin-network" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-7.png" /></p>
+<h1 id="the-user-will-get-three-network-options-select-xinfin-network-to-deploy-the-token-contract">The user will get three network options. Select XinFin network to deploy the token contract.<a class="headerlink" href="#the-user-will-get-three-network-options-select-xinfin-network-to-deploy-the-token-contract" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-8.png" /></p>
+<h1 id="now-the-user-can-view-the-contract-deployed-on-xinfin-network">Now, the user can view the contract deployed on XinFin network.<a class="headerlink" href="#now-the-user-can-view-the-contract-deployed-on-xinfin-network" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-9.png" /></p>
+<h1 id="the-user-will-get-a-transaction-hash-using-which-user-can-check-if-his-contract-is-deployed-properly-on-xinfin-network-link-httpsxinfinnetworkexplorer-goto-menu-contract-then-verify-contract">The user will get a transaction hash using which user can check if his contract is deployed properly on XinFin network. Link: https://xinfin.network/#explorer (goto menu ”Contract” then ”Verify Contract” )<a class="headerlink" href="#the-user-will-get-a-transaction-hash-using-which-user-can-check-if-his-contract-is-deployed-properly-on-xinfin-network-link-httpsxinfinnetworkexplorer-goto-menu-contract-then-verify-contract" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-10.png" /></p>
+<h1 id="after-the-user-has-successfully-deployed-the-contract-he-will-receive-a-success-email-in-his-inbox-that-his-smart-contract-is-deployed-and-a-new-token-is-generated-the-user-will-also-receive-the-code-of-his-erc20-token-via-email">After the user has successfully deployed the contract, he will receive a success email in his inbox that his smart contract is deployed and a new token is generated. The user will also receive the code of his ERC20 token via email.<a class="headerlink" href="#after-the-user-has-successfully-deployed-the-contract-he-will-receive-a-success-email-in-his-inbox-that-his-smart-contract-is-deployed-and-a-new-token-is-generated-the-user-will-also-receive-the-code-of-his-erc20-token-via-email" title="Permanent link">&para;</a></h1>
+<p><img alt="MyContract Home Page" src="/assets/mycontract-11.png" /></p>
+<h1 id="tools-to-access-newly-created-token">Tools to Access Newly Created token:<a class="headerlink" href="#tools-to-access-newly-created-token" title="Permanent link">&para;</a></h1>
+<p>XinFin Provide facility to Add your token with Mobile Wallet https://play.google.com/store/apps/details?id=com.xdcwallet</p>
+<p>Install App, Save Private key at Safe place (the only way to recover your token if you lost mobile or uninstall the app).</p>
+<p>goto Menu and Select option “add new token” and add your token.</p>
+<p>Web wallet (client-side interface for generating wallet) Also Available at https://xinfin.network/#webWallet</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../xinfinexp/features/" class="btn btn-neutral float-right" title="Features">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../stablecoin/" class="btn btn-neutral" title="Set up Stable Coin on XinFin Network"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-XF/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-XF/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>XinFin Network.</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../stablecoin/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../xinfinexp/features/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

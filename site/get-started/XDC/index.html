@@ -7,26 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
+  <link rel="canonical" href="https://docs.xinfin.org/get-started/XDC/">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>XinFin DPOS Consensus - XinFin Network</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <title>XinFin XDPOS Consensus - XinFin Network</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
-  <link href="../../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="../../css/style.css" rel="stylesheet" />
   
   <script>
     // Current page data
-    var mkdocs_page_name = "XinFin DPOS Consensus";
+    var mkdocs_page_name = "XinFin XDPOS Consensus";
     var mkdocs_page_input_path = "get-started\\XDC.md";
     var mkdocs_page_url = "/get-started/XDC/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
   <script src="../../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
@@ -37,6 +38,7 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
         <a href="../.." class="icon icon-home"> XinFin Network</a>
         <div role="search">
@@ -47,214 +49,106 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">General</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../..">Introduction</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../general/utilities/">Use cases</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../general/networks/">Networks</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../general/faq/">FAQ</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../general/about/">About</a>
-                </li>
+                <p class="caption"><span class="caption-text">General</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Introduction</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/utilities/">Use cases</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/networks/">Networks</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/faq/">FAQ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../general/about/">About</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Get started</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../productoverview/">Products overview</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../hybblock/">Hybrid Blockchain</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../smartcont/">Smart Contract</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../hdpwork/">How XDPOS Works?</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">XinFin XDPOS Consensus</a>
+    <ul class="current">
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Get started</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../productoverview/">Products overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../hybblock/">Hybrid Blockchain</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../smartcont/">Smart Contract</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../hdpwork/">How DPOS Works?</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">XinFin DPOS Consensus</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#validators-registration">Validators Registration</a></li>
-    
-
-    <li class="toctree-l3"><a href="#choosing-validators">Choosing Validators</a></li>
-    
-
-    <li class="toctree-l3"><a href="#fork-perversion-malicious-or-double-spends">Fork Perversion, Malicious or Double Spends:</a></li>
-    
-
-    <li class="toctree-l3"><a href="#slashing">Slashing</a></li>
-    
-
-    <li class="toctree-l3"><a href="#parameters">Parameters</a></li>
-    
-
-    <li class="toctree-l3"><a href="#upgradability">Upgradability:</a></li>
-    
-
-    </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../POW-DPOS/">POW Replaced with DPOS</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../ConnLeg/">Connecting Legacy Systems</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../hybnet/">Build with XinFin Hybrid Network</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Setupmn/">Set up Master Nodes</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../cde/">Create DAPP Environment</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../lyl/">Set up Loyalty Token on XinFin.Network</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../stablecoin/">Set up Stable Coin on XinFin Network</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinFin Explorer</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../xinfinexp/features/">Features</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinFin Original Wallet</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../XinFinWallet/features/">Features</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinFin Android Wallet</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../XinFinAndWallet/features/">Features</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinPay</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../xinfinpay/features/">Features</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinFin-Remix</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../xinfinrem/features/">Features</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Current Requirement</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../Requirement/req/">Requirement</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinFin Media</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../media/articles/">Articles</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Whitepapers and research</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">XinFin Community Support</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../Community/support/">Community</a>
-                </li>
-    </ul>
-	    </li>
-          
-        </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../POW-DPOS/">POW Replaced with XDPOS</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../ConnLeg/">Connecting Legacy Systems</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../hybnet/">Build with XinFin Delegated prrof of Stake (XDPoS) Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Setupmn/">Set up Master Nodes</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../cde/">Create DAPP Environment</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../contract/">Deploy a SmartContract on XinFin Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../master/">Set up Masternode on XinFin Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../lyl/">Set up Loyalty Token on XinFin.Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../stablecoin/">Set up Stable Coin on XinFin Network</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../token/">Set up a token on XinFin Network</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Explorer</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../xinfinexp/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin One click Installer</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../oneclick/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Web Wallet</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../XinFinWallet/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Android Wallet</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../XinFinAndWallet/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinPay</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../xinfinpay/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin-Remix</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../xinfinrem/features/">Features</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Current Requirement</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Requirement/req/">Requirement</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Media</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../media/articles/">Articles</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Whitepapers and research</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../wp-and-research/technical-whitepaper/">Technical whitepaper</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">XinFin Community Support</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Community/support/">Community</a>
+                    </li>
+                </ul>
       </div>
-      &nbsp;
+    </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -278,13 +172,14 @@
         
       
     
-    <li>XinFin DPOS Consensus</li>
+    <li>XinFin XDPOS Consensus</li>
     <li class="wy-breadcrumbs-aside">
       
         <a href="https://github.com/XinFinOrg/Docs-XF/edit/master/docs/get-started/XDC.md"> Edit on XinFinOrg/Docs-XF</a>
       
     </li>
   </ul>
+  
   <hr/>
 </div>
           <div role="main">
@@ -357,10 +252,10 @@ There may be other on-chain slashable conditions.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../POW-DPOS/" class="btn btn-neutral float-right" title="POW Replaced with DPOS">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../POW-DPOS/" class="btn btn-neutral float-right" title="POW Replaced with XDPOS">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../hdpwork/" class="btn btn-neutral" title="How DPOS Works?"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../hdpwork/" class="btn btn-neutral" title="How XDPOS Works?"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -374,7 +269,7 @@ There may be other on-chain slashable conditions.</p>
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -384,7 +279,7 @@ There may be other on-chain slashable conditions.</p>
 
   </div>
 
-  <div class="rst-versions" role="note" style="cursor: pointer">
+  <div class="rst-versions" role="note" aria-label="versions">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -399,6 +294,11 @@ There may be other on-chain slashable conditions.</p>
     <script src="../../js/theme.js" defer></script>
       <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
       <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
 
 </body>
 </html>
