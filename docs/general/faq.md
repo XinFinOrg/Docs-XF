@@ -221,10 +221,10 @@
 
 
 !!! quote "Where to store XDC? How can I send XDC to my wallet?"
-    You can store XinFin in XinFin Web Wallet or Mobile Wallet.
+    You can store XDC in XinFin Web Wallet, XDC Android wallet and Guarda Wallet.
    		
 !!! quote "Where can I buy XDC? (exchanges)"
-    For Now You can trade XDC on Alphaex (https://www.alphaex.net/), Homiex (https://www.homiex.com/) and Stex (https://www.stex.com/).
+    You can trade XDC on Bitfinex (https://www.bitfinex.com/), Bitrue (https://www.bitrue.com/), Homiex (https://www.homiex.com/), Stex (https://www.stex.com/), Indodax (https://indodax.com/), Hotbit (https://www.hotbit.io/) and Mercatox (https://mercatox.com/). 
 		
 ### Masternodes	
 
