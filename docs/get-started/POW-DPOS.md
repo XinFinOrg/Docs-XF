@@ -15,7 +15,7 @@ Consensus means a general agreement which is an important component of blockchai
 
 Proof of Work or PoW relies on solving a cryptographic puzzle repetitively over all the nodes of the network. PoW involves burning very high amount of electrical energy.
 
-Proof of Stake doesn't need computers for repetitive solving of the cryptographic puzzle. Insead of miners, PoS requires some validators who will lock some of their crypto coins as stake or deposit. Anybody who holds crypto tokens can become a validator by processing a special type of transaction to lock their crypto fund.
+Proof of Stake doesn't need computers for repetitive solving of the cryptographic puzzle. Instead of miners, PoS requires some validators who will lock some of their crypto coins as stake or deposit. Anybody who holds crypto tokens can become a validator by processing a special type of transaction to lock their crypto fund.
 
 A group of validators takes part to propose the next block, and the weight of each validator's depends on the uptime of the node. When the validators discover a block which they think can be added to the blockchain, they will validate it by placing a bet on it. The validators will get a reward proportionate to their bets.
 
